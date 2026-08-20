@@ -1,0 +1,110 @@
+base_dev_dir: runs/
+hydra.job.config.save_dir: null
+save_dir: '${base_dev_dir}/xskill/experiment/transfer/'
+
+project_name: 'xskill_skill_transfer'
+num_epochs: 10
+lr: 1e-4
+weight_decay: 1e-6
+ckpt_frequency: 1
+
+seed: 42
+
+# Follow vqbet/paired LeRobot data defaults
+paired_source: sim
+human_root: null
+sim_root: null
+robot_root: null
+task_mapping_file: 'examples/baselines/lerobot_dataset/task_mapping.json'
+human_dataset_file: 'examples/baselines/lerobot_dataset/config/exp_configs/human_train_config_15.json'
+sim_dataset_file: 'examples/baselines/lerobot_dataset/config/exp_configs/sim_train_config_15.json'
+robot_dataset_file: 'examples/baselines/lerobot_dataset/config/exp_configs/robot_train_config_15.json'
+human_task_description_file: 'examples/baselines/lerobot_dataset/task_desc/human_desc.json'
+sim_task_description_file: 'examples/baselines/lerobot_dataset/task_desc/sim_desc.json'
+robot_task_description_file: 'examples/baselines/lerobot_dataset/task_desc/robot_desc.json'
+split: 'train'
+cameras: ['zed2i']
+include_depth: False
+image_size: [224, 224]
+video_backend: 'torchcodec'
+fps: 30
+state_type: 'qpos'
+single_arm: False
+enable_augmentation: False
+pre_decode: False
+pre_decode_cache_dir: tmp/human_video_cache
+pre_decode_num_workers: 16
+
+robot_frame_gap: 35
+
+pred_horizon: 16
+obs_horizon: 4
+action_horizon: 8 
+proto_horizon: 1
+
+
+batch_size: 128
+num_workers: 16
+pin_memory: False
+persistent_workers: False
+
+
+#env setup
+obs_dim: 18
+action_dim: 16
+proto_dim: 256
+vision_feature_dim: 64
+bc_resize: [112,112]
+pretrain_resize: [124,124]
+pretrain_pipeline: ["center_crop_112_112","normalize"]
+
+pretrain_path: runs/xskill/experiment/pretrain
+pretrain_ckpt: 1999
+use_proto: True
+upsample_proto: False
+prototype_snap: True
+snap_frames: 30
+
+resume_ckpt_path: null
+
+finetune_ckpt_path: null
+finetune_strict: True
+
+upsample_proto_net:
+  _target_: xskill.model.network.Mlp
+  in_size: ${proto_dim}
+  out_size: 256
+  net_arch: []
+
+proto_pred_net:
+  _target_: xskill.model.transformer.TorchTransformerProtoPredictor
+  query_dim: ${proto_dim} 
+  heads: 4
+  dim_feedforward: 512
+  n_layer: 16
+  proto_dim: ${proto_dim} 
+  use_encoder: True
+  input_dim: null
+  pos_encoder:
+    _target_: xskill.model.transformer.PositionalEncoding
+    size: ${proto_dim} 
+    max_len: 200
+    frequency: 10000
+
+
+# diffusion
+num_diffusion_iters: 60
+noise_pred_net:
+  _target_: xskill.model.diffusion_model.ConditionalUnet1D
+  input_dim: ${action_dim}
+  global_cond_dim: null
+
+noise_scheduler:
+  _target_: diffusers.schedulers.scheduling_ddpm.DDPMScheduler
+  num_train_timesteps: ${num_diffusion_iters}
+  beta_schedule: 'squaredcos_cap_v2'
+  clip_sample: True
+  prediction_type: 'epsilon'
+
+task_progess_ratio_list: [1]
+demo_type_list: ['robot','human']

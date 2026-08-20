@@ -1,0 +1,21 @@
+{
+    "human_root": "imitator_human_v2",
+    "sim_root": "imitator_data",
+    "robot_root": "demo_data",
+    "task_mapping_file": "examples/baselines/lerobot_dataset/task_mapping.json",
+    "human_dataset_file": "../human_config.json",
+    "sim_dataset_file": "examples/baselines/lerobot_dataset/config/sim_config.json",
+    "robot_dataset_file": "examples/baselines/lerobot_dataset/config/sim_config.json", 
+    "target_domain": "sim",
+    "split": "train",
+    "pairing_mode": "random_sample",
+    "mano_state_mode": "full",
+    "num_frames": 120,
+    "human_camera": "zed2i",
+    "mano_interpolate_missing": "True",  
+    "mano_cross_view_camera": ["cam1", "cam2", "cam3"],
+    "mano_ema_alpha": 0.7,
+    "human_task_description_file": "examples/baselines/lerobot_dataset/task_desc/human_desc.json",
+    "sim_task_description_file": "examples/baselines/lerobot_dataset/task_desc/sim_desc.json",
+    "robot_task_description_file": "examples/baselines/lerobot_dataset/task_desc/robot_desc.json"
+}

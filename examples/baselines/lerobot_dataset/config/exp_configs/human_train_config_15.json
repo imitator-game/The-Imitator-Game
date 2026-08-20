@@ -1,0 +1,92 @@
+[
+  {
+    "repo_id": "human_H1",
+    "root": "human_H1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H14",
+    "root": "human_H14",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H32",
+    "root": "human_H32",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H49",
+    "root": "human_H49",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H57",
+    "root": "human_H57",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H3",
+    "root": "human_H3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H10",
+    "root": "human_H10",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H6",
+    "root": "human_H6",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H12",
+    "root": "human_H12",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H15",
+    "root": "human_H15",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H35",
+    "root": "human_H35",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H42",
+    "root": "human_H42",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H44",
+    "root": "human_H44",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H48",
+    "root": "human_H48",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H5",
+    "root": "human_H5",
+    "train": "0:50",
+    "test": ""
+  }
+]

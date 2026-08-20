@@ -1,0 +1,21 @@
+{
+  "balance_scale": {
+    "source_url": "", 
+    "source": "hunyuan", 
+    "name_on_sketchfab": "", 
+    "glb_filename": "model.glb",
+    "scale": [0.35, 0.35, 0.35],
+    "collision_mode": "nonconvex",
+    "license": "CC Attribution",
+    "notes": "Canonical path: ~/.maniskill/data/sketchfab/objects/balance_scale/model.glb"
+  }, 
+  "weight_on_scale": {
+    "source_url": "https://sketchfab.com/3d-models/weight-20226c0b61c449d49c88d8adfa46019e#download", 
+    "source": "sketchfab", 
+    "name_on_sketchfab": "Weight", 
+    "glb_filename": "model.glb",
+    "scale": [0.03, 0.03, 0.03],
+    "license": "CC Attribution",
+    "notes": "Canonical path: ~/.maniskill/data/sketchfab/objects/weight_on_scale/model.glb"
+  }
+}

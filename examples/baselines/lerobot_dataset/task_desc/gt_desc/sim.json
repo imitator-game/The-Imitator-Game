@@ -1,0 +1,807 @@
+﻿{
+
+     "L0_TwoRobotStirSpoon-v1": "Stirring soup in a bowl with a tool; the pink mug on the middle right of the desktop, the red spoon in the pink mug, the gray bowl in the middle of the desktop; (a) The right arm moves to the pink mug on the middle right of the desktop (b) Grabs the red spoon placed in the pink mug (c) Approaches the gray bowl in the middle of the desktop (d) Stirs three times counter-clockwise in the gray bowl with the red spoon (e) Puts the red spoon back into the pink mug (f) The left arm remains still.",
+
+
+
+     "L1_TwoRobotStirSpoon-v1": "Stirring soup in a bowl with a tool; the pink mug on the middle bottom of the desktop, the red spoon in the pink mug, the gray bowl in the middle of the desktop; (a) The right arm moves to the pink mug on the middle bottom of the desktop (b) Grabs the red spoon placed in the pink mug (c) Approaches the gray bowl in the middle of the desktop (d) Stirs three times counter-clockwise in the gray bowl with the red spoon (e) Puts the red spoon back into the pink mug (f) The left arm remains still.",
+
+
+
+     "L2_TwoRobotStirSpoon-v1": "Stirring soup in a bowl with a tool; the pink mug on the middle left of the desktop, the red fork in the pink mug, the gray bowl in the middle of the desktop; (a) The left arm moves to the pink mug on the middle left of the desktop (b) Grabs the red fork placed in the pink mug (c) Approaches the gray bowl in the middle of the desktop (d) Stirs three times counter-clockwise in the gray bowl with the red fork (e) Puts the red fork back into the pink mug (f) The right arm remains still.",
+
+
+
+     "L3_TwoRobotStirSpoon-v1": "Stirring soup in a bowl with a tool; the pink mug on the bottom right of the desktop, the yellow chopsticks in the pink mug, the gray bowl on the middle right of the desktop; (a) The right arm moves to the pink mug on the bottom right of the desktop (b) Grabs the yellow chopsticks placed in the pink mug (c) Approaches the gray bowl on the middle right of the desktop (d) Stirs three times counter-clockwise in the gray bowl with the yellow chopsticks (e) Puts the yellow chopsticks back into the pink mug (f) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPlaceBookBookcase-v1": "Storing books; the large bookcase in the middle of the desktop, the blue covered book to the right of the large bookcase; (a) The right arm moves to the blue covered book to the right of the large bookcase in the middle of the desktop (b) Grabs the blue covered book (c) Approaches the large bookcase in the middle of the desktop (d) Inserts the blue covered book into the large bookcase in the middle of the desktop (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPlaceBookBookcase-v1": "Storing books; the large bookcase in the middle of the desktop, the blue covered book on the bottom right of the large bookcase; (a) The right arm moves to the blue covered book on the bottom right of the large bookcase in the middle of the desktop (b) Grabs the blue covered book (c) Approaches the large bookcase in the middle of the desktop (d) Inserts the blue covered book into the large bookcase in the middle of the desktop (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPlaceBookBookcase-v1": "Storing books; the large bookcase in the middle of the desktop, the black covered book to the left of the large bookcase; (a) The left arm moves to the black covered book to the left of the large bookcase in the middle of the desktop (b) Grabs the black covered book (c) Approaches the large bookcase in the middle of the desktop (d) Inserts the black covered book into the large bookcase in the middle of the desktop (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPlaceBookBookcase-v1": "Storing books; the beige storage box in the middle of the desktop, the blue covered book to the right of the storage box, the black covered book above the storage box; (a) The right arm moves to the beige storage box in the middle of the desktop (b) Grabs the black covered book above the storage box (c) Places the black covered book below the storage box (d) The right arm moves to the blue covered book to the right of the large bookcase in the middle of the desktop (e) Grabs the blue covered book (f) Approaches the large bookcase in the middle of the desktop (g) Puts the blue covered book into the storage box (h) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPlaceClothBasket-v1": "Storing clothes; the black box in the middle of the desktop, the bamboo basket on the middle top of the desktop, the blue clothes on the upper right side of the black box; (a) The right arm moves to the black box in the middle of the desktop (b) Picks up the blue clothes on the upper right side of the black box (c) Moves to the bamboo basket on the middle top of the desktop (d) Puts the blue clothes into the bamboo basket (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPlaceClothBasket-v1": "Storing clothes; the black box on the middle bottom of the desktop, the bamboo basket on the middle top of the desktop, the blue clothes on the upper right side of the black box; (a) The right arm moves to the black box on the middle bottom of the desktop (b) Picks up the blue clothes on the upper right side of the black box (c) Moves to the bamboo basket on the middle top of the desktop (d) Puts the blue clothes into the bamboo basket (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPlaceClothBasket-v1": "Storing clothes; the black box in the middle of the desktop, the bamboo basket on the middle top of the desktop, the pink clothes on the upper left side of the black box; (a) The left arm moves to the black box in the middle of the desktop (b) Picks up the pink clothes on the upper left side of the black box (c) Moves to the bamboo basket on the middle top of the desktop (d) Puts the pink clothes into the bamboo basket (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPlaceClothBasket-v1": "Storing clothes; the black box in the middle of the desktop, the beige storage box on the middle top of the desktop, the black covered book above the storage box, the pink clothes on the upper right side of the black box; (a) The right arm moves to the beige storage box on the middle top of the desktop (b) Grabs the black covered book above the storage box (c) Places the black covered book to the right of the storage box (d) The right arm moves to the black box in the middle of the desktop (e) Picks up the pink clothes on the upper right side of the black box (f) Approaches the beige storage box on the middle top of the desktop (g) Puts the pink clothes into the storage box (h) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPickRemoteControl-v1": "Storing remote control; the gray storage box on the middle left of the desktop, the black remote control in the middle of the desktop; (a) The right arm moves to the middle of the desktop (b) Picks up the black remote control in the middle of the desktop (c) Approaches the gray storage box on the middle left of the desktop (d) Puts the black remote control into the gray storage box on the middle left of the desktop (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPickRemoteControl-v1": "Storing remote control; the gray storage box on the middle left of the desktop, the black remote control on the middle bottom of the desktop; (a) The right arm moves to the middle bottom of the desktop (b) Picks up the black remote control on the middle bottom of the desktop (c) Approaches the gray storage box on the middle left of the desktop (d) Puts the black remote control into the gray storage box on the middle left of the desktop (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPickRemoteControl-v1": "Storing remote control; the gray storage box on the middle right of the desktop, the white remote control in the middle of the desktop; (a) The left arm moves to the middle of the desktop (b) Picks up the white remote control in the middle of the desktop (c) Approaches the gray storage box on the middle right of the desktop (d) Puts the white remote control into the gray storage box on the middle right of the desktop (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPickRemoteControl-v1": "Storing remote control; the gray storage box on the middle left of the desktop, the black box on the middle right of the desktop, the black remote control on the black box; (a) The right arm moves to the middle right of the desktop (b) Picks up the black remote control on the black box on the middle right of the desktop (c) Approaches the gray storage box on the middle left of the desktop (d) Puts the black remote control into the gray storage box on the middle left of the desktop (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPlaceMagazineFolder-v1": "Storing magazines; the black folder on the middle left of the desktop, the black box on the middle right of the desktop, the blue magazine on top of the black box; (a) The left arm moves to the middle left of the desktop (b) Opens the black folder on the middle left of the desktop (c) The right arm moves to the middle right of the desktop (d) Picks up the blue magazine placed on top of the black box on the middle right of the desktop (e) Approaches the opened black folder (f) Puts the blue magazine into the black folder.",
+
+
+
+     "L1_TwoRobotPlaceMagazineFolder-v1": "Storing magazines; the black folder on the middle left of the desktop, the black box on the bottom right of the desktop, the blue magazine on top of the black box; (a) The left arm moves to the middle left of the desktop (b) Opens the black folder on the middle left of the desktop (c) The right arm moves to the bottom right of the desktop (d) Picks up the blue magazine placed on top of the black box on the bottom right of the desktop (e) Approaches the opened black folder (f) Puts the blue magazine into the black folder.",
+
+
+
+     "L2_TwoRobotPlaceMagazineFolder-v1": "Storing magazines; the black folder on the middle right of the desktop, the black box on the middle left of the desktop, the white magazine on top of the black box; (a) The right arm moves to the middle right of the desktop (b) Opens the black folder on the middle right of the desktop (c) The left arm moves to the middle left of the desktop (d) Picks up the white magazine placed on top of the black box on the middle left of the desktop (e) Approaches the opened black folder (f) Puts the white magazine into the black folder.",
+
+
+
+     "L3_TwoRobotPlaceMagazineFolder-v1": "Storing magazines; the black box on the middle left of the desktop, the white magazine on the middle right of the desktop, the blue magazine on top of the black box; (a) The right arm moves to the middle left of the desktop (b) Picks up the blue magazine placed on top of the black box on the middle left of the desktop (c) Approaches the white magazine on the middle right of the desktop (d) Places the blue magazine on top of the white magazine.",
+
+
+
+     "L0_TwoRobotPickWash-v1": "Returning shower gel to its place; the pink bottled shampoo on the right side of the desktop, the white bottle with blue cap shower gel to the right of the pink bottled shampoo, the blue bottled conditioner on the left side of the desktop; (a) The right arm moves to the right of the pink bottled shampoo on the right side of the desktop (b) Picks up the white bottle with blue cap shower gel (c) Places the white bottle with blue cap shower gel in the middle of the pink bottled shampoo on the right side of the desktop and the blue bottled conditioner on the left side of the desktop (d) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPickWash-v1": "Returning shower gel to its place; the pink bottled shampoo on the right side of the desktop, the white bottle with blue cap shower gel on the bottom right of the desktop, the blue bottled conditioner on the left side of the desktop; (a) The right arm moves to the bottom right of the desktop (b) Picks up the white bottle with blue cap shower gel (c) Places the white bottle with blue cap shower gel in the middle of the pink bottled shampoo on the right side of the desktop and the blue bottled conditioner on the left side of the desktop (d) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPickWash-v1": "Returning shower gel to its place; the pink bottled shampoo on the left side of the desktop, the white bottle with pink cap shower gel to the left of the pink bottled shampoo, the blue bottled conditioner on the right side of the desktop; (a) The right arm moves to the left of the pink bottled shampoo on the left side of the desktop (b) Picks up the white bottle with pink cap shower gel (c) Places the white bottle with pink cap shower gel in the middle of the pink bottled shampoo on the left side of the desktop and the blue bottled conditioner on the right side of the desktop (d) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPickWash-v1": "Returning shower gel to its place; the cyan storage box in the middle of the desktop, the white bottle with blue cap shower gel to the right of the cyan storage box; (a) The right arm moves to the right of the cyan storage box in the middle of the desktop (b) Picks up the white bottle with blue cap shower gel (c) Puts the white bottle with blue cap shower gel into the cyan storage box in the middle of the desktop (d) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPickAppleBasket-v1": "Sorting fruits; the orange fruit basket on the middle left of the desktop, the apple on the middle right of the desktop, the banana in the bamboo basket; (a) The right arm approaches the middle right of the desktop (b) Picks up the apple (c) Approaches the middle left of the desktop (d) Puts the apple into the orange fruit basket (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPickAppleBasket-v1": "Sorting fruits; the orange fruit basket on the middle left of the desktop, the apple on the middle bottom of the desktop, the banana in the bamboo basket; (a) The right arm approaches the middle bottom of the desktop (b) Picks up the apple (c) Approaches the middle left of the desktop (d) Puts the apple into the orange fruit basket (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPickAppleBasket-v1": "Sorting fruits; the orange fruit basket on the middle right of the desktop, the pear on the middle left of the desktop, the banana in the bamboo basket; (a) The left arm approaches the middle left of the desktop (b) Picks up the pear (c) Approaches the middle right of the desktop (d) Puts the pear into the orange fruit basket (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPickAppleBasket-v1": "Sorting fruits; the gray storage box in the middle of the desktop, the apple on the middle right of the desktop; (a) The right arm approaches the middle right of the desktop (b) Picks up the apple (c) Approaches the middle of the desktop (d) Puts the apple into the gray storage box (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPickAppleBananaToBaskets-v1": "Sorting fruits; the apple on the middle right of the desktop, the banana on the middle left of the desktop, the orange apple basket on the upper middle right of the desktop, the orange banana basket on the upper middle left of the desktop; (a) The right arm approaches the middle right of the desktop (b) Picks up the apple (c) Approaches the upper middle right of the desktop (d) Puts the apple into the orange apple basket (e) The left arm approaches the middle left of the desktop (f) Picks up the banana (g) Approaches the upper middle left of the desktop (h) Puts the banana into the orange banana basket.",
+
+
+
+     "L1_TwoRobotPickAppleBananaToBaskets-v1": "Sorting fruits; the apple on the bottom middle right of the desktop, the banana on the bottom middle left of the desktop, the orange apple basket on the upper middle right of the desktop, the orange banana basket on the upper middle left of the desktop; (a) The right arm approaches the bottom middle right of the desktop (b) Picks up the apple (c) Approaches the upper middle right of the desktop (d) Puts the apple into the orange apple basket (e) The left arm approaches the bottom middle left of the desktop (f) Picks up the banana (g) Approaches the upper middle left of the desktop (h) Puts the banana into the orange banana basket.",
+
+
+
+     "L2_TwoRobotPickAppleBananaToBaskets-v1": "Sorting fruits; the nectarine on the middle left of the desktop, the lemon on the middle right of the desktop, the orange nectarine basket on the upper middle left of the desktop, the orange lemon basket on the upper middle right of the desktop; (a) The left arm approaches the middle left of the desktop (b) Picks up the nectarine (c) Approaches the upper middle left of the desktop (d) Puts the nectarine into the orange nectarine basket (e) The right arm approaches the middle right of the desktop (f) Picks up the lemon (g) Approaches the upper middle right of the desktop (h) Puts the lemon into the orange lemon basket.",
+
+
+
+     "L3_TwoRobotPickAppleBananaToBaskets-v1": "Sorting fruits; the apple on the middle right of the desktop, the banana on the middle left of the desktop, the gray storage box on the upper middle right of the desktop, the gray storage box on the upper middle left of the desktop; (a) The right arm approaches the middle right of the desktop (b) Picks up the apple (c) Approaches the upper middle right of the desktop (d) Puts the apple into the gray storage box on the upper middle right of the desktop (e) The left arm approaches the middle left of the desktop (f) Picks up the banana (g) Approaches the upper middle left of the desktop (h) Puts the banana into the gray storage box on the upper middle left of the desktop.",
+
+
+
+     "L0_TwoRobotPickAppleToScale-v1": "Weighing fruit; the gray electronic scale on the middle left of the desktop, the apple on the middle right of the desktop; (a) The right arm approaches the middle right of the desktop (b) Picks up the apple (c) Approaches the middle left of the desktop (d) Places the apple on the gray electronic scale (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPickAppleToScale-v1": "Weighing fruit; the gray electronic scale on the middle left of the desktop, the apple on the bottom right of the desktop; (a) The right arm approaches the bottom right of the desktop (b) Picks up the apple (c) Approaches the middle left of the desktop (d) Places the apple on the gray electronic scale (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPickAppleToScale-v1": "Weighing fruit; the gray electronic scale on the middle right of the desktop, the green apple on the middle left of the desktop; (a) The left arm approaches the middle left of the desktop (b) Picks up the green apple (c) Approaches the middle right of the desktop (d) Places the green apple on the gray electronic scale (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPickAppleToScale-v1": "Weighing fruit; the balance scale in the middle of the desktop, the apple on the middle right of the desktop, the weight on the bottom left of the desktop; (a) The right arm approaches the middle right of the desktop (b) Picks up the apple (c) Approaches the middle of the desktop (d) Places the apple on the right pan of the balance scale (e) The left arm approaches the bottom left of the desktop (f) Picks up the weight (g) Approaches the middle of the desktop (h) Places the weight on the left pan of the balance scale.",
+
+
+
+     "L0_TwoRobotPlaceChipsRack-v1": "Stocking chips; the black shelf in the middle of the desktop, the pink packaged chips on the bottom middle right of the desktop, the black bottled beverage on the upper middle right of the black shelf, the khaki product on the upper middle left of the black shelf; (a) The right arm moves to the bottom middle right of the desktop (b) Picks up the pink packaged chips (c) Approaches the middle of the desktop (d) Places the pink packaged chips on the black shelf (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPlaceChipsRack-v1": "Stocking chips; the black shelf in the middle of the desktop, the pink packaged chips on the bottom middle of the desktop, the black bottled beverage on the upper middle right of the black shelf, the khaki product on the upper middle left of the black shelf; (a) The right arm moves to the bottom middle of the desktop (b) Picks up the pink packaged chips (c) Approaches the middle of the desktop (d) Places the pink packaged chips on the black shelf (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPlaceChipsRack-v1": "Stocking chips; the black shelf in the middle of the desktop, the white and blue packaged chips on the bottom middle left of the desktop, the black bottled beverage on the upper middle left of the black shelf, the khaki product on the upper middle right of the black shelf; (a) The left arm moves to the bottom middle left of the desktop (b) Picks up the white and blue packaged chips (c) Approaches the middle of the desktop (d) Places the white and blue packaged chips on the black shelf (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPlaceChipsRack-v1": "Stocking chips; the black shelf in the middle of the desktop, the yellow packaged chips on the bottom middle right of the desktop, the red bottled beverage on the upper middle right of the black shelf, the white and orange product on the upper middle left of the black shelf; (a) The right arm moves to the bottom middle right of the desktop (b) Picks up the yellow packaged chips (c) Approaches the middle of the desktop (d) Places the yellow packaged chips on the black shelf (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPlaceCommodityRack-v1": "Organizing goods; the black shelf in the middle of the desktop, the white and red packaged product on the bottom middle right of the desktop, the white and blue packaged product on the bottom middle left of the desktop; (a) The right arm moves to the bottom middle right of the desktop (b) Picks up the white and red packaged product (c) Approaches the middle of the desktop (d) Places the white and red packaged product on the black shelf (e) The left arm moves to the bottom middle left of the desktop (f) Picks up the white and blue packaged product (g) Approaches the middle of the desktop (h) Places the white and blue packaged product on the black shelf.",
+
+
+
+     "L1_TwoRobotPlaceCommodityRack-v1": "Organizing goods; the black shelf in the middle of the desktop, the white and red packaged product on the bottom right of the shelf, the white and blue packaged product on the bottom left of the shelf; (a) The right arm moves to the bottom right of the black shelf in the middle of the desktop (b) Picks up the white and red packaged product (c) Approaches the middle of the desktop (d) Places the white and red packaged product on the black shelf (e) The left arm moves to the bottom left of the black shelf in the middle of the desktop (f) Picks up the white and blue packaged product (g) Approaches the middle of the desktop (h) Places the white and blue packaged product on the black shelf.",
+
+
+
+     "L2_TwoRobotPlaceCommodityRack-v1": "Organizing goods; the black shelf in the middle of the desktop, the white packaged product on the bottom middle right of the desktop, the white and black packaged product on the bottom middle left of the desktop; (a) The left arm moves to the bottom middle left of the desktop (b) Picks up the white and black packaged product (c) Approaches the middle of the desktop (d) Places the white and black packaged product on the black shelf (e) The right arm moves to the bottom middle right of the desktop (f) Picks up the white packaged product (g) Approaches the middle of the desktop (h) Places the white packaged product on the black shelf.",
+
+
+
+     "L3_TwoRobotPlaceCommodityRack-v1": "Organizing goods; the gray shelf on the middle right of the desktop, the gray shelf on the middle left of the desktop, the golden cup on the bottom middle right of the desktop, the silver cup on the bottom middle left of the desktop; (a) The right arm moves to the bottom middle right of the desktop (b) Picks up the golden cup (c) Approaches the middle right of the desktop (d) Hangs the golden cup on the right shelf (e) The left arm moves to the bottom middle left of the desktop (f) Picks up the silver cup (g) Approaches the middle left of the desktop (h) Hangs the silver cup on the left shelf.",
+
+
+
+     "L0_TwoRobotPlaceFruitBox-v1": "Packing multiple fruits; the beige storage box in the middle of the desktop, the orange fruit basket on the middle right of the desktop, the apple on the upper middle of the fruit basket, the pear on the lower middle of the fruit basket; (a) The right arm moves to the middle right of the desktop (b) Grabs the apple placed in the upper part of the fruit basket (c) Approaches the middle of the desktop (d) Puts the apple into the storage box (e) The right arm moves to the middle right of the desktop (f) Grabs the pear placed in the lower part of the fruit basket (g) Approaches the middle of the desktop (h) Puts the pear into the storage box (i) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPlaceFruitBox-v1": "Packing multiple fruits; the beige storage box in the middle of the desktop, the orange fruit basket on the middle right of the desktop, the apple on the lower middle of the fruit basket, the pear on the upper middle of the fruit basket; (a) The right arm moves to the middle right of the desktop (b) Grabs the apple placed in the lower part of the fruit basket (c) Approaches the middle of the desktop (d) Puts the apple into the storage box (e) The right arm moves to the middle right of the desktop (f) Grabs the pear placed in the upper part of the fruit basket (g) Approaches the middle of the desktop (h) Puts the pear into the storage box (i) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPlaceFruitBox-v1": "Packing multiple fruits; the beige storage box in the middle of the desktop, the orange fruit basket on the middle left of the desktop, the green apple on the upper middle of the fruit basket, the lemon on the lower middle of the fruit basket; (a) The left arm moves to the middle left of the desktop (b) Grabs the green apple placed in the upper part of the fruit basket (c) Approaches the middle of the desktop (d) Puts the green apple into the storage box (e) The left arm moves to the middle left of the desktop (f) Grabs the lemon placed in the lower part of the fruit basket (g) Approaches the middle of the desktop (h) Puts the lemon into the storage box (i) The left arm remains still.",
+
+
+
+     "L3_TwoRobotPlaceFruitBox-v1": "Packing multiple fruits; the gray storage box in the middle of the desktop, the gray storage box on the middle right of the desktop, the peach in the upper middle of the gray storage box, the lemon in the lower middle of the gray storage box; (a) The right arm moves to the middle of the desktop (b) Grabs the peach in the upper middle of the gray storage box (c) Approaches the middle right of the desktop (d) Puts the peach into the storage box (e) The right arm moves to the middle of the desktop (f) Grabs the lemon in the lower middle of the gray storage box (g) Approaches the middle right of the desktop (h) Puts the lemon into the storage box (i) The left arm remains still.",
+
+
+
+     "L0_TwoRobotScanMilkBox-v1": "Scanning product barcode; the black scanner gun on the middle right of the desktop, the white and blue packaged product on the middle left of the desktop; (a) The right arm moves to the middle right of the desktop (b) Grabs the black scanner gun placed on the middle right of the desktop (c) The left arm moves to the middle left of the desktop (d) Grabs the white and blue packaged product placed on the middle left of the desktop (e) The left arm adjusts the barcode of the white and blue packaged product (f) The right arm adjusts the black scanner gun for product identification (g) The left arm places the white and blue packaged product to the left side of the desktop (h) The right arm places the black scanner gun to the right side of the desktop.",
+
+
+
+     "L1_TwoRobotScanMilkBox-v1": "Scanning product barcode; the black scanner gun on the right of the desktop, the white and blue packaged product on the left of the desktop; (a) The right arm moves to the right of the desktop (b) Grabs the black scanner gun placed on the right of the desktop (c) The left arm moves to the left of the desktop (d) Grabs the white and blue packaged product placed on the left of the desktop (e) The left arm adjusts the barcode of the white and blue packaged product (f) The right arm adjusts the black scanner gun for product identification (g) The left arm places the white and blue packaged product to the left side of the desktop (h) The right arm places the black scanner gun to the right side of the desktop.",
+
+
+
+     "L2_TwoRobotScanMilkBox-v1": "Scanning product barcode; the black scanner gun on the middle left of the desktop, the blue packaged product on the middle right of the desktop; (a) The left arm moves to the middle left of the desktop (b) Grabs the black scanner gun placed on the middle left of the desktop (c) The right arm moves to the middle right of the desktop (d) Grabs the blue packaged product placed on the middle right of the desktop (e) The right arm adjusts the barcode of the blue packaged product (f) The left arm adjusts the black scanner gun for product identification (g) The right arm places the blue packaged product to the right side of the desktop (h) The left arm places the black scanner gun to the left side of the desktop.",
+
+
+
+     "L3_TwoRobotScanMilkBox-v1": "Scanning product barcode; the white desktop scanner on the middle right of the desktop, the orange packaged product on the middle left of the desktop; (a) The left arm moves to the middle left of the desktop (b) Grabs the orange packaged product placed on the middle left of the desktop (c) Approaches the white desktop scanner on the middle right of the desktop for product identification (d) The left arm places the orange packaged product to the left side of the desktop (e) The right arm remains still.",
+
+
+
+     "L0_TwoRobotPlacePlateRack-v1": "Storing plates; the red plate rack on the middle left of the desktop, the khaki large box on the middle right of the desktop, the gray round plate on the khaki large box; (a) The right arm moves to the middle right of the desktop (b) Grabs the gray round plate placed on the khaki large box on the middle right of the desktop (c) Approaches the middle left of the desktop (d) Places the gray round plate on the red plate rack (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPlacePlateRack-v1": "Storing plates; the red plate rack on the middle left of the desktop, the khaki large box on the bottom middle right of the desktop, the gray round plate on the khaki large box; (a) The right arm moves to the bottom middle right of the desktop (b) Grabs the gray round plate placed on the khaki large box on the bottom middle right of the desktop (c) Approaches the middle left of the desktop (d) Places the gray round plate on the red plate rack (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPlacePlateRack-v1": "Storing plates; the red slanted plate rack on the middle left of the desktop, the orange small box on the middle right of the desktop, the green square plate on the orange small box; (a) The right arm moves to the middle right of the desktop (b) Grabs the green square plate placed on the orange small box on the middle right of the desktop (c) Approaches the middle left of the desktop (d) Places the green square plate on the red slanted plate rack (e) The left arm remains still.",
+
+
+
+     "L3_TwoRobotPlacePlateRack-v1": "Storing plates; the silver bowl on the bottom right of the desktop, the gray round plate on the bottom middle right of the desktop; (a) The right arm moves to the bottom right of the desktop (b) Grabs the silver bowl (c) The right arm approaches the bottom middle right of the desktop (d) Places the silver bowl on the gray round plate (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotCutFruit-v1": "Cutting carrots; the cutting board in the middle of the desktop, the carrot placed in the middle of the cutting board, the kitchen knife placed to the right of the cutting board; (a) The right arm moves to the right of the cutting board in the middle of the desktop (b) Picks up the kitchen knife (c) Approaches the carrot in the middle of the cutting board (d) Cuts the carrot (e) Puts the kitchen knife back to its original position (f) The left arm remains still.",
+
+
+
+     "L1_TwoRobotCutFruit-v1": "Cutting carrots; the cutting board in the middle of the desktop, the carrot placed in the middle of the cutting board, the kitchen knife placed on the bottom right of the cutting board; (a) The right arm moves to the bottom right of the cutting board in the middle of the desktop (b) Picks up the kitchen knife (c) Approaches the carrot in the middle of the cutting board (d) Cuts the carrot (e) Puts the kitchen knife back to its original position (f) The left arm remains still.",
+
+
+
+     "L2_TwoRobotCutFruit-v1": "Cutting carrots; the cutting board in the middle of the desktop, the carrot placed in the middle of the cutting board, the red-handled small knife placed to the left of the cutting board; (a) The left arm moves to the left of the cutting board in the middle of the desktop (b) Picks up the red-handled small knife (c) Approaches the carrot in the middle of the cutting board (d) Cuts the carrot (e) Puts the red-handled small knife back to its original position (f) The right arm remains still.",
+
+
+
+     "L3_TwoRobotCutFruit-v1": "Cutting carrots; the cutting board in the middle of the desktop, the carrot placed in the middle of the cutting board, the scissors in the right gripper; (a) The right arm holding the scissors approaches the carrot in the middle of the cutting board in the middle of the desktop (b) Cuts the carrot with the scissors (c) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPickFruitsToPlate-v1": "Placing cut fruits into a serving plate; the cyan round plate on the middle top of the desktop, the cyan round plate on the bottom middle right of the desktop, the cyan round plate on the bottom middle left of the desktop, the orange in the cyan round plate on the bottom middle right of the desktop, the pear in the cyan round plate on the bottom middle left of the desktop; (a) The right arm approaches the cyan round plate on the bottom middle right of the desktop (b) Picks up the orange in the plate (c) Approaches the cyan round plate on the middle top of the desktop (d) Places the orange into the cyan round plate on the middle top of the desktop (e) The left arm approaches the cyan round plate on the bottom middle left of the desktop (f) Picks up the pear in the plate (g) Approaches the cyan round plate on the middle top of the desktop (h) Places the pear into the cyan round plate on the middle top of the desktop.",
+
+
+
+     "L1_TwoRobotPickFruitsToPlate-v1": "Placing cut fruits into a serving plate; the cyan round plate on the middle top of the desktop, the cyan round plate on the bottom right of the desktop, the cyan round plate on the bottom left of the desktop, the orange in the cyan round plate on the bottom right of the desktop, the pear in the cyan round plate on the bottom left of the desktop; (a) The right arm approaches the cyan round plate on the bottom right of the desktop (b) Picks up the orange in the plate (c) Approaches the cyan round plate on the middle top of the desktop (d) Places the orange into the cyan round plate on the middle top of the desktop (e) The left arm approaches the cyan round plate on the bottom left of the desktop (f) Picks up the pear in the plate (g) Approaches the cyan round plate on the middle top of the desktop (h) Places the pear into the cyan round plate on the middle top of the desktop.",
+
+
+
+     "L2_TwoRobotPickFruitsToPlate-v1": "Placing cut fruits into a serving plate; the cyan round plate on the middle top of the desktop, the cyan round plate on the bottom middle right of the desktop, the cyan round plate on the bottom middle left of the desktop, the cucumber in the cyan round plate on the bottom middle right of the desktop, the potato in the cyan round plate on the bottom middle left of the desktop; (a) The left arm approaches the cyan round plate on the bottom middle left of the desktop (b) Picks up the potato in the plate (c) Approaches the cyan round plate on the middle top of the desktop (d) Places the potato into the cyan round plate on the middle top of the desktop (e) The right arm approaches the cyan round plate on the bottom middle right of the desktop (f) Picks up the cucumber in the plate (g) Approaches the cyan round plate on the middle top of the desktop (h) Places the cucumber into the cyan round plate on the middle top of the desktop.",
+
+
+
+     "L3_TwoRobotPickFruitsToPlate-v1": "Placing cut fruits into a serving plate; the beige square plate on the middle top of the desktop, the cyan round plate on the bottom middle right of the desktop, the cyan round plate on the bottom middle left of the desktop, the banana in the cyan round plate on the bottom middle right of the desktop, the strawberry in the cyan round plate on the bottom middle left of the desktop; (a) The right arm approaches the cyan round plate on the bottom middle right of the desktop (b) Picks up the banana in the plate (c) Approaches the beige square plate on the middle top of the desktop (d) Places the banana into the beige square plate on the middle top of the desktop (e) The left arm approaches the cyan round plate on the bottom middle left of the desktop (f) Picks up the strawberry in the plate (g) Approaches the beige square plate on the middle top of the desktop (h) Places the strawberry into the beige square plate on the middle top of the desktop.",
+
+
+
+     "L0_TwoRobotPourKetchupFries-v1": "Adding sauce to fries; the fries on the upper middle left of the desktop, the yellow sauce bottle on the upper middle right of the desktop; (a) The right arm moves to the upper middle right of the desktop (b) Grabs the yellow sauce bottle, approaches the fries on the upper middle left of the desktop (c) Squeezes the sauce from the yellow sauce bottle onto the fries (d) Then puts down the sauce bottle (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPourKetchupFries-v1": "Adding sauce to fries; the fries on the upper middle left of the desktop, the yellow sauce bottle on the bottom middle right of the desktop; (a) The right arm moves to the bottom middle right of the desktop (b) Grabs the yellow sauce bottle, approaches the fries on the upper middle left of the desktop (c) Squeezes the sauce from the yellow sauce bottle onto the fries (d) Then puts down the sauce bottle (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPourKetchupFries-v1": "Adding sauce to fries; the fries on the upper middle right of the desktop, the gray sauce bottle on the upper middle left of the desktop; (a) The left arm moves to the upper middle left of the desktop (b) Grabs the gray sauce bottle, approaches the fries on the upper middle right of the desktop (c) Squeezes the sauce from the gray sauce bottle onto the fries (d) Then puts down the sauce bottle (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPourKetchupFries-v1": "Adding sauce to fries; the fries on the middle top of the desktop, the pink sauce bottle on the upper middle right of the desktop; (a) The right arm approaches the pink sauce bottle on the upper middle right of the desktop (b) Presses the pink sauce bottle to squeeze the sauce from the pink sauce bottle onto the fries (c) The left arm remains still.",
+
+
+
+     "L0_TwoRobotWipePot-v1": "Washing the pot; the black pot in the middle of the desktop, the yellow rag on the middle right of the desktop; (a) The right arm approaches the middle right of the desktop (b) Grabs the yellow rag (c) Approaches the black pot in the middle of the desktop (d) Wipes the black pot back and forth three times with the yellow rag (e) Then puts down the rag (f) The left arm remains still.",
+
+
+
+     "L1_TwoRobotWipePot-v1": "Washing the pot; the black pot in the middle of the desktop, the yellow rag on the bottom middle right of the desktop; (a) The right arm approaches the bottom middle right of the desktop (b) Grabs the yellow rag (c) Approaches the black pot in the middle of the desktop (d) Wipes the black pot back and forth three times with the yellow rag (e) Then puts down the rag (f) The left arm remains still.",
+
+
+
+     "L2_TwoRobotWipePot-v1": "Washing the pot; the black pot in the middle of the desktop, the beige rag on the middle left of the desktop; (a) The left arm approaches the middle left of the desktop (b) Grabs the beige rag (c) Approaches the black pot in the middle of the desktop (d) Wipes the black pot back and forth three times with the beige rag (e) Then puts down the rag (f) The right arm remains still.",
+
+
+
+     "L3_TwoRobotWipePot-v1": "Washing the pot; the black pot in the middle of the desktop, the black brush on the middle right of the desktop; (a) The right arm approaches the middle right of the desktop (b) Grabs the black brush (c) Approaches the black pot in the middle of the desktop (d) Wipes the black pot back and forth three times with the black brush (e) Then puts down the brush (f) The left arm remains still.",
+
+
+
+     "L0_TwoRobotCleanDesk-v1": "Cleaning desktop stains; the black stain in the middle of the desktop, the green rag on the upper middle right of the desktop; (a) The right arm approaches the upper middle right of the desktop (b) Picks up the green rag (c) Approaches the black stain on the desktop (d) Wipes the table (e) Then returns to the original position and puts down the rag (f) The left arm remains still.",
+
+
+
+     "L1_TwoRobotCleanDesk-v1": "Cleaning desktop stains; the black stain in the middle of the desktop, the green rag on the middle right of the desktop; (a) The right arm approaches the middle right of the desktop (b) Picks up the green rag (c) Approaches the black stain on the desktop (d) Wipes the table (e) Then returns to the original position and puts down the rag (f) The left arm remains still.",
+
+
+
+     "L2_TwoRobotCleanDesk-v1": "Cleaning desktop stains; the black stain in the middle of the desktop, the beige rag on the upper middle left of the desktop; (a) The left arm approaches the upper middle left of the desktop (b) Picks up the beige rag (c) Approaches the black stain on the desktop (d) Wipes the table (e) Then returns to the original position and puts down the rag (f) The right arm remains still.",
+
+
+
+     "L3_TwoRobotCleanDesk-v1": "Cleaning desktop stains; the black stain in the middle of the desktop, the tissue on the middle right of the desktop; (a) The right arm approaches the middle right of the desktop (b) Picks up the tissue (c) Approaches the black stain on the desktop (d) Wipes the table (e) Then returns to the original position and puts down the tissue (f) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPourKettle-v1": "Pouring water; the blue cup in the middle of the desktop, the orange kettle on the middle right of the desktop; (a) The right arm approaches the middle right of the desktop (b) Grabs the orange kettle placed on the middle right of the desktop (c) Approaches the blue cup in the middle of the desktop (d) Pours the water from the kettle into the blue cup (e) Then puts down the kettle and returns to the original position (f) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPourKettle-v1": "Pouring water; the blue cup in the middle of the desktop, the orange kettle on the upper middle right of the desktop; (a) The right arm approaches the upper middle right of the desktop (b) Grabs the orange kettle placed on the upper middle right of the desktop (c) Approaches the blue cup in the middle of the desktop (d) Pours the water from the kettle into the blue cup (e) Then puts down the kettle and returns to the original position (f) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPourKettle-v1": "Pouring water; the blue cup in the middle of the desktop, the gray kettle on the middle left of the desktop; (a) The left arm approaches the middle left of the desktop (b) Grabs the gray kettle placed on the middle left of the desktop (c) Approaches the blue cup in the middle of the desktop (d) Pours the water from the kettle into the blue cup (e) Then puts down the kettle and returns to the original position (f) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPourKettle-v1": "Pouring water; the blue cup on the middle left of the desktop, the gray water bottle in the middle of the desktop; (a) The right arm approaches the middle of the desktop (b) Grabs the gray water bottle placed in the middle of the desktop (c) Approaches the blue cup on the middle left of the desktop (d) Pours the water from the water bottle into the blue cup (e) Then puts down the water bottle and returns to the original position (f) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPickFood-v1": "Cleaning up leftover food; the gray trash can in the middle of the desktop, the banana on the middle right of the desktop, the apple on the middle left of the desktop; (a) The right arm approaches the banana on the middle right of the desktop (b) Picks up the banana (c) Approaches the gray trash can in the middle of the desktop (d) Puts the banana into the gray trash can (e) The left arm approaches the apple on the middle left of the desktop (f) Picks up the apple (g) Approaches the gray trash can in the middle of the desktop (h) Puts the apple into the gray trash can.",
+
+
+
+     "L1_TwoRobotPickFood-v1": "Cleaning up leftover food; the gray trash can in the middle of the desktop, the banana on the right of the desktop, the apple on the left of the desktop; (a) The right arm approaches the banana on the right of the desktop (b) Picks up the banana (c) Approaches the gray trash can in the middle of the desktop (d) Puts the banana into the gray trash can (e) The left arm approaches the apple on the left of the desktop (f) Picks up the apple (g) Approaches the gray trash can in the middle of the desktop (h) Puts the apple into the gray trash can.",
+
+
+
+     "L2_TwoRobotPickFood-v1": "Cleaning up leftover food; the gray trash can in the middle of the desktop, the nectarine on the middle right of the desktop, the lemon on the middle left of the desktop; (a) The left arm approaches the lemon on the middle left of the desktop (b) Picks up the lemon (c) Approaches the gray trash can in the middle of the desktop (d) Puts the lemon into the gray trash can (e) The right arm approaches the nectarine on the middle right of the desktop (f) Picks up the nectarine (g) Approaches the gray trash can in the middle of the desktop (h) Puts the nectarine into the gray trash can.",
+
+
+
+     "L3_TwoRobotPickFood-v1": "Cleaning up leftover food; the orange bamboo basket in the middle of the desktop, the banana on the middle right of the desktop, the apple on the middle left of the desktop; (a) The right arm approaches the banana on the middle right of the desktop (b) Picks up the banana (c) Approaches the orange bamboo basket in the middle of the desktop (d) Puts the banana into the orange bamboo basket (e) The left arm approaches the apple on the middle left of the desktop (f) Picks up the apple (g) Approaches the orange bamboo basket in the middle of the desktop (h) Puts the apple into the orange bamboo basket.",
+
+
+
+     "L0_TwoRobotTransFood-v1": "Transferring food from bowl; the silver bowl on the middle left of the desktop, the gray bowl on the middle right of the desktop, the spoon in the silver bowl; (a) The right arm approaches the gray bowl on the middle right of the desktop (b) Grabs the spoon in the gray bowl and scoops food (c) Approaches the silver bowl on the middle left of the desktop (d) Transfers the food into the silver bowl on the middle left of the desktop (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotTransFood-v1": "Transferring food from bowl; the silver bowl on the middle left of the desktop, the gray bowl on the bottom middle right of the desktop, the spoon in the silver bowl; (a) The right arm approaches the gray bowl on the bottom middle right of the desktop (b) Grabs the spoon in the gray bowl and scoops food (c) Approaches the silver bowl on the middle left of the desktop (d) Transfers the food into the silver bowl on the middle left of the desktop (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotTransFood-v1": "Transferring food from bowl; the silver bowl on the middle right of the desktop, the gray bowl on the middle left of the desktop, the spoon in the silver bowl; (a) The left arm approaches the gray bowl on the middle left of the desktop (b) Grabs the spoon in the silver bowl and scoops food (c) Approaches the silver bowl on the middle right of the desktop (d) Transfers the food into the silver bowl on the middle right of the desktop (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotTransFood-v1": "Transferring food from bowl; the silver bowl on the middle left of the desktop, the gray bowl on the middle right of the desktop; (a) The right arm approaches the gray bowl on the middle right of the desktop (b) Grabs the gray bowl (c) Approaches the silver bowl on the middle left of the desktop (d) Pours the food from the gray bowl into the silver bowl on the middle left of the desktop (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPlaceFoodScale-v1": "Weighing ingredients; the electronic scale in the middle of the desktop, the tomato on the middle right of the desktop; (a) The right arm approaches the tomato on the middle right of the desktop (b) Grabs the tomato (c) Approaches the electronic scale in the middle of the desktop (d) Places the tomato on the electronic scale (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPlaceFoodScale-v1": "Weighing ingredients; the electronic scale in the middle of the desktop, the tomato on the bottom middle right of the desktop; (a) The right arm approaches the tomato on the bottom middle right of the desktop (b) Grabs the tomato (c) Approaches the electronic scale in the middle of the desktop (d) Places the tomato on the electronic scale (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPlaceFoodScale-v1": "Weighing ingredients; the electronic scale in the middle of the desktop, the cucumber on the middle left of the desktop; (a) The left arm approaches the cucumber on the middle left of the desktop (b) Grabs the cucumber (c) Approaches the electronic scale in the middle of the desktop (d) Places the cucumber on the electronic scale (e) The left arm remains still.",
+
+
+
+     "L3_TwoRobotPlaceFoodScale-v1": "Weighing ingredients; the balance scale in the middle of the desktop, the garlic on the bottom middle right of the desktop, the weight on the bottom middle left of the desktop; (a) The right arm approaches the garlic on the bottom middle right of the desktop (b) Grabs the garlic (c) Approaches the balance scale in the middle of the desktop (d) Places the garlic on the right pan of the balance scale (e) The left arm approaches the weight on the bottom middle left of the desktop (f) Grabs the weight (g) Approaches the balance scale in the middle of the desktop (h) Places the weight on the left pan of the balance scale.",
+
+
+
+     "L0_TwoRobotPressStapler-v1": "Organizing documents; the black stapler on the middle right of the desktop, the gray document in the stapler; (a) The right arm gripper closes (b) The right arm approaches the black stapler placed on the middle right of the desktop (c) Presses the black stapler (d) Staples the gray document in the stapler (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPressStapler-v1": "Organizing documents; the black stapler on the upper middle right of the desktop, the gray document in the stapler; (a) The right arm gripper closes (b) The right arm approaches the black stapler placed on the upper middle right of the desktop (c) Presses the black stapler (d) Staples the gray document in the stapler (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPressStapler-v1": "Organizing documents; the blue stapler on the middle left of the desktop, the gray document in the stapler; (a) The left arm gripper closes (b) The left arm approaches the blue stapler placed on the middle left of the desktop (c) Presses the blue stapler (d) Staples the gray document in the stapler (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPressStapler-v1": "Organizing documents; the black box on the middle right of the desktop, the gray document on the black box, the black folder on the middle left of the desktop; (a) The right arm approaches the black box on the middle right of the desktop (b) Grabs the gray document on the black box (c) Approaches the black folder on the middle left of the desktop (d) Puts the gray document into the black folder on the middle left of the desktop (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPlaceBurgerTray-v1": "Placing burger into tray; the yellow and white packaged burger on the middle right of the desktop, the brown tray on the middle left of the desktop, the drink on the right side of the tray, the fries on the left side of the tray; (a) The right arm moves to the yellow and white packaged burger on the middle right of the desktop (b) Picks up the yellow and white packaged burger (c) Moves to the brown tray on the middle left of the desktop (d) Places the yellow and white packaged burger in the middle of the drink and fries in the brown tray (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPlaceBurgerTray-v1": "Placing burger into tray; the yellow and white packaged burger on the upper middle right of the desktop, the brown tray on the middle left of the desktop, the drink on the right side of the tray, the fries on the left side of the tray; (a) The right arm moves to the yellow and white packaged burger on the upper middle right of the desktop (b) Picks up the yellow and white packaged burger (c) Moves to the brown tray on the middle left of the desktop (d) Places the yellow and white packaged burger in the middle of the drink and fries in the brown tray (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPlaceBurgerTray-v1": "Placing burger into tray; the green packaged burger on the middle left of the desktop, the brown tray on the middle right of the desktop, the drink on the left side of the tray, the fries on the right side of the tray; (a) The left arm moves to the green packaged burger on the middle left of the desktop (b) Picks up the green packaged burger (c) Moves to the brown tray on the middle right of the desktop (d) Places the green packaged burger in the middle of the drink and fries in the brown tray (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPlaceBurgerTray-v1": "Placing burger into tray; the yellow and white packaged burger on the bottom middle of the desktop, the cyan round plate in the middle of the desktop, the drink on the middle right of the desktop, the fries on the middle left of the desktop; (a) The right arm moves to the yellow and white packaged burger on the bottom middle of the desktop (b) Picks up the yellow and white packaged burger (c) Moves to the cyan round plate in the middle of the desktop (d) Places the yellow and white packaged burger into the cyan round plate (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPickTennisBallGolfBall-v1": "Sorting goods; the yellow box on the bottom middle right of the desktop, the yellow box on the bottom middle left of the desktop, the tennis ball on the bottom right of the desktop, the golf ball on the bottom left of the desktop; (a) The right arm moves to the bottom right of the desktop (b) Picks up the tennis ball (c) Moves to the yellow box on the bottom middle right of the desktop (d) Puts the tennis ball into the yellow box on the bottom middle right of the desktop and closes the box (e) The left arm moves to the bottom left of the desktop (f) Picks up the golf ball (g) Moves to the yellow box on the bottom middle left of the desktop (h) Puts the golf ball into the yellow box on the bottom middle left of the desktop and closes the box.",
+
+
+
+     "L1_TwoRobotPickTennisBallGolfBall-v1": "Sorting goods; the yellow box on the bottom right of the desktop, the yellow box on the bottom left of the desktop, the tennis ball on the bottom right of the desktop, the golf ball on the bottom left of the desktop; (a) The right arm moves to the bottom right of the desktop (b) Picks up the tennis ball (c) Moves to the yellow box on the bottom right of the desktop (d) Puts the tennis ball into the yellow box on the bottom right of the desktop and closes the box (e) The left arm moves to the bottom left of the desktop (f) Picks up the golf ball (g) Moves to the yellow box on the bottom left of the desktop (h) Puts the golf ball into the yellow box on the bottom left of the desktop and closes the box.",
+
+
+
+     "L2_TwoRobotPickTennisBallGolfBall-v1": "Sorting goods; the yellow box on the bottom middle right of the desktop, the yellow box on the bottom middle left of the desktop, the black ball on the bottom right of the desktop, the white ball on the bottom left of the desktop; (a) The left arm moves to the bottom left of the desktop (b) Picks up the white ball (c) Moves to the yellow box on the bottom middle left of the desktop (d) Puts the white ball into the yellow box on the bottom middle left of the desktop and closes the box (e) The right arm moves to the bottom right of the desktop (f) Picks up the black ball (g) Moves to the yellow box on the bottom middle right of the desktop (h) Puts the black ball into the yellow box on the bottom middle right of the desktop and closes the box.",
+
+
+
+     "L3_TwoRobotPickTennisBallGolfBall-v1": "Sorting goods; the gray storage box on the middle right of the desktop, the gray storage box on the middle left of the desktop, the tennis ball on the bottom middle right of the desktop, the golf ball on the bottom middle left of the desktop; (a) The right arm moves to the bottom middle right of the desktop (b) Picks up the tennis ball (c) Moves to the gray storage box on the middle right of the desktop (d) Puts the tennis ball into the gray storage box on the middle right of the desktop (e) The left arm moves to the bottom middle left of the desktop (f) Picks up the golf ball (g) Moves to the gray storage box on the middle left of the desktop (h) Puts the golf ball into the gray storage box on the middle left of the desktop.",
+
+
+
+     "L0_TwoRobotScanPillBottle-v1": "Identifying product barcode; the black scanner gun on the middle right of the desktop, the orange pill bottle on the middle left of the desktop; (a) The right arm moves to the middle right of the desktop (b) Grabs the black scanner gun placed on the middle right of the desktop (c) The left arm moves to the middle left of the desktop (d) Grabs the orange pill bottle placed on the middle left of the desktop (e) The left arm adjusts the barcode of the orange pill bottle (f) The right arm adjusts the black scanner gun for product identification (g) The left arm places the orange pill bottle to the left side of the desktop (h) The right arm places the black scanner gun to the right side of the desktop.",
+
+
+
+     "L1_TwoRobotScanPillBottle-v1": "Identifying product barcode; the black scanner gun on the bottom right of the desktop, the orange pill bottle on the middle left of the desktop; (a) The right arm moves to the bottom right of the desktop (b) Grabs the black scanner gun placed on the bottom right of the desktop (c) The left arm moves to the middle left of the desktop (d) Grabs the orange pill bottle placed on the middle left of the desktop (e) The left arm adjusts the barcode of the orange pill bottle (f) The right arm adjusts the black scanner gun for product identification (g) The left arm places the orange pill bottle to the left side of the desktop (h) The right arm places the black scanner gun to the right side of the desktop.",
+
+     "L2_TwoRobotScanPillBottle-v1": "Identifying product barcode; the black scanner gun on the middle left of the desktop, the green pill bottle on the middle right of the desktop; (a) The left arm moves to the middle left of the desktop (b) Grabs the black scanner gun placed on the middle left of the desktop (c) The right arm moves to the middle right of the desktop (d) Grabs the green pill bottle placed on the middle right of the desktop (e) The right arm adjusts the barcode of the green pill bottle (f) The left arm adjusts the black scanner gun for product identification (g) The right arm places the green pill bottle to the right side of the desktop (h) The left arm places the black scanner gun to the left side of the desktop.",
+
+
+
+     "L3_TwoRobotScanPillBottle-v1": "Identifying product barcode; the white desktop scanner on the middle right of the desktop, the orange pill bottle on the middle left of the desktop; (a) The right arm moves to the middle left of the desktop (b) Grabs the orange pill bottle placed on the middle left of the desktop (c) Approaches the white desktop scanner on the middle right of the desktop (d) The left arm adjusts the barcode of the orange pill bottle to align with the white desktop scanner for product identification (e) The left arm places the orange pill bottle to the left side of the desktop (f) The right arm remains still.",
+
+
+
+     "L0_TwoRobotPlaceShoeBox-v1": "Storing shoes; the orange shoe box in the middle of the desktop, the black and white shoes on the right of the desktop, the black and white shoes on the left of the desktop; (a) The right arm moves to the right of the desktop (b) Grabs the black and white shoes placed on the right of the desktop (c) Moves to the middle of the desktop (d) Puts the black and white shoes into the right side of the orange shoe box (e) The left arm moves to the left of the desktop (f) Grabs the black and white shoes placed on the left of the desktop (g) Moves to the middle of the desktop (h) Puts the black and white shoes into the left side of the orange shoe box.",
+
+
+
+     "L1_TwoRobotPlaceShoeBox-v1": "Storing shoes; the orange shoe box in the middle of the desktop, the black and white shoes on the bottom right of the desktop, the black and white shoes on the upper left of the desktop; (a) The right arm moves to the bottom right of the desktop (b) Grabs the black and white shoes placed on the bottom right of the desktop (c) Moves to the middle of the desktop (d) Puts the black and white shoes into the right side of the orange shoe box (e) The left arm moves to the upper left of the desktop (f) Grabs the black and white shoes placed on the upper left of the desktop (g) Moves to the middle of the desktop (h) Puts the black and white shoes into the left side of the orange shoe box.",
+
+
+
+     "L2_TwoRobotPlaceShoeBox-v1": "Storing shoes; the orange shoe box in the middle of the desktop, the white shoes on the right of the desktop, the white shoes on the left of the desktop; (a) The left arm moves to the left of the desktop (b) Grabs the white shoes placed on the left of the desktop (c) Moves to the middle of the desktop (d) Puts the white shoes into the left side of the orange shoe box (e) The right arm moves to the right of the desktop (f) Grabs the white shoes placed on the right of the desktop (g) Moves to the middle of the desktop (h) Puts the white shoes into the right side of the orange shoe box.",
+
+
+
+     "L3_TwoRobotPlaceShoeBox-v1": "Storing shoes; the beige storage box in the middle of the desktop, the black and white shoes on the right of the desktop, the black and white shoes on the left of the desktop; (a) The right arm moves to the right of the desktop (b) Grabs the black and white shoes placed on the right of the desktop (c) Moves to the middle of the desktop (d) Puts the black and white shoes into the right side of the beige storage box (e) The left arm moves to the left of the desktop (f) Grabs the black and white shoes placed on the left of the desktop (g) Moves to the middle of the desktop (h) Puts the black and white shoes into the left side of the beige storage box.",
+
+
+
+     "L0_TwoRobotOpenBox-v1": "Opening the box; the large white box on the middle top of the desktop; (a) The right arm approaches the large white box on the middle top of the desktop (b) Opens the large white box (c) The left arm remains still.",
+
+
+
+     "L1_TwoRobotOpenBox-v1": "Opening the box; the large white box on the middle right of the desktop; (a) The right arm approaches the large white box on the middle right of the desktop (b) Opens the large white box (c) The left arm remains still.",
+
+
+
+     "L2_TwoRobotOpenBox-v1": "Opening the box; the large gray box on the middle top of the desktop; (a) The left arm approaches the large gray box on the middle top of the desktop (b) Opens the large gray box (c) The right arm remains still.",
+
+
+
+     "L3_TwoRobotOpenBox-v1": "Opening the box; the small white box on the middle top of the desktop; (a) The right arm approaches the small white box on the middle top of the desktop (b) Opens the small white box (c) The left arm remains still.",
+
+
+
+     "L0_TwoRobotFoldBox-v1": "Folding the cardboard box; the light-colored large cardboard box in the middle of the desktop, the black scanner gun on the upper middle right of the desktop; (a) The right arm approaches the light-colored large cardboard box in the middle of the desktop (b) Folds the cardboard box (c) The left arm remains still.",
+
+
+
+     "L1_TwoRobotFoldBox-v1": "Folding the cardboard box; the light-colored large cardboard box on the middle right of the desktop, the black scanner gun on the upper middle right of the desktop; (a) The right arm approaches the light-colored large cardboard box on the middle right of the desktop (b) Folds the cardboard box (c) The left arm remains still.",
+
+
+
+     "L2_TwoRobotFoldBox-v1": "Folding the cardboard box; the dark-colored large cardboard box in the middle of the desktop, the black scanner gun on the upper middle left of the desktop; (a) The left arm approaches the dark-colored large cardboard box in the middle of the desktop (b) Folds the cardboard box (c) The right arm remains still.",
+
+
+
+     "L3_TwoRobotFoldBox-v1": "Folding the cardboard box; the gray storage box in the middle of the desktop, the black scanner gun on the upper middle right of the desktop; (a) The right arm approaches the gray storage box in the middle of the desktop (b) Closes the storage box (c) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPickPillToRegions-v1": "Sorting medicines; the orange pill bottle on the bottom middle right of the desktop, the blue pill bottle on the bottom middle left of the desktop, the blue region on the upper middle right of the desktop, the yellow region on the upper middle left of the desktop; (a) The right arm approaches the orange pill bottle on the bottom middle right of the desktop (b) Picks up the orange pill bottle (c) Places the orange pill bottle into the blue region on the upper middle right of the desktop (d) The left arm approaches the blue pill bottle on the bottom middle left of the desktop (e) Picks up the blue pill bottle (f) Places the blue pill bottle into the yellow region on the upper middle left of the desktop.",
+
+
+
+     "L1_TwoRobotPickPillToRegions-v1": "Sorting medicines; the orange pill bottle on the bottom right of the desktop, the blue pill bottle on the bottom left of the desktop, the blue region on the upper middle right of the desktop, the yellow region on the upper middle left of the desktop; (a) The right arm approaches the orange pill bottle on the bottom right of the desktop (b) Picks up the orange pill bottle (c) Places the orange pill bottle into the blue region on the upper middle right of the desktop (d) The left arm approaches the blue pill bottle on the bottom left of the desktop (e) Picks up the blue pill bottle (f) Places the blue pill bottle into the yellow region on the upper middle left of the desktop.",
+
+
+
+     "L2_TwoRobotPickPillToRegions-v1": "Sorting medicines; the black pill bottle on the bottom middle right of the desktop, the white pill bottle on the bottom middle left of the desktop, the blue region on the upper middle left of the desktop, the yellow region on the upper middle right of the desktop; (a) The left arm approaches the white pill bottle on the bottom middle left of the desktop (b) Picks up the white pill bottle (c) Places the white pill bottle into the blue region on the upper middle left of the desktop (d) The right arm approaches the black pill bottle on the bottom middle right of the desktop (e) Picks up the black pill bottle (f) Places the black pill bottle into the yellow region on the upper middle right of the desktop.",
+
+
+
+     "L3_TwoRobotPickPillToRegions-v1": "Sorting medicines; the orange pill bottle on the bottom middle right of the desktop, the blue pill bottle on the bottom middle left of the desktop, the black double-layer shelf in the middle of the desktop; (a) The right arm approaches the orange pill bottle on the bottom middle right of the desktop (b) Picks up the orange pill bottle (c) Moves to the middle of the desktop (d) Places the orange pill bottle on the second layer right side of the black double-layer shelf in the middle of the desktop (e) The left arm approaches the blue pill bottle on the bottom middle left of the desktop (f) Picks up the blue pill bottle (g) Moves to the middle of the desktop (h) Places the blue pill bottle on the second layer left side of the black double-layer shelf in the middle of the desktop.",
+
+
+
+     "L0_TwoRobotPlaceFileFolder-v1": "File organization; the black folder on the middle left of the desktop, the black box on the middle right of the desktop, the white document on the black box; (a) The left arm approaches the black folder on the middle left of the desktop (b) The left arm opens the black folder (c) The right arm approaches the black box on the middle right of the desktop (d) Picks up the white document placed on top of the black box (e) Approaches the opened black folder (f) Puts the white document into the black folder.",
+
+
+
+     "L1_TwoRobotPlaceFileFolder-v1": "File organization; the black folder on the middle left of the desktop, the black box on the bottom middle right of the desktop, the white document on the black box; (a) The left arm approaches the black folder on the middle left of the desktop (b) The left arm opens the black folder (c) The right arm approaches the black box on the bottom middle right of the desktop (d) Picks up the white document placed on top of the black box (e) Approaches the opened black folder (f) Puts the white document into the black folder.",
+
+
+
+     "L2_TwoRobotPlaceFileFolder-v1": "File organization; the black folder on the middle right of the desktop, the black box on the middle left of the desktop, the black document on the black box; (a) The right arm approaches the black folder on the middle right of the desktop (b) The right arm opens the black folder (c) The left arm approaches the black box on the middle left of the desktop (d) Picks up the black document placed on top of the black box (e) Approaches the opened black folder (f) Puts the black document into the black folder.",
+
+
+
+     "L3_TwoRobotPlaceFileFolder-v1": "File organization; the brown tray on the middle left of the desktop, the black box on the middle right of the desktop, the white document on the black box; (a) The right arm approaches the black box on the middle right of the desktop (b) Picks up the white document placed on top of the black box (c) Approaches the brown tray on the middle left of the desktop (d) Puts the white document into the brown tray (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPourLiquidCup-v1": "Pouring liquid medicine; the orange liquid medicine in the middle of the desktop, the blue cup on the middle left of the desktop; (a) The right arm moves to the middle of the desktop (b) Grabs the orange liquid medicine placed in the middle of the desktop (c) Approaches the blue cup on the middle left of the desktop (e) Pours the orange liquid medicine into the blue cup (f) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPourLiquidCup-v1": "Pouring liquid medicine; the orange liquid medicine on the upper middle right of the desktop, the blue cup on the middle left of the desktop; (a) The right arm moves to the upper middle right of the desktop (b) Grabs the orange liquid medicine placed on the upper middle right of the desktop (c) Approaches the blue cup on the middle left of the desktop (e) Pours the orange liquid medicine into the blue cup (f) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPourLiquidCup-v1": "Pouring liquid medicine; the black and red liquid medicine in the middle of the desktop, the blue cup on the middle right of the desktop; (a) The left arm moves to the middle of the desktop (b) Grabs the black and red liquid medicine placed in the middle of the desktop (c) Approaches the blue cup on the middle right of the desktop (e) Pours the black and red liquid medicine into the blue cup (f) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPourLiquidCup-v1": "Pouring liquid medicine; the orange liquid medicine in the middle of the desktop, the blue mug on the middle left of the desktop; (a) The right arm moves to the middle of the desktop (b) Grabs the orange liquid medicine placed in the middle of the desktop (c) Approaches the blue mug on the middle left of the desktop (e) Pours the orange liquid medicine into the blue mug (f) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPlacePillBox-v1": "Storing pills; the gray storage box in the middle of the desktop, the gray pill on the middle right of the desktop; (a) The right arm moves to the middle right of the desktop (b) Grabs the gray pill (c) Approaches the gray storage box in the middle of the desktop (d) Puts the gray pill into the gray storage box (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPlacePillBox-v1": "Storing pills; the gray storage box in the middle of the desktop, the gray pill on the bottom right of the desktop; (a) The right arm moves to the bottom right of the desktop (b) Grabs the gray pill (c) Approaches the gray storage box in the middle of the desktop (d) Puts the gray pill into the gray storage box (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPlacePillBox-v1": "Storing pills; the green storage box in the middle of the desktop, the blue pill on the middle left of the desktop; (a) The left arm moves to the middle left of the desktop (b) Grabs the blue pill (c) Approaches the green storage box in the middle of the desktop (d) Puts the blue pill into the green storage box (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPlacePillBox-v1": "Storing pills; the gray storage box in the middle of the desktop, the orange pill bottle on the middle right of the desktop; (a) The right arm moves to the middle right of the desktop (b) Grabs the orange pill bottle (c) Approaches the gray storage box in the middle of the desktop (d) Pours the pills from the orange pill bottle into the gray storage box (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPlaceBrushRest-v1": "Placing a calligraphy brush; the black covered book on the middle left of the desktop, the cyan brush rest on the middle right of the desktop, the brown calligraphy brush on the black covered book; (a) The right arm moves to the black covered book on the middle left of the desktop (b) Picks up the brown calligraphy brush placed on the black covered book (c) Moves to the cyan brush rest on the middle right of the desktop (d) Places the brown calligraphy brush onto the cyan brush rest (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPlaceBrushRest-v1": "Placing a calligraphy brush; the black covered book on the middle left of the desktop, the cyan brush rest on the upper middle right of the desktop, the brown calligraphy brush on the black covered book; (a) The right arm moves to the black covered book on the middle left of the desktop (b) Picks up the brown calligraphy brush placed on the black covered book (c) Moves to the cyan brush rest on the upper middle right of the desktop (d) Places the brown calligraphy brush onto the cyan brush rest (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPlaceBrushRest-v1": "Placing a calligraphy brush; the black covered book on the middle right of the desktop, the cyan brush rest on the middle left of the desktop, the black calligraphy brush on the black covered book; (a) The left arm moves to the black covered book on the middle right of the desktop (b) Picks up the black calligraphy brush placed on the black covered book (c) Moves to the cyan brush rest on the middle left of the desktop (d) Places the black calligraphy brush onto the cyan brush rest (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPlaceBrushRest-v1": "Placing a calligraphy brush; the black covered book on the middle left of the desktop, the blue brush pot on the bottom middle right of the desktop, the brown calligraphy brush on the black covered book; (a) The right arm moves to the black covered book on the middle left of the desktop (b) Picks up the brown calligraphy brush placed on the black covered book (c) Moves to the blue brush pot on the bottom middle right of the desktop (d) Puts the brown calligraphy brush into the blue brush pot (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPlaceCupPlate-v1": "Placing cups; the brown tray in the middle of the desktop, the light blue cup on the right of the desktop, the silver mug on the left of the desktop; (a) The right hand moves to the right of the desktop (b) Picks up the light blue cup (c) Approaches the brown tray in the middle of the desktop (d) Places the light blue cup on the right side of the brown tray (e) The left hand moves to the left of the desktop (f) Picks up the silver mug (g) Approaches the brown tray in the middle of the desktop (h) Places the silver mug on the left side of the brown tray.",
+
+
+
+     "L1_TwoRobotPlaceCupPlate-v1": "Placing cups; the brown tray in the middle of the desktop, the light blue cup on the bottom right of the desktop, the silver mug on the bottom left of the desktop; (a) The right hand moves to the bottom right of the desktop (b) Picks up the light blue cup (c) Approaches the brown tray in the middle of the desktop (d) Places the light blue cup on the right side of the brown tray (e) The left hand moves to the bottom left of the desktop (f) Picks up the silver mug (g) Approaches the brown tray in the middle of the desktop (h) Places the silver mug on the left side of the brown tray.",
+
+
+
+     "L2_TwoRobotPlaceCupPlate-v1": "Placing cups; the brown tray in the middle of the desktop, the dark blue mug on the left of the desktop, the silver cup on the right of the desktop; (a) The left hand moves to the left of the desktop (b) Picks up the dark blue mug (c) Approaches the brown tray in the middle of the desktop (d) Places the dark blue mug on the left side of the brown tray (e) The right hand moves to the right of the desktop (f) Picks up the silver cup (g) Approaches the brown tray in the middle of the desktop (h) Places the silver cup on the right side of the brown tray.",
+
+
+
+     "L3_TwoRobotPlaceCupPlate-v1": "Placing cups; the black double-layer rack in the middle of the desktop, the light blue cup on the right of the desktop, the silver mug on the left of the desktop; (a) The right hand moves to the right of the desktop (b) Picks up the light blue cup (c) Approaches the black double-layer rack in the middle of the desktop (d) Places the light blue cup on the right side of the second layer of the black double-layer rack (e) The left hand moves to the left of the desktop (f) Picks up the silver mug (g) Approaches the black double-layer rack in the middle of the desktop (h) Places the silver mug on the left side of the second layer of the black double-layer rack.",
+
+
+
+     "L0_TwoRobotPlaceScrewdriver-v1": "Fixing wooden block; the black rack on the bottom middle of the desktop, the red wooden block in the middle of the black rack, the screwdriver on the bottom right of the desktop; (a) The right arm moves to the bottom right of the desktop (b) Grabs the screwdriver on the bottom right of the desktop (c) Approaches the black rack on the bottom middle of the desktop (d) Uses the screwdriver to fix the red wooden block in the middle of the black rack (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPlaceScrewdriver-v1": "Fixing wooden block; the black rack on the bottom middle of the desktop, the red wooden block in the middle of the black rack, the screwdriver on the middle right of the desktop; (a) The right arm moves to the middle right of the desktop (b) Grabs the screwdriver on the middle right of the desktop (c) Approaches the black rack on the bottom middle of the desktop (d) Uses the screwdriver to fix the red wooden block in the middle of the black rack (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPlaceScrewdriver-v1": "Fixing wooden block; the black rack on the bottom middle of the desktop, the yellow wooden block in the middle of the black rack, the screwdriver on the bottom left of the desktop; (a) The left arm moves to the bottom left of the desktop (b) Grabs the screwdriver on the bottom left of the desktop (c) Approaches the black rack on the bottom middle of the desktop (d) Uses the screwdriver to fix the yellow wooden block in the middle of the black rack (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPlaceScrewdriver-v1": "Fixing wooden block; the black rack on the bottom middle of the desktop, the red wooden block in the middle of the black rack, the hammer on the middle right of the desktop; (a) The right arm moves to the middle right of the desktop (b) Grabs the hammer on the middle right of the desktop (c) Approaches the black rack on the bottom middle of the desktop (d) Uses the hammer to fix the red wooden block in the middle of the black rack (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPlaceMugRack-v1": "Hanging cups; the gray cup rack in the middle of the desktop, the blue mug on the middle right of the desktop; (a) The right arm approaches the blue mug on the middle right of the desktop (b) The right arm grabs the blue mug (c) Approaches the gray cup rack in the middle of the desktop (d) Hangs the blue mug on the gray cup rack (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPlaceMugRack-v1": "Hanging cups; the gray cup rack in the middle of the desktop, the blue mug on the right of the desktop; (a) The right arm approaches the blue mug on the right of the desktop (b) The right arm grabs the blue mug (c) Approaches the gray cup rack in the middle of the desktop (d) Hangs the blue mug on the gray cup rack (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPlaceMugRack-v1": "Hanging cups; the gray cup rack in the middle of the desktop, the gray mug on the middle left of the desktop; (a) The left arm approaches the gray mug on the middle left of the desktop (b) The left arm grabs the gray mug (c) Approaches the gray cup rack in the middle of the desktop (d) Hangs the gray mug on the gray cup rack (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPlaceMugRack-v1": "Hanging cups; the cyan round plate in the middle of the desktop, the blue mug on the middle right of the desktop; (a) The right arm approaches the blue mug on the middle right of the desktop (b) The right arm grabs the blue mug (c) Approaches the cyan round plate in the middle of the desktop (d) Places the blue mug on the cyan round plate (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPourLiquidMug-v1": "Pouring a single liquid reagent; the gray test tube on the middle right of the desktop, the gray mug on the middle left of the desktop; (a) The right arm approaches the middle right of the desktop (b) Grabs the gray test tube on the middle right of the desktop (c) Approaches the gray mug on the middle left of the desktop (d) Pours the liquid from the gray test tube into the gray mug (e) Puts the gray test tube back to its original position (f) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPourLiquidMug-v1": "Pouring a single liquid reagent; the gray test tube on the bottom middle right of the desktop, the gray mug on the middle left of the desktop; (a) The right arm approaches the bottom middle right of the desktop (b) Grabs the gray test tube on the bottom middle right of the desktop (c) Approaches the gray mug on the middle left of the desktop (d) Pours the liquid from the gray test tube into the gray mug (e) Puts the gray test tube back to its original position (f) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPourLiquidMug-v1": "Pouring a single liquid reagent; the blue test tube in the middle of the desktop, the gray mug on the middle right of the desktop; (a) The left arm approaches the middle of the desktop (b) Grabs the blue test tube in the middle of the desktop (c) Approaches the gray mug on the middle right of the desktop (d) Pours the liquid from the blue test tube into the gray mug (e) Puts the blue test tube back to its original position (f) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPourLiquidMug-v1": "Pouring a single liquid reagent; the blue test tube on the middle right of the desktop, the brown cup on the middle left of the desktop; (a) The right arm approaches the middle right of the desktop (b) Grabs the blue test tube on the middle right of the desktop (c) Approaches the brown cup on the middle left of the desktop (d) Pours the liquid from the blue test tube into the brown cup (e) Puts the blue test tube back to its original position (f) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPutCubeOnScale-v1": "Weighing solid materials; the brown wooden block on the middle right of the desktop, the electronic scale in the middle of the desktop; (a) The right arm approaches the middle right of the desktop (b) Grabs the brown wooden block placed on the middle right of the desktop (c) Approaches the electronic scale placed in the middle of the desktop (d) Places the brown wooden block on the electronic scale (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPutCubeOnScale-v1": "Weighing solid materials; the brown wooden block on the bottom right of the desktop, the electronic scale in the middle of the desktop; (a) The right arm approaches the bottom right of the desktop (b) Grabs the brown wooden block placed on the bottom right of the desktop (c) Approaches the electronic scale placed in the middle of the desktop (d) Places the brown wooden block on the electronic scale (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPutCubeOnScale-v1": "Weighing solid materials; the Rubik's cube on the middle left of the desktop, the electronic scale in the middle of the desktop; (a) The left arm approaches the middle left of the desktop (b) Grabs the Rubik's cube placed on the middle left of the desktop (c) Approaches the electronic scale placed in the middle of the desktop (d) Places the Rubik's cube on the electronic scale (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPutCubeOnScale-v1": "Weighing solid materials; the brown wooden block on the right of the desktop, the silver solid on the left of the desktop, the balance scale in the middle of the desktop; (a) The right arm approaches the right of the desktop (b) Grabs the brown wooden block placed on the right of the desktop (c) Approaches the balance scale placed in the middle of the desktop (d) Places the brown wooden block on the right pan of the balance scale (e) The left arm approaches the left of the desktop (f) Grabs the silver solid placed on the left of the desktop (g) Approaches the balance scale placed in the middle of the desktop (h) Places the silver solid on the left pan of the balance scale.",
+
+
+
+     "L0_TwoRobotPourCup-v1": "Filtering solution; the silver mug on the middle right of the desktop, the black cup on the middle left of the desktop; (a) The right arm approaches the middle right of the desktop (b) The right arm grabs the silver mug placed on the middle right of the desktop (c) Approaches the black cup on the middle left of the desktop (d) Pours the liquid from the mug into the black cup (e) Puts the mug back to its original position (f) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPourCup-v1": "Filtering solution; the silver mug on the right of the desktop, the black cup in the middle of the desktop; (a) The right arm approaches the right of the desktop (b) The right arm grabs the silver mug placed on the right of the desktop (c) Approaches the black cup in the middle of the desktop (d) Pours the liquid from the mug into the black cup (e) Puts the mug back to its original position (f) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPourCup-v1": "Filtering solution; the black mug in the middle of the desktop, the black cup on the middle right of the desktop; (a) The left arm approaches the middle of the desktop (b) The left arm grabs the black mug placed in the middle of the desktop (c) Approaches the black cup on the middle right of the desktop (d) Pours the liquid from the mug into the black cup (e) Puts the mug back to its original position (f) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPourCup-v1": "Filtering solution; the silver mug on the middle right of the desktop, the silver cup with a filter on the middle of the desktop; (a) The right arm approaches the middle right of the desktop (b) The right arm grabs the silver mug placed on the middle right of the desktop (c) Approaches the silver cup with a filter on the middle of the desktop (d) Pours the liquid from the mug into the silver cup with a filter (e) Puts the mug back to its original position (f) The left arm remains still.",
+
+
+
+     "L0_TwoRobotCleanCup-v1": "Cleaning the cup; the black cup on the bottom middle of the desktop, the black brush on the bottom right of the desktop; (a) The right arm approaches the bottom right of the desktop (b) The right arm picks up the black brush from the bottom right of the desktop (c) Approaches the black cup on the bottom middle of the desktop (d) Cleans the cup (e) Then puts down the brush (f) The left arm remains still.",
+
+
+
+     "L1_TwoRobotCleanCup-v1": "Cleaning the cup; the black cup on the bottom middle of the desktop, the black brush on the right of the desktop; (a) The right arm approaches the right of the desktop (b) The right arm picks up the black brush from the right of the desktop (c) Approaches the black cup on the bottom middle of the desktop (d) Cleans the cup (e) Then puts down the brush (f) The left arm remains still.",
+
+
+
+     "L2_TwoRobotCleanCup-v1": "Cleaning the cup; the black cup on the bottom middle of the desktop, the white brush on the bottom left of the desktop; (a) The left arm approaches the bottom left of the desktop (b) The left arm picks up the white brush from the bottom left of the desktop (c) Approaches the black cup on the bottom middle of the desktop (d) Cleans the cup (e) Then puts down the brush (f) The right arm remains still.",
+
+
+
+     "L3_TwoRobotCleanCup-v1": "Cleaning the cup; the black cup on the bottom middle of the desktop, the gray whiteboard eraser on the bottom right of the desktop; (a) The right arm approaches the bottom right of the desktop (b) The right arm picks up the gray whiteboard eraser from the bottom right of the desktop (c) Approaches the black cup on the bottom middle of the desktop (d) Cleans the cup (e) Then puts down the gray whiteboard eraser (f) The left arm remains still.",
+
+
+
+     "L0_TwoRobotOpenLiquidCap-v1": "Opening container lid; the liquid bottle in the middle of the desktop, the cyan round plate on the middle right of the desktop; (a) The right arm approaches the liquid bottle in the middle of the table (b) Opens the round cap of the liquid bottle (c) Places the cap into the cyan round plate on the middle right of the desktop (d) The left arm remains still.",
+
+
+
+     "L1_TwoRobotOpenLiquidCap-v1": "Opening container lid; the liquid bottle on the bottom left of the desktop, the cyan round plate on the middle right of the desktop; (a) The right arm approaches the liquid bottle on the bottom left of the desktop (b) Opens the round cap of the liquid bottle (c) Places the cap into the cyan round plate on the middle right of the desktop (d) The left arm remains still.",
+
+
+
+     "L2_TwoRobotOpenLiquidCap-v1": "Opening container lid; the liquid bottle in the middle of the desktop, the cyan round plate on the middle left of the desktop; (a) The left arm approaches the liquid bottle in the middle of the table (b) Opens the square cap of the liquid bottle (c) Places the cap into the cyan round plate on the middle left of the desktop (d) The right arm remains still.",
+
+
+
+     "L3_TwoRobotOpenLiquidCap-v1": "Opening container lid; the liquid bottle in the middle of the desktop, the cup on the liquid bottle, the beige square plate on the middle right of the desktop; (a) The right arm approaches the liquid bottle in the middle of the table (b) Grabs the cup on the liquid bottle (c) Places the cup on the liquid bottle into the beige square plate on the middle right of the desktop (d) The left arm remains still.",
+
+
+
+     "L0_TwoRobotGrindFood-v1": "Grinding solid substances; the cyan bowl in the middle of the desktop, the black and gray grinding stick on the right of the desktop; (a) The right arm approaches the black and gray grinding stick on the right of the desktop (b) Picks up the grinding stick (c) Moves above the cyan bowl in the middle of the desktop (d) Grinds the food in the bowl (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotGrindFood-v1": "Grinding solid substances; the cyan bowl in the middle of the desktop, the black and gray grinding stick on the bottom right of the desktop; (a) The right arm approaches the black and gray grinding stick on the bottom right of the desktop (b) Picks up the grinding stick (c) Moves above the cyan bowl in the middle of the desktop (d) Grinds the food in the bowl (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotGrindFood-v1": "Grinding solid substances; the cyan bowl in the middle of the desktop, the black and gray grinding stick on the left of the desktop; (a) The left arm approaches the black and gray grinding stick on the left of the desktop (b) Picks up the grinding stick (c) Moves above the cyan bowl in the middle of the desktop (d) Grinds the food in the bowl (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotGrindFood-v1": "Grinding solid substances; the cyan bowl in the middle of the desktop, the orange bottle on the right of the desktop; (a) The right arm approaches the orange bottle on the right of the desktop (b) Picks up the orange bottle (c) Moves above the cyan bowl in the middle of the desktop (d) Grinds the food in the bowl (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPourLiquidFilter-v1": "Filtering liquid; the gray mug in the middle of the desktop, the black cup with a filter on the middle left of the desktop; (a) The right arm approaches the gray mug in the middle of the desktop (b) Grabs the gray mug placed in the middle of the desktop (c) Approaches the black cup with a filter on the middle left of the desktop (d) Pours the liquid from the gray mug into the black cup with a filter (e) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPourLiquidFilter-v1": "Filtering liquid; the gray mug on the bottom middle right of the desktop, the black cup with a filter on the middle left of the desktop; (a) The right arm approaches the gray mug on the bottom middle right of the desktop (b) Grabs the gray mug placed on the bottom middle right of the desktop (c) Approaches the black cup with a filter on the middle left of the desktop (d) Pours the liquid from the gray mug into the black cup with a filter (e) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPourLiquidFilter-v1": "Filtering liquid; the cyan mug in the middle of the desktop, the black cup with a filter on the middle right of the desktop; (a) The left arm approaches the cyan mug in the middle of the desktop (b) Grabs the cyan mug placed in the middle of the desktop (c) Approaches the black cup with a filter on the middle right of the desktop (d) Pours the liquid from the cyan mug into the black cup with a filter (e) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPourLiquidFilter-v1": "Filtering liquid; the silver kettle on the middle right of the desktop, the silver cup with a filter on the middle left of the desktop; (a) The right arm approaches the silver kettle on the middle right of the desktop (b) Grabs the silver kettle placed on the middle right of the desktop (c) Approaches the silver cup with a filter on the middle left of the desktop (d) Pours the liquid from the silver kettle into the silver cup with a filter (e) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPutBox-v1": "Packaging food; the yellow box in the middle of the desktop, the yellow item on the middle right of the desktop; (a) The right arm moves to the yellow item on the middle right of the desktop (b) Grabs the yellow item placed on the middle right of the desktop (c) Approaches the yellow box placed in the middle of the desktop (d) Puts the yellow item into the yellow box (e) The right arm gripper closes (f) Closes the lid of the yellow box (g) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPutBox-v1": "Packaging food; the yellow box in the middle of the desktop, the yellow item on the bottom right of the desktop; (a) The right arm moves to the yellow item on the bottom right of the desktop (b) Grabs the yellow item placed on the bottom right of the desktop (c) Approaches the yellow box placed in the middle of the desktop (d) Puts the yellow item into the yellow box (e) The right arm gripper closes (f) Closes the lid of the yellow box (g) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPutBox-v1": "Packaging food; the yellow box in the middle of the desktop, the green item on the middle left of the desktop; (a) The left arm moves to the green item on the middle left of the desktop (b) Grabs the green item placed on the middle left of the desktop (c) Approaches the yellow box placed in the middle of the desktop (d) Puts the green item into the yellow box (e) The left arm gripper closes (f) Closes the lid of the yellow box (g) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPutBox-v1": "Packaging food; the gray storage box in the middle of the desktop, the yellow item on the bottom right of the desktop; (a) The right arm moves to the yellow item on the bottom right of the desktop (b) Grabs the yellow item placed on the bottom right of the desktop (c) Approaches the gray storage box in the middle of the desktop (d) Puts the yellow item into the gray storage box (e) The right arm gripper closes (f) Slides the lid of the gray storage box to close it (g) The left arm remains still.",
+
+
+
+     "L0_TwoRobotKnifeBowlFork-v1": "Setting table; the cyan bowl in the middle of the desktop, the fork on the bottom right of the desktop, the knife on the bottom left of the desktop; (a) The right arm approaches the fork on the bottom right of the desktop (b) Picks up the fork (c) Places the fork to the right of the bowl (d) The left arm approaches the knife on the bottom left of the desktop (e) Picks up the knife (f) Places the knife to the left of the bowl.",
+
+
+
+     "L1_TwoRobotKnifeBowlFork-v1": "Setting table; the cyan bowl in the middle of the desktop, the fork on the bottom middle right of the desktop, the knife on the bottom middle left of the desktop; (a) The right arm approaches the fork on the bottom middle right of the desktop (b) Picks up the fork (c) Places the fork to the right of the bowl (d) The left arm approaches the knife on the bottom middle left of the desktop (e) Picks up the knife (f) Places the knife to the left of the bowl.",
+
+
+
+     "L2_TwoRobotKnifeBowlFork-v1": "Setting table; the cyan bowl in the middle of the desktop, the spatula on the bottom right of the desktop, the spoon on the bottom left of the desktop; (a) The left arm approaches the spoon on the bottom left of the desktop (b) Picks up the spoon (c) Places the spoon to the left of the bowl (d) The right arm approaches the spatula on the bottom right of the desktop (e) Picks up the spatula (f) Places the spatula to the right of the bowl.",
+
+
+
+     "L3_TwoRobotKnifeBowlFork-v1": "Setting table; the red bowl in the middle of the desktop, the chopsticks on the red bowl, the fork on the bottom left of the desktop; (a) The right arm approaches the red bowl in the middle of the desktop (b) Picks up the chopsticks placed on the red bowl (c) Places the chopsticks to the right of the bowl (d) The left arm approaches the fork on the bottom left of the desktop (e) Picks up the fork (f) Places the fork to the left of the bowl.",
+
+
+
+     "L0_TwoRobotLiftLidFromSkillet-v1": "Opening the lid to check contents; the black-handled skillet in the middle of the desktop; (a) The right arm approaches the black-handled skillet in the middle of the desktop (b) Picks up the lid of the black-handled skillet (c) Places the lid to the right of the black-handled skillet (d) The left arm remains still.",
+
+
+
+     "L1_TwoRobotLiftLidFromSkillet-v1": "Opening the lid to check contents; the black-handled skillet on the middle right of the desktop; (a) The right arm approaches the black-handled skillet on the middle right of the desktop (b) Picks up the lid of the black-handled skillet (c) Places the lid to the right of the black-handled skillet (d) The left arm remains still.",
+
+
+
+     "L2_TwoRobotLiftLidFromSkillet-v1": "Opening the lid to check contents; the black-handled skillet in the middle of the desktop; (a) The left arm approaches the black-handled skillet in the middle of the desktop (b) Picks up the lid of the black-handled skillet (c) Places the lid to the left of the black-handled skillet (d) The right arm remains still.",
+
+
+
+     "L3_TwoRobotLiftLidFromSkillet-v1": "Opening the lid to check contents; the red insulated bag in the middle of the desktop; (a) The right arm approaches the red insulated bag in the middle of the desktop (b) Opens the red insulated bag (c) The left arm remains still.",
+
+
+
+     "L0_TwoRobotFoldTowel-v1": "Folding towel into basket; the black box in the middle of the desktop, the yellow and purple towel placed on the black box, the gray storage box on the upper middle of the desktop; (a) The right arm approaches the black box in the middle of the desktop (b) Folds the yellow and purple towel placed on the black box (c) Grabs the yellow and purple towel (d) Approaches the gray storage box on the upper middle of the desktop (e) Puts the yellow and purple towel into the gray storage box (f) The left arm remains still.",
+
+
+
+     "L1_TwoRobotFoldTowel-v1": "Folding towel into basket; the black box on the middle right of the desktop, the yellow and purple towel placed on the black box, the gray storage box on the upper middle of the desktop; (a) The right arm approaches the black box on the middle right of the desktop (b) Folds the yellow and purple towel placed on the black box (c) Grabs the yellow and purple towel (d) Approaches the gray storage box on the upper middle of the desktop (e) Puts the yellow and purple towel into the gray storage box (f) The left arm remains still.",
+
+     "L2_TwoRobotFoldTowel-v1": "Folding towel into basket; the black box in the middle of the desktop, the white and gray towel placed on the black box, the gray storage box on the upper middle of the desktop; (a) The right arm approaches the black box in the middle of the desktop (b) Folds the white and gray towel placed on the black box (c) Grabs the white and gray towel (d) Approaches the gray storage box on the upper middle of the desktop (e) Puts the white and gray towel into the gray storage box (f) The left arm remains still.",
+
+
+
+     "L3_TwoRobotFoldTowel-v1": "Folding towel into basket; the black box in the middle of the desktop, the yellow and purple towel placed on the black box, the blue storage box on the upper middle of the desktop; (a) The right arm approaches the black box in the middle of the desktop (b) Folds the yellow and purple towel placed on the black box (c) Grabs the yellow and purple towel (d) Approaches the blue storage box on the upper middle of the desktop (e) Puts the yellow and purple towel into the blue storage box (f) The left arm remains still.",
+
+
+
+     "L0_TwoRobotPressJuicer-v1": "Pressing the juicer button; the gray juicer on the upper middle of the desktop; (a) The right arm gripper closes (b) Approaches the gray juicer placed on the upper middle of the desktop (c) Presses the button (d) The left arm remains still.",
+
+
+
+     "L1_TwoRobotPressJuicer-v1": "Pressing the juicer button; the gray juicer on the upper middle right of the desktop; (a) The right arm gripper closes (b) Approaches the gray juicer placed on the upper middle right of the desktop (c) Presses the button (d) The left arm remains still.",
+
+
+
+     "L2_TwoRobotPressJuicer-v1": "Pressing the juicer button; the light blue juicer on the upper middle of the desktop; (a) The left arm gripper closes (b) Approaches the light blue juicer placed on the upper middle of the desktop (c) Presses the button (d) The right arm remains still.",
+
+
+
+     "L3_TwoRobotPressJuicer-v1": "Pressing the juicer button; the cyan bowl in the middle of the desktop, the fruit in the cyan bowl, the grinding stick on the right of the desktop; (a) The right arm approaches the grinding stick on the right of the desktop (b) Grabs the grinding stick (c) Approaches the cyan bowl in the middle of the desktop (d) Uses the grinding stick to grind the fruit in the cyan bowl (e) The left arm remains still."
+
+
+
+
+
+
+
+
+
+
+
+}

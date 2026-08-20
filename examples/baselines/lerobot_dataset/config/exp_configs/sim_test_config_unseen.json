@@ -1,0 +1,122 @@
+[
+  {
+    "repo_id": "L0_TwoRobotPickRemoteControl-v1",
+    "root": "L0_TwoRobotPickRemoteControl-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPickRemoteControl-v1",
+    "root": "L1_TwoRobotPickRemoteControl-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPickRemoteControl-v1",
+    "root": "L2_TwoRobotPickRemoteControl-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPickRemoteControl-v1",
+    "root": "L3_TwoRobotPickRemoteControl-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotScanMilkBox-v1",
+    "root": "L0_TwoRobotScanMilkBox-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotScanMilkBox-v1",
+    "root": "L1_TwoRobotScanMilkBox-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotScanMilkBox-v1",
+    "root": "L2_TwoRobotScanMilkBox-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotScanMilkBox-v1",
+    "root": "L3_TwoRobotScanMilkBox-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPourKettle-v1",
+    "root": "L0_TwoRobotPourKettle-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPourKettle-v1",
+    "root": "L1_TwoRobotPourKettle-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPourKettle-v1",
+    "root": "L2_TwoRobotPourKettle-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPourKettle-v1",
+    "root": "L3_TwoRobotPourKettle-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPickFood-v1",
+    "root": "L0_TwoRobotPickFood-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPickFood-v1",
+    "root": "L1_TwoRobotPickFood-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPickFood-v1",
+    "root": "L2_TwoRobotPickFood-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPickFood-v1",
+    "root": "L3_TwoRobotPickFood-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotFoldBox-v1",
+    "root": "L0_TwoRobotFoldBox-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotFoldBox-v1",
+    "root": "L1_TwoRobotFoldBox-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotFoldBox-v1",
+    "root": "L2_TwoRobotFoldBox-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotFoldBox-v1",
+    "root": "L3_TwoRobotFoldBox-v1",
+    "train": "0:10",
+    "test": ""
+  }
+]

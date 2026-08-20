@@ -1,0 +1,722 @@
+[
+  {
+    "repo_id": "L0_TwoRobotStirSpoon-v1",
+    "root": "L0_TwoRobotStirSpoon-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotStirSpoon-v1",
+    "root": "L1_TwoRobotStirSpoon-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotStirSpoon-v1",
+    "root": "L2_TwoRobotStirSpoon-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotStirSpoon-v1",
+    "root": "L3_TwoRobotStirSpoon-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlacePlateRack-v1",
+    "root": "L0_TwoRobotPlacePlateRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlacePlateRack-v1",
+    "root": "L1_TwoRobotPlacePlateRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlacePlateRack-v1",
+    "root": "L2_TwoRobotPlacePlateRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlacePlateRack-v1",
+    "root": "L3_TwoRobotPlacePlateRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlaceFileFolder-v1",
+    "root": "L0_TwoRobotPlaceFileFolder-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlaceFileFolder-v1",
+    "root": "L1_TwoRobotPlaceFileFolder-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlaceFileFolder-v1",
+    "root": "L2_TwoRobotPlaceFileFolder-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlaceFileFolder-v1",
+    "root": "L3_TwoRobotPlaceFileFolder-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotFoldTowel-v1",
+    "root": "L0_TwoRobotFoldTowel-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotFoldTowel-v1",
+    "root": "L1_TwoRobotFoldTowel-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotFoldTowel-v1",
+    "root": "L2_TwoRobotFoldTowel-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotFoldTowel-v1",
+    "root": "L3_TwoRobotFoldTowel-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlaceMugRack-v1",
+    "root": "L0_TwoRobotPlaceMugRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlaceMugRack-v1",
+    "root": "L1_TwoRobotPlaceMugRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlaceMugRack-v1",
+    "root": "L2_TwoRobotPlaceMugRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlaceMugRack-v1",
+    "root": "L3_TwoRobotPlaceMugRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlaceClothBasket-v1",
+    "root": "L0_TwoRobotPlaceClothBasket-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlaceClothBasket-v1",
+    "root": "L1_TwoRobotPlaceClothBasket-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlaceClothBasket-v1",
+    "root": "L2_TwoRobotPlaceClothBasket-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlaceClothBasket-v1",
+    "root": "L3_TwoRobotPlaceClothBasket-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlaceChipsRack-v1",
+    "root": "L0_TwoRobotPlaceChipsRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlaceChipsRack-v1",
+    "root": "L1_TwoRobotPlaceChipsRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlaceChipsRack-v1",
+    "root": "L2_TwoRobotPlaceChipsRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlaceChipsRack-v1",
+    "root": "L3_TwoRobotPlaceChipsRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPickWash-v1",
+    "root": "L0_TwoRobotPickWash-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPickWash-v1",
+    "root": "L1_TwoRobotPickWash-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPickWash-v1",
+    "root": "L2_TwoRobotPickWash-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPickWash-v1",
+    "root": "L3_TwoRobotPickWash-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlaceFruitBox-v1",
+    "root": "L0_TwoRobotPlaceFruitBox-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlaceFruitBox-v1",
+    "root": "L1_TwoRobotPlaceFruitBox-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlaceFruitBox-v1",
+    "root": "L2_TwoRobotPlaceFruitBox-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlaceFruitBox-v1",
+    "root": "L3_TwoRobotPlaceFruitBox-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotCutFruit-v1",
+    "root": "L0_TwoRobotCutFruit-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotCutFruit-v1",
+    "root": "L1_TwoRobotCutFruit-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotCutFruit-v1",
+    "root": "L2_TwoRobotCutFruit-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotCutFruit-v1",
+    "root": "L3_TwoRobotCutFruit-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlaceBrushRest-v1",
+    "root": "L0_TwoRobotPlaceBrushRest-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlaceBrushRest-v1",
+    "root": "L1_TwoRobotPlaceBrushRest-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlaceBrushRest-v1",
+    "root": "L2_TwoRobotPlaceBrushRest-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlaceBrushRest-v1",
+    "root": "L3_TwoRobotPlaceBrushRest-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotCleanCup-v1",
+    "root": "L0_TwoRobotCleanCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotCleanCup-v1",
+    "root": "L1_TwoRobotCleanCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotCleanCup-v1",
+    "root": "L2_TwoRobotCleanCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotCleanCup-v1",
+    "root": "L3_TwoRobotCleanCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotGrindFood-v1",
+    "root": "L0_TwoRobotGrindFood-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotGrindFood-v1",
+    "root": "L1_TwoRobotGrindFood-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotGrindFood-v1",
+    "root": "L2_TwoRobotGrindFood-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotGrindFood-v1",
+    "root": "L3_TwoRobotGrindFood-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotLiftLidFromSkillet-v1",
+    "root": "L0_TwoRobotLiftLidFromSkillet-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotLiftLidFromSkillet-v1",
+    "root": "L1_TwoRobotLiftLidFromSkillet-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotLiftLidFromSkillet-v1",
+    "root": "L2_TwoRobotLiftLidFromSkillet-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotLiftLidFromSkillet-v1",
+    "root": "L3_TwoRobotLiftLidFromSkillet-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlaceMagazineFolder-v1",
+    "root": "L0_TwoRobotPlaceMagazineFolder-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlaceMagazineFolder-v1",
+    "root": "L1_TwoRobotPlaceMagazineFolder-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlaceMagazineFolder-v1",
+    "root": "L2_TwoRobotPlaceMagazineFolder-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlaceMagazineFolder-v1",
+    "root": "L3_TwoRobotPlaceMagazineFolder-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlaceCommodityRack-v1",
+    "root": "L0_TwoRobotPlaceCommodityRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlaceCommodityRack-v1",
+    "root": "L1_TwoRobotPlaceCommodityRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlaceCommodityRack-v1",
+    "root": "L2_TwoRobotPlaceCommodityRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlaceCommodityRack-v1",
+    "root": "L3_TwoRobotPlaceCommodityRack-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotCleanDesk-v1",
+    "root": "L0_TwoRobotCleanDesk-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotCleanDesk-v1",
+    "root": "L1_TwoRobotCleanDesk-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotCleanDesk-v1",
+    "root": "L2_TwoRobotCleanDesk-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotCleanDesk-v1",
+    "root": "L3_TwoRobotCleanDesk-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotTransFood-v1",
+    "root": "L0_TwoRobotTransFood-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotTransFood-v1",
+    "root": "L1_TwoRobotTransFood-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotTransFood-v1",
+    "root": "L2_TwoRobotTransFood-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotTransFood-v1",
+    "root": "L3_TwoRobotTransFood-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlaceScrewdriver-v1",
+    "root": "L0_TwoRobotPlaceScrewdriver-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlaceScrewdriver-v1",
+    "root": "L1_TwoRobotPlaceScrewdriver-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlaceScrewdriver-v1",
+    "root": "L2_TwoRobotPlaceScrewdriver-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlaceScrewdriver-v1",
+    "root": "L3_TwoRobotPlaceScrewdriver-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPourKetchupFries-v1",
+    "root": "L0_TwoRobotPourKetchupFries-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPourKetchupFries-v1",
+    "root": "L1_TwoRobotPourKetchupFries-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPourKetchupFries-v1",
+    "root": "L2_TwoRobotPourKetchupFries-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPourKetchupFries-v1",
+    "root": "L3_TwoRobotPourKetchupFries-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotWipePot-v1",
+    "root": "L0_TwoRobotWipePot-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotWipePot-v1",
+    "root": "L1_TwoRobotWipePot-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotWipePot-v1",
+    "root": "L2_TwoRobotWipePot-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotWipePot-v1",
+    "root": "L3_TwoRobotWipePot-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPickTennisBallGolfBall-v1",
+    "root": "L0_TwoRobotPickTennisBallGolfBall-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPickTennisBallGolfBall-v1",
+    "root": "L1_TwoRobotPickTennisBallGolfBall-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPickTennisBallGolfBall-v1",
+    "root": "L2_TwoRobotPickTennisBallGolfBall-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPickTennisBallGolfBall-v1",
+    "root": "L3_TwoRobotPickTennisBallGolfBall-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPickPillToRegions-v1",
+    "root": "L0_TwoRobotPickPillToRegions-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPickPillToRegions-v1",
+    "root": "L1_TwoRobotPickPillToRegions-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPickPillToRegions-v1",
+    "root": "L2_TwoRobotPickPillToRegions-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPickPillToRegions-v1",
+    "root": "L3_TwoRobotPickPillToRegions-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPourLiquidCup-v1",
+    "root": "L0_TwoRobotPourLiquidCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPourLiquidCup-v1",
+    "root": "L1_TwoRobotPourLiquidCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPourLiquidCup-v1",
+    "root": "L2_TwoRobotPourLiquidCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPourLiquidCup-v1",
+    "root": "L3_TwoRobotPourLiquidCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlaceCupPlate-v1",
+    "root": "L0_TwoRobotPlaceCupPlate-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlaceCupPlate-v1",
+    "root": "L1_TwoRobotPlaceCupPlate-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlaceCupPlate-v1",
+    "root": "L2_TwoRobotPlaceCupPlate-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlaceCupPlate-v1",
+    "root": "L3_TwoRobotPlaceCupPlate-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPutCubeOnScale-v1",
+    "root": "L0_TwoRobotPutCubeOnScale-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPutCubeOnScale-v1",
+    "root": "L1_TwoRobotPutCubeOnScale-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPutCubeOnScale-v1",
+    "root": "L2_TwoRobotPutCubeOnScale-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPutCubeOnScale-v1",
+    "root": "L3_TwoRobotPutCubeOnScale-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPourCup-v1",
+    "root": "L0_TwoRobotPourCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPourCup-v1",
+    "root": "L1_TwoRobotPourCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPourCup-v1",
+    "root": "L2_TwoRobotPourCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPourCup-v1",
+    "root": "L3_TwoRobotPourCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPutBox-v1",
+    "root": "L0_TwoRobotPutBox-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPutBox-v1",
+    "root": "L1_TwoRobotPutBox-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPutBox-v1",
+    "root": "L2_TwoRobotPutBox-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPutBox-v1",
+    "root": "L3_TwoRobotPutBox-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotKnifeBowlFork-v1",
+    "root": "L0_TwoRobotKnifeBowlFork-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotKnifeBowlFork-v1",
+    "root": "L1_TwoRobotKnifeBowlFork-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotKnifeBowlFork-v1",
+    "root": "L2_TwoRobotKnifeBowlFork-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotKnifeBowlFork-v1",
+    "root": "L3_TwoRobotKnifeBowlFork-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPressJuicer-v1",
+    "root": "L0_TwoRobotPressJuicer-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPressJuicer-v1",
+    "root": "L1_TwoRobotPressJuicer-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPressJuicer-v1",
+    "root": "L2_TwoRobotPressJuicer-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPressJuicer-v1",
+    "root": "L3_TwoRobotPressJuicer-v1",
+    "train": "0:50",
+    "test": ""
+  }
+]

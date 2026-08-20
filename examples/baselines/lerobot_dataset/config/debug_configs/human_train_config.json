@@ -1,0 +1,20 @@
+[
+  {
+    "repo_id": "human_H41",
+    "root": "human_H41",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H7",
+    "root": "human_H7",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H24",
+    "root": "human_H24",
+    "train": "0:50",
+    "test": ""
+  }
+]

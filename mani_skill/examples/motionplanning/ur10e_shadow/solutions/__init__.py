@@ -1,0 +1,1 @@
+from .shadow_pick_cube import solve as solveTest

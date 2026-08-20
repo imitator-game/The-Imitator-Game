@@ -1,0 +1,122 @@
+[
+  {
+    "repo_id": "L0_TwoRobotStirSpoon-v1",
+    "root": "L0_TwoRobotStirSpoon-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotStirSpoon-v1",
+    "root": "L1_TwoRobotStirSpoon-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotStirSpoon-v1",
+    "root": "L2_TwoRobotStirSpoon-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotStirSpoon-v1",
+    "root": "L3_TwoRobotStirSpoon-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlacePlateRack-v1",
+    "root": "L0_TwoRobotPlacePlateRack-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlacePlateRack-v1",
+    "root": "L1_TwoRobotPlacePlateRack-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlacePlateRack-v1",
+    "root": "L2_TwoRobotPlacePlateRack-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlacePlateRack-v1",
+    "root": "L3_TwoRobotPlacePlateRack-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlaceFileFolder-v1",
+    "root": "L0_TwoRobotPlaceFileFolder-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlaceFileFolder-v1",
+    "root": "L1_TwoRobotPlaceFileFolder-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlaceFileFolder-v1",
+    "root": "L2_TwoRobotPlaceFileFolder-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlaceFileFolder-v1",
+    "root": "L3_TwoRobotPlaceFileFolder-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotFoldTowel-v1",
+    "root": "L0_TwoRobotFoldTowel-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotFoldTowel-v1",
+    "root": "L1_TwoRobotFoldTowel-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotFoldTowel-v1",
+    "root": "L2_TwoRobotFoldTowel-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotFoldTowel-v1",
+    "root": "L3_TwoRobotFoldTowel-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L0_TwoRobotPlaceMugRack-v1",
+    "root": "L0_TwoRobotPlaceMugRack-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPlaceMugRack-v1",
+    "root": "L1_TwoRobotPlaceMugRack-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPlaceMugRack-v1",
+    "root": "L2_TwoRobotPlaceMugRack-v1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPlaceMugRack-v1",
+    "root": "L3_TwoRobotPlaceMugRack-v1",
+    "train": "0:10",
+    "test": ""
+  }
+]

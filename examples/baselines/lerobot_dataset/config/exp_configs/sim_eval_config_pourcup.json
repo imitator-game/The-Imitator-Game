@@ -1,0 +1,27 @@
+[
+    {
+      "repo_id": "L0_TwoRobotStirSpoon-v1",
+      "root": "L0_TwoRobotStirSpoon-v1",
+      "train": "0:50",
+      "test": ""
+    },
+    {
+      "repo_id": "L1_TwoRobotStirSpoon-v1",
+      "root": "L1_TwoRobotStirSpoon-v1",
+      "train": "0:50",
+      "test": ""
+    },
+    {
+      "repo_id": "L2_TwoRobotStirSpoon-v1",
+      "root": "L2_TwoRobotStirSpoon-v1",
+      "train": "0:50",
+      "test": ""
+    },
+    {
+      "repo_id": "L3_TwoRobotStirSpoon-v1",
+      "root": "L3_TwoRobotStirSpoon-v1",
+      "train": "0:50",
+      "test": ""
+    }
+  ]
+  

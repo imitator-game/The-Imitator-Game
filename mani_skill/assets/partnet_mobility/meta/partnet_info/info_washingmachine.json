@@ -1,0 +1,87 @@
+{
+    "100282": {
+        "num_target_links": 11,
+        "partnet_mobility_id": 100282,
+        "scale": 0.68
+    },
+    "100283": {
+        "num_target_links": 13,
+        "partnet_mobility_id": 100283,
+        "scale": 0.74
+    },
+    "103351": {
+        "num_target_links": 13,
+        "partnet_mobility_id": 103351,
+        "scale": 0.673
+    },
+    "103361": {
+        "num_target_links": 11,
+        "partnet_mobility_id": 103361,
+        "scale": 0.718
+    },
+    "103369": {
+        "num_target_links": 15,
+        "partnet_mobility_id": 103369,
+        "scale": 0.653
+    },
+    "103425": {
+        "num_target_links": 11,
+        "partnet_mobility_id": 103425,
+        "scale": 0.694
+    },
+    "103452": {
+        "num_target_links": 15,
+        "partnet_mobility_id": 103452,
+        "scale": 0.776
+    },
+    "103480": {
+        "num_target_links": 10,
+        "partnet_mobility_id": 103480,
+        "scale": 0.706
+    },
+    "103490": {
+        "num_target_links": 7,
+        "partnet_mobility_id": 103490,
+        "scale": 0.596
+    },
+    "103508": {
+        "num_target_links": 6,
+        "partnet_mobility_id": 103508,
+        "scale": 0.569
+    },
+    "103518": {
+        "num_target_links": 9,
+        "partnet_mobility_id": 103518,
+        "scale": 0.696
+    },
+    "103521": {
+        "num_target_links": 6,
+        "partnet_mobility_id": 103521,
+        "scale": 0.713
+    },
+    "103528": {
+        "num_target_links": 8,
+        "partnet_mobility_id": 103528,
+        "scale": 0.667
+    },
+    "103775": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 103775,
+        "scale": 0.726
+    },
+    "103776": {
+        "num_target_links": 6,
+        "partnet_mobility_id": 103776,
+        "scale": 0.671
+    },
+    "103778": {
+        "num_target_links": 10,
+        "partnet_mobility_id": 103778,
+        "scale": 0.726
+    },
+    "103781": {
+        "num_target_links": 7,
+        "partnet_mobility_id": 103781,
+        "scale": 0.664
+    }
+}

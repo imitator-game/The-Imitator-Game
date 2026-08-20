@@ -1,0 +1,782 @@
+{
+  "task_mappings": [
+    {
+      "human_task_id": "human_H1",
+      "robot_task_id": [
+        "robot_H1_L0",
+        "robot_H1_L1",
+        "robot_H1_L2",
+        "robot_H1_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotStirSpoon-v1",
+        "L1_TwoRobotStirSpoon-v1",
+        "L2_TwoRobotStirSpoon-v1",
+        "L3_TwoRobotStirSpoon-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H2",
+      "robot_task_id": [
+        "robot_H2_L0",
+        "robot_H2_L1",
+        "robot_H2_L2",
+        "robot_H2_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceBookBookcase-v1",
+        "L1_TwoRobotPlaceBookBookcase-v1",
+        "L2_TwoRobotPlaceBookBookcase-v1",
+        "L3_TwoRobotPlaceBookBookcase-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H3",
+      "robot_task_id": [
+        "robot_H3_L0",
+        "robot_H3_L1",
+        "robot_H3_L2",
+        "robot_H3_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceClothBasket-v1",
+        "L1_TwoRobotPlaceClothBasket-v1",
+        "L2_TwoRobotPlaceClothBasket-v1",
+        "L3_TwoRobotPlaceClothBasket-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H4",
+      "robot_task_id": [
+        "robot_H4_L0",
+        "robot_H4_L1",
+        "robot_H4_L2",
+        "robot_H4_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPickRemoteControl-v1",
+        "L1_TwoRobotPickRemoteControl-v1",
+        "L2_TwoRobotPickRemoteControl-v1",
+        "L3_TwoRobotPickRemoteControl-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H5",
+      "robot_task_id": [
+        "robot_H5_L0",
+        "robot_H5_L1",
+        "robot_H5_L2",
+        "robot_H5_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceMagazineFolder-v1",
+        "L1_TwoRobotPlaceMagazineFolder-v1",
+        "L2_TwoRobotPlaceMagazineFolder-v1",
+        "L3_TwoRobotPlaceMagazineFolder-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H6",
+      "robot_task_id": [
+        "robot_H6_L0",
+        "robot_H6_L1",
+        "robot_H6_L2",
+        "robot_H6_L3",
+        "robot_H6_L3_1"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPickWash-v1",
+        "L1_TwoRobotPickWash-v1",
+        "L2_TwoRobotPickWash-v1",
+        "L3_TwoRobotPickWash-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H7",
+      "robot_task_id": [
+        "robot_H7_L0",
+        "robot_H7_L1",
+        "robot_H7_L2",
+        "robot_H7_L3",
+        "robot_H7_L3_1"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPickAppleBasket-v1",
+        "L1_TwoRobotPickAppleBasket-v1",
+        "L2_TwoRobotPickAppleBasket-v1",
+        "L3_TwoRobotPickAppleBasket-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H8",
+      "robot_task_id": [
+        "robot_H8_L0",
+        "robot_H8_L1",
+        "robot_H8_L2",
+        "robot_H8_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPickAppleBananaToBaskets-v1",
+        "L1_TwoRobotPickAppleBananaToBaskets-v1",
+        "L2_TwoRobotPickAppleBananaToBaskets-v1",
+        "L3_TwoRobotPickAppleBananaToBaskets-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H9",
+      "robot_task_id": [
+        "robot_H9_L0",
+        "robot_H9_L1",
+        "robot_H9_L2",
+        "robot_H9_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPickAppleToScale-v1",
+        "L1_TwoRobotPickAppleToScale-v1",
+        "L2_TwoRobotPickAppleToScale-v1",
+        "L3_TwoRobotPickAppleToScale-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H10",
+      "robot_task_id": [
+        "robot_H10_L0",
+        "robot_H10_L1",
+        "robot_H10_L2",
+        "robot_H10_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceChipsRack-v1",
+        "L1_TwoRobotPlaceChipsRack-v1",
+        "L2_TwoRobotPlaceChipsRack-v1",
+        "L3_TwoRobotPlaceChipsRack-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H11",
+      "robot_task_id": [
+        "robot_H11_L0",
+        "robot_H11_L1",
+        "robot_H11_L2",
+        "robot_H11_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceCommodityRack-v1",
+        "L1_TwoRobotPlaceCommodityRack-v1",
+        "L2_TwoRobotPlaceCommodityRack-v1",
+        "L3_TwoRobotPlaceCommodityRack-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H12",
+      "robot_task_id": [
+        "robot_H12_L0",
+        "robot_H12_L1",
+        "robot_H12_L2",
+        "robot_H12_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceFruitBox-v1",
+        "L1_TwoRobotPlaceFruitBox-v1",
+        "L2_TwoRobotPlaceFruitBox-v1",
+        "L3_TwoRobotPlaceFruitBox-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H13",
+      "robot_task_id": [
+        "robot_H13_L0",
+        "robot_H13_L1",
+        "robot_H13_L2",
+        "robot_H13_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotScanMilkBox-v1",
+        "L1_TwoRobotScanMilkBox-v1",
+        "L2_TwoRobotScanMilkBox-v1",
+        "L3_TwoRobotScanMilkBox-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H14",
+      "robot_task_id": [
+        "robot_H14_L0",
+        "robot_H14_L1",
+        "robot_H14_L2",
+        "robot_H14_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlacePlateRack-v1",
+        "L1_TwoRobotPlacePlateRack-v1",
+        "L2_TwoRobotPlacePlateRack-v1",
+        "L3_TwoRobotPlacePlateRack-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H15",
+      "robot_task_id": [
+        "robot_H15_L0",
+        "robot_H15_L1",
+        "robot_H15_L2",
+        "robot_H15_L3",
+        "robot_H15_L3_1"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotCutFruit-v1",
+        "L1_TwoRobotCutFruit-v1",
+        "L2_TwoRobotCutFruit-v1",
+        "L3_TwoRobotCutFruit-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H16",
+      "robot_task_id": [
+        "robot_H16_L0",
+        "robot_H16_L1",
+        "robot_H16_L2",
+        "robot_H16_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPickFruitsToPlate-v1",
+        "L1_TwoRobotPickFruitsToPlate-v1",
+        "L2_TwoRobotPickFruitsToPlate-v1",
+        "L3_TwoRobotPickFruitsToPlate-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H17",
+      "robot_task_id": [
+        "robot_H17_L0",
+        "robot_H17_L1",
+        "robot_H17_L2",
+        "robot_H17_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPourKetchupFries-v1",
+        "L1_TwoRobotPourKetchupFries-v1",
+        "L2_TwoRobotPourKetchupFries-v1",
+        "L3_TwoRobotPourKetchupFries-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H18",
+      "robot_task_id": [
+        "robot_H18_L0",
+        "robot_H18_L1",
+        "robot_H18_L2",
+        "robot_H18_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotWipePot-v1",
+        "L1_TwoRobotWipePot-v1",
+        "L2_TwoRobotWipePot-v1",
+        "L3_TwoRobotWipePot-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H19",
+      "robot_task_id": [
+        "robot_H19_L0",
+        "robot_H19_L1",
+        "robot_H19_L2",
+        "robot_H19_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotCleanDesk-v1",
+        "L1_TwoRobotCleanDesk-v1",
+        "L2_TwoRobotCleanDesk-v1",
+        "L3_TwoRobotCleanDesk-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H20",
+      "robot_task_id": [
+        "robot_H20_L0",
+        "robot_H20_L1",
+        "robot_H20_L2",
+        "robot_H20_L3",
+        "robot_H20_L3_1"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPourKettle-v1",
+        "L1_TwoRobotPourKettle-v1",
+        "L2_TwoRobotPourKettle-v1",
+        "L3_TwoRobotPourKettle-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H21",
+      "robot_task_id": [
+        "robot_H21_L0",
+        "robot_H21_L1",
+        "robot_H21_L2",
+        "robot_H21_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPickFood-v1",
+        "L1_TwoRobotPickFood-v1",
+        "L2_TwoRobotPickFood-v1",
+        "L3_TwoRobotPickFood-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H22",
+      "robot_task_id": [
+        "robot_H22_L0",
+        "robot_H22_L1",
+        "robot_H22_L2",
+        "robot_H22_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotTransFood-v1",
+        "L1_TwoRobotTransFood-v1",
+        "L2_TwoRobotTransFood-v1",
+        "L3_TwoRobotTransFood-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H23",
+      "robot_task_id": [
+        "robot_H23_L0",
+        "robot_H23_L1",
+        "robot_H23_L2",
+        "robot_H23_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceFoodScale-v1",
+        "L1_TwoRobotPlaceFoodScale-v1",
+        "L2_TwoRobotPlaceFoodScale-v1",
+        "L3_TwoRobotPlaceFoodScale-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H24",
+      "robot_task_id": [
+        "robot_H24_L0",
+        "robot_H24_L1",
+        "robot_H24_L2",
+        "robot_H24_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPressStapler-v1",
+        "L1_TwoRobotPressStapler-v1",
+        "L2_TwoRobotPressStapler-v1",
+        "L3_TwoRobotPressStapler-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H25",
+      "robot_task_id": [
+        "robot_H25_L0",
+        "robot_H25_L1",
+        "robot_H25_L2",
+        "robot_H25_L3"
+      ],
+      "sim_task_id": []
+    },
+    {
+      "human_task_id": "human_H26",
+      "robot_task_id": [
+        "robot_H26_L0",
+        "robot_H26_L1",
+        "robot_H26_L2",
+        "robot_H26_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPickTennisBallGolfBall-v1",
+        "L1_TwoRobotPickTennisBallGolfBall-v1",
+        "L2_TwoRobotPickTennisBallGolfBall-v1",
+        "L3_TwoRobotPickTennisBallGolfBall-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H27",
+      "robot_task_id": [
+        "robot_H27_L0",
+        "robot_H27_L1",
+        "robot_H27_L2",
+        "robot_H27_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotScanPillBottle-v1",
+        "L1_TwoRobotScanPillBottle-v1",
+        "L2_TwoRobotScanPillBottle-v1",
+        "L3_TwoRobotScanPillBottle-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H28",
+      "robot_task_id": [
+        "robot_H28_L0",
+        "robot_H28_L1",
+        "robot_H28_L2",
+        "robot_H28_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceShoeBox-v1",
+        "L1_TwoRobotPlaceShoeBox-v1",
+        "L2_TwoRobotPlaceShoeBox-v1",
+        "L3_TwoRobotPlaceShoeBox-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H29",
+      "robot_task_id": [
+        "robot_H29_L0",
+        "robot_H29_L1",
+        "robot_H29_L2"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotOpenBox-v1",
+        "L1_TwoRobotOpenBox-v1",
+        "L2_TwoRobotOpenBox-v1",
+        "L3_TwoRobotOpenBox-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H30",
+      "robot_task_id": [
+        "robot_H30_L0",
+        "robot_H30_L1",
+        "robot_H30_L2",
+        "robot_H30_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotFoldBox-v1",
+        "L1_TwoRobotFoldBox-v1",
+        "L2_TwoRobotFoldBox-v1",
+        "L3_TwoRobotFoldBox-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H31",
+      "robot_task_id": [
+        "robot_H31_L0",
+        "robot_H31_L1",
+        "robot_H31_L2",
+        "robot_H31_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPickPillToRegions-v1",
+        "L1_TwoRobotPickPillToRegions-v1",
+        "L2_TwoRobotPickPillToRegions-v1",
+        "L3_TwoRobotPickPillToRegions-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H32",
+      "robot_task_id": [
+        "robot_H32_L0",
+        "robot_H32_L1",
+        "robot_H32_L2",
+        "robot_H32_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceFileFolder-v1",
+        "L1_TwoRobotPlaceFileFolder-v1",
+        "L2_TwoRobotPlaceFileFolder-v1",
+        "L3_TwoRobotPlaceFileFolder-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H33",
+      "robot_task_id": [
+        "robot_H33_L0",
+        "robot_H33_L1",
+        "robot_H33_L2"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPourLiquidCup-v1",
+        "L1_TwoRobotPourLiquidCup-v1",
+        "L2_TwoRobotPourLiquidCup-v1",
+        "L3_TwoRobotPourLiquidCup-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H34",
+      "robot_task_id": [
+        "robot_H34_L0",
+        "robot_H34_L1",
+        "robot_H34_L2",
+        "robot_H34_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlacePillBox-v1",
+        "L1_TwoRobotPlacePillBox-v1",
+        "L2_TwoRobotPlacePillBox-v1",
+        "L3_TwoRobotPlacePillBox-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H35",
+      "robot_task_id": [
+        "robot_H35_L0",
+        "robot_H35_L1",
+        "robot_H35_L2",
+        "robot_H35_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceBrushRest-v1",
+        "L1_TwoRobotPlaceBrushRest-v1",
+        "L2_TwoRobotPlaceBrushRest-v1",
+        "L3_TwoRobotPlaceBrushRest-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H36",
+      "robot_task_id": [
+        "robot_H36_L0",
+        "robot_H36_L1",
+        "robot_H36_L2"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceCupPlate-v1",
+        "L1_TwoRobotPlaceCupPlate-v1",
+        "L2_TwoRobotPlaceCupPlate-v1",
+        "L3_TwoRobotPlaceCupPlate-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H37",
+      "robot_task_id": [
+        "robot_H37_L0",
+        "robot_H37_L1",
+        "robot_H37_L2",
+        "robot_H37_L3"
+      ],
+      "sim_task_id": []
+    },
+    {
+      "human_task_id": "human_H38",
+      "robot_task_id": [
+        "robot_H38_L0",
+        "robot_H38_L1",
+        "robot_H38_L2"
+      ],
+      "sim_task_id": []
+    },
+    {
+      "human_task_id": "human_H39",
+      "robot_task_id": [
+        "robot_H39_L0",
+        "robot_H39_L1",
+        "robot_H39_L2"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPourLiquidMug-v1",
+        "L1_TwoRobotPourLiquidMug-v1",
+        "L2_TwoRobotPourLiquidMug-v1",
+        "L3_TwoRobotPourLiquidMug-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H40",
+      "robot_task_id": [
+        "robot_H40_L0",
+        "robot_H40_L1",
+        "robot_H40_L2",
+        "robot_H40_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPutCubeOnScale-v1",
+        "L1_TwoRobotPutCubeOnScale-v1",
+        "L2_TwoRobotPutCubeOnScale-v1",
+        "L3_TwoRobotPutCubeOnScale-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H41",
+      "robot_task_id": [
+        "robot_H41_L0",
+        "robot_H41_L1",
+        "robot_H41_L2",
+        "robot_H41_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPourCup-v1",
+        "L1_TwoRobotPourCup-v1",
+        "L2_TwoRobotPourCup-v1",
+        "L3_TwoRobotPourCup-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H42",
+      "robot_task_id": [
+        "robot_H42_L0",
+        "robot_H42_L1",
+        "robot_H42_L2",
+        "robot_H42_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotCleanCup-v1",
+        "L1_TwoRobotCleanCup-v1",
+        "L2_TwoRobotCleanCup-v1",
+        "L3_TwoRobotCleanCup-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H43",
+      "robot_task_id": [
+        "robot_H43_L0",
+        "robot_H43_L1",
+        "robot_H43_L2"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotOpenLiquidCap-v1",
+        "L1_TwoRobotOpenLiquidCap-v1",
+        "L2_TwoRobotOpenLiquidCap-v1",
+        "L3_TwoRobotOpenLiquidCap-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H44",
+      "robot_task_id": [
+        "robot_H44_L0",
+        "robot_H44_L1",
+        "robot_H44_L2",
+        "robot_H44_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotGrindFood-v1",
+        "L1_TwoRobotGrindFood-v1",
+        "L2_TwoRobotGrindFood-v1",
+        "L3_TwoRobotGrindFood-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H45",
+      "robot_task_id": [
+        "robot_H45_L0",
+        "robot_H45_L1",
+        "robot_H45_L2",
+        "robot_H45_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPourLiquidFilter-v1",
+        "L1_TwoRobotPourLiquidFilter-v1",
+        "L2_TwoRobotPourLiquidFilter-v1",
+        "L3_TwoRobotPourLiquidFilter-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H46",
+      "robot_task_id": [
+        "robot_H46_L0",
+        "robot_H46_L1",
+        "robot_H46_L2",
+        "robot_H46_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPutBox-v1",
+        "L1_TwoRobotPutBox-v1",
+        "L2_TwoRobotPutBox-v1",
+        "L3_TwoRobotPutBox-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H47",
+      "robot_task_id": [
+        "robot_H47_L0",
+        "robot_H47_L1",
+        "robot_H47_L2",
+        "robot_H47_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotKnifeBowlFork-v1",
+        "L1_TwoRobotKnifeBowlFork-v1",
+        "L2_TwoRobotKnifeBowlFork-v1",
+        "L3_TwoRobotKnifeBowlFork-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H48",
+      "robot_task_id": [
+        "robot_H48_L0",
+        "robot_H48_L1",
+        "robot_H48_L2",
+        "robot_H48_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotLiftLidFromSkillet-v1",
+        "L1_TwoRobotLiftLidFromSkillet-v1",
+        "L2_TwoRobotLiftLidFromSkillet-v1",
+        "L3_TwoRobotLiftLidFromSkillet-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H49",
+      "robot_task_id": [
+        "robot_H49_L0",
+        "robot_H49_L1",
+        "robot_H49_L2",
+        "robot_H49_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotFoldTowel-v1",
+        "L1_TwoRobotFoldTowel-v1",
+        "L2_TwoRobotFoldTowel-v1",
+        "L3_TwoRobotFoldTowel-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H50",
+      "robot_task_id": [
+        "robot_H50_L0",
+        "robot_H50_L1",
+        "robot_H50_L2",
+        "robot_H50_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPressJuicer-v1",
+        "L1_TwoRobotPressJuicer-v1",
+        "L2_TwoRobotPressJuicer-v1",
+        "L3_TwoRobotPressJuicer-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H56",
+      "robot_task_id": [
+        "robot_H56_L0",
+        "robot_H56_L1",
+        "robot_H56_L2",
+        "robot_H56_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceBurgerTray-v1",
+        "L1_TwoRobotPlaceBurgerTray-v1",
+        "L2_TwoRobotPlaceBurgerTray-v1",
+        "L3_TwoRobotPlaceBurgerTray-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H57",
+      "robot_task_id": [
+        "robot_H57_L0",
+        "robot_H57_L1",
+        "robot_H57_L2",
+        "robot_H57_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceMugRack-v1",
+        "L1_TwoRobotPlaceMugRack-v1",
+        "L2_TwoRobotPlaceMugRack-v1",
+        "L3_TwoRobotPlaceMugRack-v1"
+      ]
+    },
+    {
+      "human_task_id": "human_H58",
+      "robot_task_id": [
+        "robot_H58_L0",
+        "robot_H58_L1",
+        "robot_H58_L2",
+        "robot_H58_L3"
+      ],
+      "sim_task_id": [
+        "L0_TwoRobotPlaceScrewdriver-v1",
+        "L1_TwoRobotPlaceScrewdriver-v1",
+        "L2_TwoRobotPlaceScrewdriver-v1",
+        "L3_TwoRobotPlaceScrewdriver-v1"
+      ]
+    }
+  ]
+}

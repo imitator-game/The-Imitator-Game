@@ -1,0 +1,103 @@
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.so
+build/
+dist/
+*.egg-info/
+
+# ipython/jupyter notebooks
+# *.ipynb
+**/.ipynb_checkpoints/
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# MacOS
+*.DS_Store
+
+# Pycharm editor settings
+.idea
+
+# VSCode editor settings
+.vscode
+
+# project-relevant
+imgui.ini
+
+# directories that should be ignored in general
+# but can be excluded explicitly
+/tmp
+/data
+/demos
+/videos
+/examples/benchmarking/videos
+
+# benchmarking
+/benchmark_results
+/mani_skill/examples/benchmarking/benchmark_results
+/mani_skill/examples/benchmarking/videos
+# testing
+.coverage*
+htmlcov/
+/runs/
+/exps/
+/wandb/
+/figures/test/
+*h5
+/human_videos/
+*/nohup.out
+/nohup.out
+
+/precomputed_embeddings/
+/checkpoints/
+
+# anygrasp_sdk and MinkowskiEngine related
+/anygrasp_sdk/
+/MinkowskiEngine/
+/graspnet-baseline/
+/graspnetAPI/
+
+# logs
+/.TimeRecord
+/download_report.txt
+/download_summary.json
+/mani_skill/examples/motionplanning/panda/.TimeRecord
+/mani_skill/examples/motionplanning/realman/.TimeRecord
+/outputs/
+/scripts/.TimeRecord
+/uv.lock
+test_lerobot_outputs
+
+# Huggingface datasets cache
+.hf_datasets_cache/
+/lerobot_datasets
+examples/baselines/vqbet/vqvae_ckpt/*
+eval_results/*
+.hf_home/*
+te_cache/*
+
+logs/*
+va_eval_logs/*
+va_eval_sweep_logs/*
+va_results/*
+eval_trash/*
+single_task_logs/*
+te_cache_eval/*
+eval_results_bkp/*
+runs_bkp/*
+te_cache_real/*
+eval_results_vla/*
+eval_results_skill/*
+eval_results_va/*
+runs_vla/*
+runs_va/*
+runs_xskill/*
+pi_ckpt/*
+feats/*
+eval_recordings/*
+.eggs/*

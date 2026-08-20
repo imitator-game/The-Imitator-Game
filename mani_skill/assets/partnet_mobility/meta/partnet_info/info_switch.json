@@ -1,0 +1,352 @@
+{
+    "100366": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100366,
+        "scale": 0.592
+    },
+    "100367": {
+        "num_target_links": 6,
+        "partnet_mobility_id": 100367,
+        "scale": 0.684
+    },
+    "100368": {
+        "num_target_links": 5,
+        "partnet_mobility_id": 100368,
+        "scale": 0.588
+    },
+    "100845": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100845,
+        "scale": 0.578
+    },
+    "100846": {
+        "num_target_links": 5,
+        "partnet_mobility_id": 100846,
+        "scale": 0.547
+    },
+    "100847": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100847,
+        "scale": 0.551
+    },
+    "100848": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100848,
+        "scale": 0.574
+    },
+    "100849": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100849,
+        "scale": 0.528
+    },
+    "100850": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100850,
+        "scale": 0.671
+    },
+    "100866": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100866,
+        "scale": 0.672
+    },
+    "100870": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100870,
+        "scale": 0.686
+    },
+    "100871": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100871,
+        "scale": 0.561
+    },
+    "100880": {
+        "num_target_links": 2,
+        "partnet_mobility_id": 100880,
+        "scale": 0.591
+    },
+    "100882": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100882,
+        "scale": 0.57
+    },
+    "100883": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100883,
+        "scale": 0.669
+    },
+    "100885": {
+        "num_target_links": 6,
+        "partnet_mobility_id": 100885,
+        "scale": 0.592
+    },
+    "100888": {
+        "num_target_links": 5,
+        "partnet_mobility_id": 100888,
+        "scale": 0.59
+    },
+    "100889": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100889,
+        "scale": 0.542
+    },
+    "100900": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100900,
+        "scale": 0.581
+    },
+    "100901": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100901,
+        "scale": 0.629
+    },
+    "100902": {
+        "num_target_links": 5,
+        "partnet_mobility_id": 100902,
+        "scale": 0.592
+    },
+    "100904": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100904,
+        "scale": 0.636
+    },
+    "100905": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100905,
+        "scale": 0.633
+    },
+    "100906": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100906,
+        "scale": 0.72
+    },
+    "100907": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100907,
+        "scale": 0.678
+    },
+    "100908": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100908,
+        "scale": 0.651
+    },
+    "100910": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100910,
+        "scale": 0.695
+    },
+    "100911": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100911,
+        "scale": 0.746
+    },
+    "100914": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100914,
+        "scale": 0.685
+    },
+    "100915": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100915,
+        "scale": 0.584
+    },
+    "100919": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100919,
+        "scale": 0.583
+    },
+    "100920": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100920,
+        "scale": 0.705
+    },
+    "100924": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100924,
+        "scale": 0.595
+    },
+    "100925": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100925,
+        "scale": 0.661
+    },
+    "100928": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100928,
+        "scale": 0.583
+    },
+    "100930": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100930,
+        "scale": 0.688
+    },
+    "100933": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100933,
+        "scale": 0.693
+    },
+    "100934": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100934,
+        "scale": 0.68
+    },
+    "100935": {
+        "num_target_links": 5,
+        "partnet_mobility_id": 100935,
+        "scale": 0.618
+    },
+    "100937": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100937,
+        "scale": 0.658
+    },
+    "100948": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100948,
+        "scale": 0.676
+    },
+    "100952": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100952,
+        "scale": 0.64
+    },
+    "100953": {
+        "num_target_links": 6,
+        "partnet_mobility_id": 100953,
+        "scale": 0.57
+    },
+    "100954": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100954,
+        "scale": 0.682
+    },
+    "100955": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100955,
+        "scale": 0.643
+    },
+    "100957": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100957,
+        "scale": 0.679
+    },
+    "100959": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100959,
+        "scale": 0.701
+    },
+    "100963": {
+        "num_target_links": 5,
+        "partnet_mobility_id": 100963,
+        "scale": 0.563
+    },
+    "100965": {
+        "num_target_links": 2,
+        "partnet_mobility_id": 100965,
+        "scale": 0.655
+    },
+    "100966": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100966,
+        "scale": 0.694
+    },
+    "100968": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100968,
+        "scale": 0.625
+    },
+    "100970": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100970,
+        "scale": 0.557
+    },
+    "100971": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100971,
+        "scale": 0.628
+    },
+    "100974": {
+        "num_target_links": 5,
+        "partnet_mobility_id": 100974,
+        "scale": 0.264
+    },
+    "100976": {
+        "num_target_links": 4,
+        "partnet_mobility_id": 100976,
+        "scale": 0.708
+    },
+    "100978": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100978,
+        "scale": 0.592
+    },
+    "100979": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100979,
+        "scale": 0.719
+    },
+    "100980": {
+        "num_target_links": 5,
+        "partnet_mobility_id": 100980,
+        "scale": 0.619
+    },
+    "100981": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 100981,
+        "scale": 0.699
+    },
+    "102810": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 102810,
+        "scale": 0.676
+    },
+    "102812": {
+        "num_target_links": 2,
+        "partnet_mobility_id": 102812,
+        "scale": 0.623
+    },
+    "102817": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 102817,
+        "scale": 0.696
+    },
+    "102836": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 102836,
+        "scale": 0.696
+    },
+    "102839": {
+        "num_target_links": 8,
+        "partnet_mobility_id": 102839,
+        "scale": 0.613
+    },
+    "102843": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 102843,
+        "scale": 0.586
+    },
+    "102844": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 102844,
+        "scale": 0.525
+    },
+    "102856": {
+        "num_target_links": 9,
+        "partnet_mobility_id": 102856,
+        "scale": 0.568
+    },
+    "102860": {
+        "num_target_links": 2,
+        "partnet_mobility_id": 102860,
+        "scale": 0.706
+    },
+    "102864": {
+        "num_target_links": 3,
+        "partnet_mobility_id": 102864,
+        "scale": 0.546
+    },
+    "102872": {
+        "num_target_links": 2,
+        "partnet_mobility_id": 102872,
+        "scale": 0.619
+    }
+}

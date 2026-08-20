@@ -1,0 +1,64 @@
+[
+  {
+    "repo_id": "L0_TwoRobotPourCup-v1",
+    "root": "L0_TwoRobotPourCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPourCup-v1",
+    "root": "L1_TwoRobotPourCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPourCup-v1",
+    "root": "L2_TwoRobotPourCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPourCup-v1",
+    "root": "L3_TwoRobotPourCup-v1",
+    "train": "0:50",
+    "test": ""
+  },
+
+  {
+    "repo_id": "L0_TwoRobotPickAppleBasket-v1",
+    "root": "L0_TwoRobotPickAppleBasket-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPickAppleBasket-v1",
+    "root": "L1_TwoRobotPickAppleBasket-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L2_TwoRobotPickAppleBasket-v1",
+    "root": "L2_TwoRobotPickAppleBasket-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L3_TwoRobotPickAppleBasket-v1",
+    "root": "L3_TwoRobotPickAppleBasket-v1",
+    "train": "0:50",
+    "test": ""
+  },
+
+  {
+    "repo_id": "L0_TwoRobotPressStapler-v1",
+    "root": "L0_TwoRobotPressStapler-v1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "L1_TwoRobotPressStapler-v1",
+    "root": "L1_TwoRobotPressStapler-v1",
+    "train": "0:50",
+    "test": ""
+  }
+]

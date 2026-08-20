@@ -1,0 +1,8464 @@
+{
+  "metadata": {
+    "description": "Unique object catalog for tabletop dual_tasks and dual_tasks_l3 object-gallery rendering.",
+    "task_dirs": [
+      "mani_skill/envs/tasks/tabletop/dual_tasks",
+      "mani_skill/envs/tasks/tabletop/dual_tasks_l3"
+    ],
+    "asset_root": "~/.maniskill/data",
+    "selection_policy": "Deduplicate by object identity. For RoboTwin objects with multiple used model_ids, keep one existing representative model_id and retain all used_model_ids for provenance.",
+    "counts": {
+      "robotwin": 52,
+      "ycb": 22,
+      "sketchfab": 2,
+      "partnet": 21,
+      "primitive": 2
+    },
+    "scale_policy": "scale_usages records scale-related constructor arguments found at object construction sites. null means loader/default asset scale. gallery_* picks the first explicit usage when available, otherwise default.",
+    "pose_policy": "pose_usages records statically extracted sapien.Pose constructor usages at object creation sites. gallery_pose uses only the representative quaternion; gallery layout overrides x/y and computes z from the loaded mesh."
+  },
+  "robotwin": [
+    {
+      "name": "001_bottle",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        3,
+        4,
+        20
+      ],
+      "asset_path": "robotwin/objects/001_bottle",
+      "scale_usages": [
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_010_place_chips_rack.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_010_place_chips_rack.py",
+            "_010_place_chips_rack_l3.py",
+            "_020_pour_kettle_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.06,
+            0.06,
+            0.06
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_033_pour_liquid_cup_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_025_place_burger_tray.py",
+            "_025_place_burger_tray_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.06,
+        0.06,
+        0.06
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_010_place_chips_rack_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "002_bowl",
+      "model_id": 2,
+      "used_model_ids": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "asset_path": "robotwin/objects/002_bowl",
+      "scale_usages": [
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_045_pour_liquid_filter_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1,
+            1.2,
+            1
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_045_pour_liquid_filter.py"
+          ]
+        },
+        {
+          "scale": [
+            1.08,
+            1.08,
+            1.08
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_022_trans_food.py",
+            "_022_trans_food_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.3,
+            1.3,
+            1.3
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_044_grind_food.py",
+            "_044_grind_food_l3.py",
+            "_050_press_juicer_l3.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_001_stir_spoon.py",
+            "_001_stir_spoon_l3.py",
+            "_014_place_plate_rack_l3.py",
+            "_047_knife_bowl_fork.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        1,
+        1,
+        1
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_022_trans_food.py",
+            "_022_trans_food_l3.py"
+          ]
+        },
+        {
+          "p": [
+            -0.2,
+            -0.3,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.05,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_050_press_juicer_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "003_plate",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        2
+      ],
+      "asset_path": "robotwin/objects/003_plate",
+      "scale_usages": [
+        {
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_043_open_liquid_cap.py"
+          ]
+        },
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_016_pick_fruits_to_plate.py",
+            "_016_pick_fruits_to_plate_l3.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_025_place_burger_tray_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.03,
+            0.03,
+            0.03
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_038_place_mug_rack_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            -0.2,
+            -0.1,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "004_fluted-block",
+      "model_id": 1,
+      "used_model_ids": [
+        1
+      ],
+      "asset_path": "robotwin/objects/004_fluted-block",
+      "scale_usages": [
+        {
+          "scale": [
+            0.9,
+            3.0,
+            0.9
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_039_pour_liquid_mug.py",
+            "_039_pour_liquid_mug_l3.py",
+            "_043_open_liquid_cap.py",
+            "_043_open_liquid_cap_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.05,
+            1.05,
+            1.05
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_044_grind_food.py",
+            "_050_press_juicer_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.9,
+        3.0,
+        0.9
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            -0.02,
+            -0.1,
+            0.05
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_039_pour_liquid_mug.py",
+            "_039_pour_liquid_mug_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_043_open_liquid_cap.py",
+            "_043_open_liquid_cap_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.09,
+            -0.24,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_044_grind_food.py",
+            "_050_press_juicer_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "005_french-fries",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        2
+      ],
+      "asset_path": "robotwin/objects/005_french-fries",
+      "scale_usages": [
+        {
+          "scale": [
+            0.08,
+            0.08,
+            0.08
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_017_pour_ketchup_fries.py",
+            "_017_pour_ketchup_fries_l3.py",
+            "_025_place_burger_tray.py",
+            "_025_place_burger_tray_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.08,
+        0.08,
+        0.08
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            -0.1,
+            0.2,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.0,
+            0.0,
+            -0.70710678
+          ],
+          "source_context": "inferred:self.fries_pose",
+          "used_by": [
+            "_025_place_burger_tray_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.0,
+          0.0,
+          -0.70710678
+        ]
+      }
+    },
+    {
+      "name": "006_hamburg",
+      "model_id": 3,
+      "used_model_ids": [
+        3,
+        4,
+        5
+      ],
+      "asset_path": "robotwin/objects/006_hamburg",
+      "scale_usages": [
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_046_put_box.py",
+            "_046_put_box_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.04,
+            0.04,
+            0.04
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_025_place_burger_tray.py",
+            "_025_place_burger_tray_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "007_shoe-box",
+      "model_id": 0,
+      "used_model_ids": [
+        0
+      ],
+      "asset_path": "robotwin/objects/007_shoe-box",
+      "scale_usages": [
+        {
+          "scale": [
+            0.14,
+            0.13,
+            0.16
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_028_place_shoe_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.14,
+            0.13,
+            0.16
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_028_place_shoe_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.6,
+            0.4,
+            0.4
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_028_place_shoe_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.6,
+            0.4,
+            0.4
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_028_place_shoe_box.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.14,
+        0.13,
+        0.16
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.35,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "inferred:self.shoe_1_pose",
+          "used_by": [
+            "_028_place_shoe_box.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          0.5,
+          -0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "name": "008_tray",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        2,
+        3
+      ],
+      "asset_path": "robotwin/objects/008_tray",
+      "scale_usages": [
+        {
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_043_open_liquid_cap.py",
+            "_043_open_liquid_cap_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.2,
+            1.0,
+            1.3
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_046_put_box_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.2,
+            1.2,
+            1.2
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        },
+        {
+          "scale": [
+            1.2,
+            1.2,
+            1.2
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        },
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_008_pick_apple_banana_baskets.py"
+          ]
+        },
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_008_pick_apple_banana_baskets.py",
+            "_016_pick_fruits_to_plate.py",
+            "_016_pick_fruits_to_plate_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.8,
+            1.8,
+            1.8
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        },
+        {
+          "scale": [
+            1.8,
+            1.8,
+            1.8
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        },
+        {
+          "scale": [
+            0.12,
+            0.14,
+            0.15
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.12,
+            0.14,
+            0.15
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_032_place_file_folder_l3.py",
+            "_036_place_cup_plate.py"
+          ]
+        },
+        {
+          "scale": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_025_place_burger_tray.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.7,
+        0.7,
+        0.7
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.15,
+            0.01
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_032_place_file_folder_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.0,
+            0.0,
+            0.70710678,
+            0.70710678
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_046_put_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          0.5,
+          -0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "name": "013_dumbbell-rack",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        3
+      ],
+      "asset_path": "robotwin/objects/013_dumbbell-rack",
+      "scale_usages": [
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            5,
+            2,
+            5
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            5,
+            2,
+            5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack.py",
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            5,
+            2,
+            5
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            5,
+            2,
+            5
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.15,
+            0.1,
+            0.65
+          ],
+          "q": [
+            0.5,
+            -0.5,
+            0.5,
+            0.5
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          -0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "name": "014_bookcase",
+      "model_id": 1,
+      "used_model_ids": [
+        1,
+        2
+      ],
+      "asset_path": "robotwin/objects/014_bookcase",
+      "scale_usages": [
+        {
+          "scale": [
+            0.18,
+            0.18,
+            0.18
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_002_place_book_bookcase.py"
+          ]
+        },
+        {
+          "scale": [
+            0.18,
+            0.18,
+            0.18
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_002_place_book_bookcase.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.18,
+        0.18,
+        0.18
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            0.1,
+            0.0,
+            -0.08
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "inferred:self.bookcase_pose",
+          "used_by": [
+            "_002_place_book_bookcase.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          0.5,
+          -0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "name": "018_microphone",
+      "model_id": 1,
+      "used_model_ids": [
+        1,
+        4
+      ],
+      "asset_path": "robotwin/objects/018_microphone",
+      "scale_usages": [
+        {
+          "scale": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_044_grind_food.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "020_hammer",
+      "model_id": 0,
+      "used_model_ids": [
+        0
+      ],
+      "asset_path": "robotwin/objects/020_hammer",
+      "scale_usages": [
+        {
+          "scale": [
+            0.13,
+            0.13,
+            0.13
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_037_place_screwdriver_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.13,
+        0.13,
+        0.13
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "021_cup",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11
+      ],
+      "asset_path": "robotwin/objects/021_cup",
+      "scale_usages": [
+        {
+          "scale": [
+            0.5,
+            0.7,
+            0.5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_043_open_liquid_cap_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.6,
+            0.6,
+            0.6
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_041_pour_cup.py"
+          ]
+        },
+        {
+          "scale": [
+            0.6,
+            0.6,
+            0.6
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_041_pour_cup.py"
+          ]
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_045_pour_liquid_filter_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1,
+            1.2,
+            1
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_045_pour_liquid_filter.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_041_pour_cup_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_041_pour_cup_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.3,
+            1.3,
+            1.3
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_035_place_brush_rest_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_039_pour_liquid_mug.py",
+            "_039_pour_liquid_mug_l3.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_041_pour_cup.py",
+            "_041_pour_cup_l3.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_020_pour_kettle.py",
+            "_020_pour_kettle_l3.py",
+            "_041_pour_cup.py",
+            "_041_pour_cup_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.03,
+            0.2,
+            0.03
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_039_pour_liquid_mug.py",
+            "_039_pour_liquid_mug_l3.py",
+            "_043_open_liquid_cap.py",
+            "_043_open_liquid_cap_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.05,
+            0.05,
+            0.05
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_036_place_cup_plate.py",
+            "_036_place_cup_plate_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.08,
+            0.08,
+            0.08
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_045_pour_liquid_filter.py"
+          ]
+        },
+        {
+          "scale": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_042_clean_cup.py",
+            "_042_clean_cup_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.5,
+        0.7,
+        0.5
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            -0.02,
+            -0.1,
+            -0.07
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_039_pour_liquid_mug_l3.py"
+          ]
+        },
+        {
+          "p": [
+            -0.05,
+            0.1,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_039_pour_liquid_mug_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "022_cup-with-liquid",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        5
+      ],
+      "asset_path": "robotwin/objects/022_cup-with-liquid",
+      "scale_usages": [
+        {
+          "scale": [
+            0.6,
+            0.8,
+            0.6
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_033_pour_liquid_cup.py"
+          ]
+        },
+        {
+          "scale": [
+            0.04,
+            0.06,
+            0.04
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_036_place_cup_plate.py",
+            "_036_place_cup_plate_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.6,
+        0.8,
+        0.6
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:self.liquid_pose",
+          "used_by": [
+            "_033_pour_liquid_cup.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "023_tissue-box",
+      "model_id": 3,
+      "used_model_ids": [
+        3
+      ],
+      "asset_path": "robotwin/objects/023_tissue-box",
+      "scale_usages": [
+        {
+          "scale": [
+            0.2,
+            0.13,
+            0.06
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_019_clean_desk_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.2,
+        0.13,
+        0.06
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            0.1,
+            -0.05,
+            0.0
+          ],
+          "q": [
+            0.65328148,
+            0.65328148,
+            0.27059805,
+            0.27059805
+          ],
+          "source_context": "inferred:self.tissue_pose",
+          "used_by": [
+            "_019_clean_desk_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.65328148,
+          0.65328148,
+          0.27059805,
+          0.27059805
+        ]
+      }
+    },
+    {
+      "name": "024_scanner",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        2,
+        3
+      ],
+      "asset_path": "robotwin/objects/024_scanner",
+      "scale_usages": [
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_013_scan_milkbox.py",
+            "_013_scan_milkbox_l3.py",
+            "_027_scan_pill_bottle.py",
+            "_027_scan_pill_bottle_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.13,
+            0.13,
+            0.13
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_030_fold_box.py",
+            "_030_fold_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.13,
+        0.13,
+        0.13
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.5,
+            0.0
+          ],
+          "q": [
+            0.0,
+            0.70710678,
+            0.70710678,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_013_scan_milkbox_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.0,
+          0.70710678,
+          0.70710678,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "025_chips-tub",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1,
+        3
+      ],
+      "asset_path": "robotwin/objects/025_chips-tub",
+      "scale_usages": [
+        {
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_010_place_chips_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_010_place_chips_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_010_place_chips_rack_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.5,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_010_place_chips_rack_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "031_jam-jar",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        4
+      ],
+      "asset_path": "robotwin/objects/031_jam-jar",
+      "scale_usages": [
+        {
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_011_place_commodity_rack.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_011_place_commodity_rack.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.5,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:jamjar_pose",
+          "used_by": [
+            "_011_place_commodity_rack.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "032_screwdriver",
+      "model_id": 0,
+      "used_model_ids": [
+        0
+      ],
+      "asset_path": "robotwin/objects/032_screwdriver",
+      "scale_usages": [
+        {
+          "scale": [
+            0.13,
+            0.13,
+            0.13
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_037_place_screwdriver.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.13,
+        0.13,
+        0.13
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            -0.23,
+            -0.35,
+            0.03
+          ],
+          "q": [
+            0.70710678,
+            0.0,
+            0.0,
+            -0.70710678
+          ],
+          "source_context": "inferred:self.screwdriver_pose",
+          "used_by": [
+            "_037_place_screwdriver.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.0,
+          0.0,
+          -0.70710678
+        ]
+      }
+    },
+    {
+      "name": "034_knife",
+      "model_id": 0,
+      "used_model_ids": [
+        0
+      ],
+      "asset_path": "robotwin/objects/034_knife",
+      "scale_usages": [
+        {
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_015_cut_fruit.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            -0.1,
+            -0.2,
+            0.06
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_015_cut_fruit.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "035_apple",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1
+      ],
+      "asset_path": "robotwin/objects/035_apple",
+      "scale_usages": [
+        {
+          "scale": [
+            0.03,
+            0.03,
+            0.03
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.03,
+            0.03,
+            0.03
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.45,
+            0.45,
+            0.45
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.45,
+            0.45,
+            0.45
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_050_press_juicer_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.9,
+            0.9,
+            0.9
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.9,
+            0.9,
+            0.9
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale.py",
+            "_009_pick_apple_to_scale_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.03,
+            0.03,
+            0.03
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.03,
+            0.03,
+            0.03
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.03,
+        0.03,
+        0.03
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_050_press_juicer_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "038_milk-box",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        2,
+        3
+      ],
+      "asset_path": "robotwin/objects/038_milk-box",
+      "scale_usages": [
+        {
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_011_place_commodity_rack.py",
+            "_013_scan_milkbox.py"
+          ]
+        },
+        {
+          "scale": [
+            10,
+            10,
+            10
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_011_place_commodity_rack.py",
+            "_013_scan_milkbox.py"
+          ]
+        },
+        {
+          "scale": [
+            6,
+            6,
+            6
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_011_place_commodity_rack.py",
+            "_013_scan_milkbox.py"
+          ]
+        },
+        {
+          "scale": [
+            6,
+            6,
+            6
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_011_place_commodity_rack.py",
+            "_013_scan_milkbox.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        10,
+        10,
+        10
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:milkbox_pose",
+          "used_by": [
+            "_011_place_commodity_rack.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "039_mug",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        3,
+        4,
+        5,
+        10,
+        11
+      ],
+      "asset_path": "robotwin/objects/039_mug",
+      "scale_usages": [
+        {
+          "scale": [
+            0.6,
+            0.8,
+            0.6
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_033_pour_liquid_cup.py",
+            "_033_pour_liquid_cup_l3.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_001_stir_spoon.py",
+            "_001_stir_spoon_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.04,
+            0.06,
+            0.04
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_036_place_cup_plate.py",
+            "_036_place_cup_plate_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.08,
+            0.08,
+            0.08
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            0.08,
+            0.08,
+            0.08
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_011_place_commodity_rack_l3.py",
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_038_place_mug_rack.py",
+            "_038_place_mug_rack_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.6,
+        0.8,
+        0.6
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.5,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_001_stir_spoon.py"
+          ]
+        },
+        {
+          "p": [
+            -0.2,
+            -0.1,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_011_place_commodity_rack_l3.py"
+          ]
+        },
+        {
+          "p": [
+            -0.2,
+            0.1,
+            0.0
+          ],
+          "q": [
+            0.0,
+            0.0,
+            0.70710678,
+            0.70710678
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_011_place_commodity_rack_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "040_rack",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        3
+      ],
+      "asset_path": "robotwin/objects/040_rack",
+      "scale_usages": [
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            5,
+            2,
+            5
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            5,
+            2,
+            5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_011_place_commodity_rack_l3.py",
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            5,
+            2,
+            5
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            5,
+            2,
+            5
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_038_place_mug_rack.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.05,
+            -0.1,
+            0.0
+          ],
+          "q": [
+            0.0,
+            0.0,
+            -0.70710678,
+            -0.70710678
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_011_place_commodity_rack_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.05,
+            0.1,
+            0.0
+          ],
+          "q": [
+            0.0,
+            0.0,
+            -0.70710678,
+            -0.70710678
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_011_place_commodity_rack_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.0,
+          0.0,
+          -0.70710678,
+          -0.70710678
+        ]
+      }
+    },
+    {
+      "name": "041_shoe",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1
+      ],
+      "asset_path": "robotwin/objects/041_shoe",
+      "scale_usages": [
+        {
+          "scale": [
+            0.11,
+            0.11,
+            0.11
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_028_place_shoe_box.py",
+            "_028_place_shoe_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.11,
+        0.11,
+        0.11
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.35,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "inferred:self.shoe_1_pose",
+          "used_by": [
+            "_028_place_shoe_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          0.5,
+          -0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "name": "042_wooden_box",
+      "model_id": 0,
+      "used_model_ids": [
+        0
+      ],
+      "asset_path": "robotwin/objects/042_wooden_box",
+      "scale_usages": [
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_002_place_book_bookcase_l3.py",
+            "_003_place_cloth_basket_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.12,
+            0.14,
+            0.15
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.12,
+            0.14,
+            0.15
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.14,
+            0.13,
+            0.16
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_028_place_shoe_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.14,
+            0.13,
+            0.16
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_028_place_shoe_box.py",
+            "_028_place_shoe_box_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.6,
+            0.4,
+            0.4
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_028_place_shoe_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.6,
+            0.4,
+            0.4
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_028_place_shoe_box.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        1.5,
+        1.5,
+        1.5
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_002_place_book_bookcase_l3.py",
+            "_003_place_cloth_basket_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          0.5,
+          -0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "name": "043_book",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1
+      ],
+      "asset_path": "robotwin/objects/043_book",
+      "scale_usages": [
+        {
+          "scale": [
+            0.4,
+            0.4,
+            0.4
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_002_place_book_bookcase.py"
+          ]
+        },
+        {
+          "scale": [
+            0.4,
+            0.4,
+            0.4
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_002_place_book_bookcase.py"
+          ]
+        },
+        {
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_002_place_book_bookcase.py"
+          ]
+        },
+        {
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_002_place_book_bookcase.py",
+            "_002_place_book_bookcase_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.2,
+            0.4,
+            1.2
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_002_place_book_bookcase_l3.py",
+            "_003_place_cloth_basket_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.2,
+            1.2,
+            1.2
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_035_place_brush_rest.py",
+            "_035_place_brush_rest_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.4,
+        0.4,
+        0.4
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.6,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_002_place_book_bookcase_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_002_place_book_bookcase_l3.py",
+            "_003_place_cloth_basket_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "048_stapler",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1
+      ],
+      "asset_path": "robotwin/objects/048_stapler",
+      "scale_usages": [
+        {
+          "scale": [
+            0.13,
+            0.13,
+            0.13
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_024_press_stapler.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.13,
+        0.13,
+        0.13
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.15,
+            0.0
+          ],
+          "q": [
+            0.27059805,
+            0.27059805,
+            -0.65328148,
+            -0.65328148
+          ],
+          "source_context": "inferred:self.stapler_pose",
+          "used_by": [
+            "_024_press_stapler.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.27059805,
+          0.27059805,
+          -0.65328148,
+          -0.65328148
+        ]
+      }
+    },
+    {
+      "name": "049_shampoo",
+      "model_id": 1,
+      "used_model_ids": [
+        1,
+        3,
+        6
+      ],
+      "asset_path": "robotwin/objects/049_shampoo",
+      "scale_usages": [
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_006_pick_wash.py",
+            "_006_pick_wash_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": null,
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_006_pick_wash.py"
+          ]
+        },
+        {
+          "p": [
+            0.1,
+            -0.1,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_006_pick_wash_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "053_teanet",
+      "model_id": 1,
+      "used_model_ids": [
+        1,
+        4,
+        5
+      ],
+      "asset_path": "robotwin/objects/053_teanet",
+      "scale_usages": [
+        {
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_045_pour_liquid_filter.py",
+            "_045_pour_liquid_filter_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.2,
+            1.2,
+            1.2
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_041_pour_cup_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            -0.02,
+            0.16,
+            -0.09
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:self.teanet_pose",
+          "used_by": [
+            "_045_pour_liquid_filter.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "062_plasticbox",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "asset_path": "robotwin/objects/062_plasticbox",
+      "scale_usages": [
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_007_pick_apple_basket_l3.py",
+            "_026_pick_tennisball_golfball_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.2,
+            1.2,
+            1.2
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_008_pick_apple_banana_baskets_l3.py",
+            "_046_put_box_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_034_place_pill_box.py",
+            "_034_place_pill_box_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_006_pick_wash_l3.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_001_stir_spoon.py",
+            "_001_stir_spoon_l3.py",
+            "_004_pick_remotecontrol_plasticbox.py",
+            "_004_pick_remotecontrol_plasticbox_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.12,
+            0.12,
+            0.12
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.15,
+            0.15,
+            0.15
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_049_fold_towel_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.2,
+            0.12,
+            0.2
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_049_fold_towel.py"
+          ]
+        },
+        {
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_003_place_cloth_basket.py"
+          ]
+        },
+        {
+          "scale": [
+            0.25,
+            0.15,
+            0.25
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_004_pick_remotecontrol_plasticbox_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_006_pick_wash_l3.py",
+            "_007_pick_apple_basket_l3.py",
+            "_012_place_fruit_box_l3.py",
+            "_046_put_box_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            -0.35,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.1,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_049_fold_towel_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "063_tabletrashbin",
+      "model_id": 6,
+      "used_model_ids": [
+        6,
+        9,
+        10
+      ],
+      "asset_path": "robotwin/objects/063_tabletrashbin",
+      "scale_usages": [
+        {
+          "scale": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_021_pick_food.py"
+          ]
+        },
+        {
+          "scale": [
+            0.12,
+            0.12,
+            0.12
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_021_pick_food_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "069_vagetable",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "asset_path": "robotwin/objects/069_vagetable",
+      "scale_usages": [
+        {
+          "scale": 0.5,
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_016_pick_fruits_to_plate.py"
+          ]
+        },
+        {
+          "scale": 1.0,
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_016_pick_fruits_to_plate.py"
+          ]
+        },
+        {
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_023_place_food_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_016_pick_fruits_to_plate.py",
+            "_023_place_food_scale.py",
+            "_023_place_food_scale_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.5,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_016_pick_fruits_to_plate.py"
+          ]
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_023_place_food_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_023_place_food_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.18,
+            0.18,
+            0.18
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_015_cut_fruit.py",
+            "_015_cut_fruit_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.5,
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.03
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_015_cut_fruit_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "072_electronicscale",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1,
+        5
+      ],
+      "asset_path": "robotwin/objects/072_electronicscale",
+      "scale_usages": [
+        {
+          "scale": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_040_put_cube_on_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.15,
+            0.15,
+            0.15
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.15,
+            0.15,
+            0.15
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_023_place_food_scale.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            -0.1,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "inferred:self.electronicscale_pose",
+          "used_by": [
+            "_023_place_food_scale.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          0.5,
+          -0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "name": "073_rubikscube",
+      "model_id": 1,
+      "used_model_ids": [
+        1
+      ],
+      "asset_path": "robotwin/objects/073_rubikscube",
+      "scale_usages": [
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_040_put_cube_on_scale_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": null,
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.4,
+            -0.01
+          ],
+          "q": [
+            0.70710678,
+            0.0,
+            0.0,
+            0.70710678
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_040_put_cube_on_scale_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.0,
+          0.0,
+          0.70710678
+        ]
+      }
+    },
+    {
+      "name": "074_displaystand",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "asset_path": "robotwin/objects/074_displaystand",
+      "scale_usages": [
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_011_place_commodity_rack.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_048_lift_lid_from_skillet.py"
+          ]
+        },
+        {
+          "scale": {
+            "scale_factor": 2.0,
+            "applies_to_model_data_scale": true
+          },
+          "replace_scale": null,
+          "source_context": "_create_displaystand",
+          "used_by": [
+            "_010_place_chips_rack.py",
+            "_010_place_chips_rack_l3.py",
+            "_031_pick_pillbottle_to_regions_l3.py",
+            "_036_place_cup_plate_l3.py"
+          ]
+        },
+        {
+          "scale": {
+            "scale_factor": 2.5,
+            "applies_to_model_data_scale": true
+          },
+          "replace_scale": null,
+          "source_context": "_create_displaystand",
+          "used_by": [
+            "_010_place_chips_rack.py",
+            "_010_place_chips_rack_l3.py",
+            "_011_place_commodity_rack.py",
+            "_031_pick_pillbottle_to_regions_l3.py",
+            "_036_place_cup_plate_l3.py"
+          ]
+        },
+        {
+          "scale": {
+            "scale_factor": null,
+            "applies_to_model_data_scale": true
+          },
+          "replace_scale": null,
+          "source_context": "_create_displaystand",
+          "used_by": [
+            "_011_place_commodity_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            0.06,
+            0.06,
+            0.06
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_004_pick_remotecontrol_plasticbox_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.16,
+            0.16,
+            0.16
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_003_place_cloth_basket.py",
+            "_003_place_cloth_basket_l3.py",
+            "_005_place_magazine_folder.py",
+            "_005_place_magazine_folder_l3.py",
+            "_024_press_stapler_l3.py",
+            "_032_place_file_folder.py",
+            "_032_place_file_folder_l3.py",
+            "_049_fold_towel.py",
+            "_049_fold_towel_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_037_place_screwdriver.py",
+            "_037_place_screwdriver_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": {
+        "scale_factor": 2.0,
+        "applies_to_model_data_scale": true
+      },
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            -0.13,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_003_place_cloth_basket.py",
+            "_003_place_cloth_basket_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            -0.2,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_005_place_magazine_folder.py",
+            "_024_press_stapler_l3.py",
+            "_032_place_file_folder.py",
+            "_032_place_file_folder_l3.py"
+          ]
+        },
+        {
+          "p": [
+            -0.13,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_049_fold_towel.py",
+            "_049_fold_towel_l3.py"
+          ]
+        },
+        {
+          "p": [
+            -0.1,
+            -0.4,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_004_pick_remotecontrol_plasticbox_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            0.1,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_005_place_magazine_folder_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          0.5,
+          -0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "name": "075_bread",
+      "model_id": 3,
+      "used_model_ids": [
+        3,
+        5
+      ],
+      "asset_path": "robotwin/objects/075_bread",
+      "scale_usages": [
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_046_put_box.py",
+            "_046_put_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "076_breadbasket",
+      "model_id": 2,
+      "used_model_ids": [
+        2,
+        3,
+        7
+      ],
+      "asset_path": "robotwin/objects/076_breadbasket",
+      "scale_usages": [
+        {
+          "scale": [
+            1.2,
+            1.2,
+            1.2
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        },
+        {
+          "scale": [
+            1.2,
+            1.2,
+            1.2
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        },
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_008_pick_apple_banana_baskets.py"
+          ]
+        },
+        {
+          "scale": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_008_pick_apple_banana_baskets.py"
+          ]
+        },
+        {
+          "scale": [
+            1.8,
+            1.8,
+            1.8
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        },
+        {
+          "scale": [
+            1.8,
+            1.8,
+            1.8
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_004_pick_remotecontrol_plasticbox.py"
+          ]
+        },
+        {
+          "scale": [
+            0.2,
+            0.2,
+            0.2
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_003_place_cloth_basket.py",
+            "_012_place_fruit_box.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        1.2,
+        1.2,
+        1.2
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.35,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "079_remotecontrol",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1
+      ],
+      "asset_path": "robotwin/objects/079_remotecontrol",
+      "scale_usages": [
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_004_pick_remotecontrol_plasticbox.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_004_pick_remotecontrol_plasticbox.py",
+            "_004_pick_remotecontrol_plasticbox_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": null,
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.5,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_004_pick_remotecontrol_plasticbox_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "080_pillbottle",
+      "model_id": 1,
+      "used_model_ids": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "asset_path": "robotwin/objects/080_pillbottle",
+      "scale_usages": [
+        {
+          "scale": [
+            0.6,
+            0.08,
+            0.6
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_034_place_pill_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.75,
+            0.75,
+            0.75
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_034_place_pill_box_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.9,
+            1.5,
+            0.9
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_044_grind_food_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_031_pick_pillbottle_to_regions.py",
+            "_031_pick_pillbottle_to_regions_l3.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_027_scan_pill_bottle.py",
+            "_027_scan_pill_bottle_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.06,
+            0.06,
+            0.06
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_033_pour_liquid_cup_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.08,
+            0.08,
+            0.08
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_033_pour_liquid_cup.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.6,
+        0.08,
+        0.6
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:pillbottle_pose",
+          "used_by": [
+            "_027_scan_pill_bottle_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "083_brush",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1
+      ],
+      "asset_path": "robotwin/objects/083_brush",
+      "scale_usages": [
+        {
+          "scale": [
+            0.13,
+            0.13,
+            0.13
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_018_wipe_pot_l3.py",
+            "_042_clean_cup.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.13,
+        0.13,
+        0.13
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            -0.23,
+            -0.35,
+            0.03
+          ],
+          "q": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "source_context": "inferred:self.brush_pose",
+          "used_by": [
+            "_042_clean_cup.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "name": "086_woodenblock",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1,
+        4
+      ],
+      "asset_path": "robotwin/objects/086_woodenblock",
+      "scale_usages": [
+        {
+          "scale": [
+            0.3,
+            1.7,
+            0.3
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_001_stir_spoon_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.3,
+            3,
+            0.3
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_047_knife_bowl_fork_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.42,
+            0.12,
+            0.42
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_043_open_liquid_cap.py"
+          ]
+        },
+        {
+          "scale": [
+            0.42,
+            0.12,
+            0.42
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_043_open_liquid_cap.py"
+          ]
+        },
+        {
+          "scale": [
+            0.7,
+            0.2,
+            0.7
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_043_open_liquid_cap.py"
+          ]
+        },
+        {
+          "scale": [
+            0.7,
+            0.2,
+            0.7
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_043_open_liquid_cap.py"
+          ]
+        },
+        {
+          "scale": [
+            0.2,
+            0.7,
+            0.2
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            0.2,
+            0.7,
+            0.2
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            1,
+            1.5,
+            1
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_050_press_juicer_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.3,
+        1.7,
+        0.3
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_047_knife_bowl_fork_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.09,
+            -0.23,
+            0.05
+          ],
+          "q": [
+            0.61237244,
+            0.61237244,
+            0.35355339,
+            0.35355339
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_050_press_juicer_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "091_kettle",
+      "model_id": 2,
+      "used_model_ids": [
+        2,
+        5
+      ],
+      "asset_path": "robotwin/objects/091_kettle",
+      "scale_usages": [
+        {
+          "scale": [
+            0.8,
+            0.8,
+            0.8
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_045_pour_liquid_filter_l3.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_020_pour_kettle.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.8,
+        0.8,
+        0.8
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            -0.1,
+            -0.2,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:self.kettle_pose",
+          "used_by": [
+            "_020_pour_kettle.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "092_notebook",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1,
+        2
+      ],
+      "asset_path": "robotwin/objects/092_notebook",
+      "scale_usages": [
+        {
+          "scale": [
+            0.1,
+            0.05,
+            0.13
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_024_press_stapler_l3.py",
+            "_032_place_file_folder.py",
+            "_032_place_file_folder_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.13,
+            0.08,
+            0.13
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_005_place_magazine_folder.py"
+          ]
+        },
+        {
+          "scale": [
+            0.13,
+            0.08,
+            0.13
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_005_place_magazine_folder.py",
+            "_005_place_magazine_folder_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.18,
+            0.0001,
+            0.18
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_024_press_stapler.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.1,
+        0.05,
+        0.13
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.2,
+            0.0
+          ],
+          "q": [
+            0.0,
+            0.0,
+            -0.70710678,
+            0.70710678
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_005_place_magazine_folder_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            0.05,
+            0.12
+          ],
+          "q": [
+            0.0,
+            0.0,
+            -0.70710678,
+            0.70710678
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_005_place_magazine_folder_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.0,
+          0.0,
+          -0.70710678,
+          0.70710678
+        ]
+      }
+    },
+    {
+      "name": "093_brush-pen",
+      "model_id": 1,
+      "used_model_ids": [
+        1,
+        5
+      ],
+      "asset_path": "robotwin/objects/093_brush-pen",
+      "scale_usages": [
+        {
+          "scale": [
+            0.15,
+            0.15,
+            0.15
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_035_place_brush_rest.py"
+          ]
+        },
+        {
+          "scale": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_035_place_brush_rest_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.15,
+        0.15,
+        0.15
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.02
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:self.brush_pose",
+          "used_by": [
+            "_035_place_brush_rest_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "094_rest",
+      "model_id": 1,
+      "used_model_ids": [
+        1
+      ],
+      "asset_path": "robotwin/objects/094_rest",
+      "scale_usages": [
+        {
+          "scale": [
+            1.3,
+            1.3,
+            1.3
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_035_place_brush_rest.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        1.3,
+        1.3,
+        1.3
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.1,
+            -0.35,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "inferred:self.rest_pose",
+          "used_by": [
+            "_035_place_brush_rest.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          0.5,
+          -0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "name": "103_fruit",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "asset_path": "robotwin/objects/103_fruit",
+      "scale_usages": [
+        {
+          "scale": [
+            0.03,
+            0.03,
+            0.03
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.03,
+            0.03,
+            0.03
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.035,
+            0.035,
+            0.035
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.035,
+            0.035,
+            0.035
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.45,
+            0.45,
+            0.45
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.45,
+            0.45,
+            0.45
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.5,
+            0.5,
+            0.5
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box_l3.py",
+            "_016_pick_fruits_to_plate.py",
+            "_016_pick_fruits_to_plate_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.6,
+            0.6,
+            0.6
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.6,
+            0.6,
+            0.6
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.9,
+            0.9,
+            0.9
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.9,
+            0.9,
+            0.9
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.03,
+            0.03,
+            0.03
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.03,
+            0.03,
+            0.03
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            0.035,
+            0.035,
+            0.035
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.035,
+            0.035,
+            0.035
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box.py",
+            "_012_place_fruit_box_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.6,
+            0.6,
+            0.6
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            0.6,
+            0.6,
+            0.6
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        },
+        {
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.03,
+        0.03,
+        0.03
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.05,
+            0.0,
+            0.05
+          ],
+          "q": [
+            0.61237244,
+            0.61237244,
+            0.35355339,
+            0.35355339
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box_l3.py"
+          ]
+        },
+        {
+          "p": [
+            -0.05,
+            0.0,
+            0.05
+          ],
+          "q": [
+            0.61237244,
+            0.61237244,
+            0.35355339,
+            0.35355339
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_012_place_fruit_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.61237244,
+          0.61237244,
+          0.35355339,
+          0.35355339
+        ]
+      }
+    },
+    {
+      "name": "104_board",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        2,
+        4
+      ],
+      "asset_path": "robotwin/objects/104_board",
+      "scale_usages": [
+        {
+          "scale": [
+            0.2,
+            0.7,
+            0.2
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            0.2,
+            0.7,
+            0.2
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            0.3,
+            0.3,
+            0.3
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_015_cut_fruit.py",
+            "_015_cut_fruit_l3.py"
+          ]
+        },
+        {
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "replace_scale": true,
+          "source_context": "apply_l2_robotwin_config",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            0.7,
+            0.7,
+            0.7
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_014_place_plate_rack.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.2,
+        0.7,
+        0.2
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_015_cut_fruit.py",
+            "_015_cut_fruit_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "106_skillet",
+      "model_id": 1,
+      "used_model_ids": [
+        1,
+        3,
+        4
+      ],
+      "asset_path": "robotwin/objects/106_skillet",
+      "scale_usages": [
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_048_lift_lid_from_skillet.py"
+          ]
+        }
+      ],
+      "gallery_scale": null,
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "source_context": "inferred:self.skillet_init_pose",
+          "used_by": [
+            "_048_lift_lid_from_skillet.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "name": "113_coffee-box",
+      "model_id": 0,
+      "used_model_ids": [
+        0,
+        2,
+        6
+      ],
+      "asset_path": "robotwin/objects/113_coffee-box",
+      "scale_usages": [
+        {
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_013_scan_milkbox_l3.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_010_place_chips_rack.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_010_place_chips_rack.py",
+            "_010_place_chips_rack_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        1,
+        1,
+        1
+      ],
+      "gallery_replace_scale": false,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "create_actor",
+          "used_by": [
+            "_010_place_chips_rack_l3.py",
+            "_013_scan_milkbox_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "114_bottle",
+      "model_id": 3,
+      "used_model_ids": [
+        0,
+        3,
+        4
+      ],
+      "asset_path": "robotwin/objects/114_bottle",
+      "scale_usages": [
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "apply_l3_robotwin_config",
+          "used_by": [
+            "_010_place_chips_rack.py"
+          ]
+        },
+        {
+          "scale": null,
+          "replace_scale": false,
+          "source_context": "create_actor",
+          "used_by": [
+            "_010_place_chips_rack.py"
+          ]
+        },
+        {
+          "scale": [
+            0.08,
+            0.08,
+            0.08
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_033_pour_liquid_cup.py"
+          ]
+        },
+        {
+          "scale": [
+            0.1,
+            0.1,
+            0.1
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_025_place_burger_tray.py",
+            "_025_place_burger_tray_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.08,
+        0.08,
+        0.08
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.70710678,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:bottle_pose",
+          "used_by": [
+            "_010_place_chips_rack.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.70710678,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "117_whiteboard-eraser",
+      "model_id": 0,
+      "used_model_ids": [
+        0
+      ],
+      "asset_path": "robotwin/objects/117_whiteboard-eraser",
+      "scale_usages": [
+        {
+          "scale": [
+            0.1,
+            0.08,
+            0.05
+          ],
+          "replace_scale": true,
+          "source_context": "create_actor",
+          "used_by": [
+            "_042_clean_cup_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": [
+        0.1,
+        0.08,
+        0.05
+      ],
+      "gallery_replace_scale": true,
+      "pose_usages": [],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "ycb": [
+    {
+      "id": "006_mustard_bottle",
+      "asset_path": "assets/mani_skill2_ycb/models/006_mustard_bottle",
+      "scale_usages": [
+        {
+          "scales": [
+            1.2
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_017_pour_ketchup_fries.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        1.2
+      ],
+      "pose_usages": [],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "011_banana",
+      "asset_path": "assets/mani_skill2_ycb/models/011_banana",
+      "scale_usages": [
+        {
+          "scales": null,
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_007_pick_apple_basket.py",
+            "_008_pick_apple_banana_baskets.py",
+            "_008_pick_apple_banana_baskets_l3.py",
+            "_016_pick_fruits_to_plate_l3.py"
+          ]
+        }
+      ],
+      "gallery_scales": null,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        },
+        {
+          "p": [
+            -0.25,
+            0.25,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.0,
+            0.0,
+            0.70710678
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_008_pick_apple_banana_baskets_l3.py"
+          ]
+        },
+        {
+          "p": [
+            -0.25,
+            -0.2,
+            -0.01
+          ],
+          "q": [
+            0.70710678,
+            0.0,
+            0.0,
+            0.70710678
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_016_pick_fruits_to_plate_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "013_apple",
+      "asset_path": "assets/mani_skill2_ycb/models/013_apple",
+      "scale_usages": [
+        {
+          "scales": [
+            0.7
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_007_pick_apple_basket.py",
+            "_007_pick_apple_basket_l3.py",
+            "_008_pick_apple_banana_baskets.py",
+            "_008_pick_apple_banana_baskets_l3.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        0.7
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.5,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_007_pick_apple_basket_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            0.5,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_007_pick_apple_basket_l3.py"
+          ]
+        },
+        {
+          "p": [
+            -0.25,
+            -0.25,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_008_pick_apple_banana_baskets_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "014_lemon",
+      "asset_path": "assets/mani_skill2_ycb/models/014_lemon",
+      "scale_usages": [
+        {
+          "scales": null,
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_007_pick_apple_basket.py",
+            "_008_pick_apple_banana_baskets.py"
+          ]
+        }
+      ],
+      "gallery_scales": null,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        },
+        {
+          "p": [
+            -0.15,
+            0.15,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.0,
+            0.0,
+            -0.70710678
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_008_pick_apple_banana_baskets.py"
+          ]
+        },
+        {
+          "p": [
+            0.1,
+            0.25,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_008_pick_apple_banana_baskets.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "015_peach",
+      "asset_path": "assets/mani_skill2_ycb/models/015_peach",
+      "scale_usages": [
+        {
+          "scales": [
+            0.7
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_008_pick_apple_banana_baskets.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        0.7
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            0.1,
+            -0.25,
+            -0.01
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_008_pick_apple_banana_baskets.py"
+          ]
+        },
+        {
+          "p": [
+            -0.15,
+            -0.15,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_008_pick_apple_banana_baskets.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "016_pear",
+      "asset_path": "assets/mani_skill2_ycb/models/016_pear",
+      "scale_usages": [
+        {
+          "scales": [
+            0.7
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        0.7
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.5,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_007_pick_apple_basket.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "021_bleach_cleanser",
+      "asset_path": "assets/mani_skill2_ycb/models/021_bleach_cleanser",
+      "scale_usages": [
+        {
+          "scales": [
+            1.2
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_017_pour_ketchup_fries.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        1.2
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            0.05,
+            -0.1,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.0,
+            0.0,
+            0.70710678
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_017_pour_ketchup_fries.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.0,
+          0.0,
+          0.70710678
+        ]
+      }
+    },
+    {
+      "id": "024_bowl",
+      "asset_path": "assets/mani_skill2_ycb/models/024_bowl",
+      "scale_usages": [
+        {
+          "scales": [
+            1.0
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_047_knife_bowl_fork_l3.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        1.0
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            -0.02
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:self.bowl_pose",
+          "used_by": [
+            "_047_knife_bowl_fork_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "026_sponge",
+      "asset_path": "assets/mani_skill2_ycb/models/026_sponge",
+      "scale_usages": [
+        {
+          "scales": [
+            0.2,
+            0.2,
+            0.2
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_022_trans_food_l3.py"
+          ]
+        },
+        {
+          "scales": null,
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_018_wipe_pot.py",
+            "_019_clean_desk.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        0.2,
+        0.2,
+        0.2
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_022_trans_food_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_022_trans_food_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "028_skillet_lid",
+      "asset_path": "assets/mani_skill2_ycb/models/028_skillet_lid",
+      "scale_usages": [
+        {
+          "scales": [
+            0.6
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_048_lift_lid_from_skillet.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        0.6
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            0.03,
+            0.02,
+            -0.05
+          ],
+          "q": [
+            0.70710678,
+            0.0,
+            0.0,
+            0.70710678
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_048_lift_lid_from_skillet.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.0,
+          0.0,
+          0.70710678
+        ]
+      }
+    },
+    {
+      "id": "029_plate",
+      "asset_path": "assets/mani_skill2_ycb/models/029_plate",
+      "scale_usages": [
+        {
+          "scales": [
+            1.0
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_047_knife_bowl_fork_l3.py"
+          ]
+        },
+        {
+          "scales": null,
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "dual_pick_cube_ycb.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        1.0
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            -0.02
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_047_knife_bowl_fork_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "030_fork",
+      "asset_path": "assets/mani_skill2_ycb/models/030_fork",
+      "scale_usages": [
+        {
+          "scales": [
+            1.0,
+            1.0,
+            1.3
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_047_knife_bowl_fork.py"
+          ]
+        },
+        {
+          "scales": [
+            1.0
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_047_knife_bowl_fork_l3.py"
+          ]
+        },
+        {
+          "scales": [
+            1.1
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_022_trans_food.py"
+          ]
+        },
+        {
+          "scales": null,
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_001_stir_spoon.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        1.0,
+        1.0,
+        1.3
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.2,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_001_stir_spoon.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_022_trans_food.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "031_spoon",
+      "asset_path": "assets/mani_skill2_ycb/models/031_spoon",
+      "scale_usages": [
+        {
+          "scales": [
+            1.0,
+            1.0,
+            1.3
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_047_knife_bowl_fork.py"
+          ]
+        },
+        {
+          "scales": [
+            1.0
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_047_knife_bowl_fork_l3.py"
+          ]
+        },
+        {
+          "scales": [
+            1.1
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_022_trans_food.py"
+          ]
+        },
+        {
+          "scales": null,
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_001_stir_spoon.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        1.0,
+        1.0,
+        1.3
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            -0.2,
+            -0.2,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_047_knife_bowl_fork.py"
+          ]
+        },
+        {
+          "p": [
+            -0.2,
+            0.2,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_047_knife_bowl_fork_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "032_knife",
+      "asset_path": "assets/mani_skill2_ycb/models/032_knife",
+      "scale_usages": [
+        {
+          "scales": [
+            1.0,
+            1.0,
+            1.3
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_047_knife_bowl_fork.py"
+          ]
+        },
+        {
+          "scales": [
+            1.6
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_015_cut_fruit.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        1.0,
+        1.0,
+        1.3
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            -0.1,
+            -0.2,
+            0.06
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_015_cut_fruit.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "033_spatula",
+      "asset_path": "assets/mani_skill2_ycb/models/033_spatula",
+      "scale_usages": [
+        {
+          "scales": [
+            1.0,
+            1.0,
+            1.3
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_047_knife_bowl_fork.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        1.0,
+        1.0,
+        1.3
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            -0.2,
+            0.2,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_047_knife_bowl_fork.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "036_wood_block",
+      "asset_path": "assets/mani_skill2_ycb/models/036_wood_block",
+      "scale_usages": [
+        {
+          "scales": null,
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_018_wipe_pot.py",
+            "_019_clean_desk.py"
+          ]
+        }
+      ],
+      "gallery_scales": null,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_018_wipe_pot.py"
+          ]
+        },
+        {
+          "p": [
+            0.2,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_019_clean_desk.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "055_baseball",
+      "asset_path": "assets/mani_skill2_ycb/models/055_baseball",
+      "scale_usages": [
+        {
+          "scales": null,
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_026_pick_tennisball_golfball.py"
+          ]
+        }
+      ],
+      "gallery_scales": null,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.2,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_026_pick_tennisball_golfball.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "056_tennis_ball",
+      "asset_path": "assets/mani_skill2_ycb/models/056_tennis_ball",
+      "scale_usages": [
+        {
+          "scales": null,
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_026_pick_tennisball_golfball.py",
+            "_026_pick_tennisball_golfball_l3.py"
+          ]
+        }
+      ],
+      "gallery_scales": null,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.1,
+            -0.01
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_026_pick_tennisball_golfball_l3.py"
+          ]
+        },
+        {
+          "p": [
+            -0.25,
+            -0.15,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_026_pick_tennisball_golfball_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "057_racquetball",
+      "asset_path": "assets/mani_skill2_ycb/models/057_racquetball",
+      "scale_usages": [
+        {
+          "scales": null,
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_026_pick_tennisball_golfball.py"
+          ]
+        }
+      ],
+      "gallery_scales": null,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.2,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_026_pick_tennisball_golfball.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "058_golf_ball",
+      "asset_path": "assets/mani_skill2_ycb/models/058_golf_ball",
+      "scale_usages": [
+        {
+          "scales": null,
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_026_pick_tennisball_golfball.py",
+            "_026_pick_tennisball_golfball_l3.py"
+          ]
+        }
+      ],
+      "gallery_scales": null,
+      "pose_usages": [
+        {
+          "p": [
+            -0.25,
+            0.15,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_026_pick_tennisball_golfball_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            0.1,
+            0.0
+          ],
+          "q": [
+            0.0,
+            0.0,
+            0.70710678,
+            0.70710678
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_026_pick_tennisball_golfball_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "061_foam_brick",
+      "asset_path": "assets/mani_skill2_ycb/models/061_foam_brick",
+      "scale_usages": [
+        {
+          "scales": [
+            0.4
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_019_clean_desk.py",
+            "_019_clean_desk_l3.py"
+          ]
+        },
+        {
+          "scales": [
+            0.8
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_040_put_cube_on_scale.py",
+            "_040_put_cube_on_scale_l3.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        0.4
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_019_clean_desk.py",
+            "_019_clean_desk_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_019_clean_desk.py",
+            "_019_clean_desk_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "id": "077_rubiks_cube",
+      "asset_path": "assets/mani_skill2_ycb/models/077_rubiks_cube",
+      "scale_usages": [
+        {
+          "scales": [
+            0.8
+          ],
+          "source_context": "get_actor_builder",
+          "used_by": [
+            "_040_put_cube_on_scale.py",
+            "_040_put_cube_on_scale_l3.py"
+          ]
+        }
+      ],
+      "gallery_scales": [
+        0.8
+      ],
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.35,
+            -0.01
+          ],
+          "q": [
+            0.70710678,
+            0.0,
+            0.0,
+            0.70710678
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_040_put_cube_on_scale.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            -0.4,
+            -0.01
+          ],
+          "q": [
+            0.70710678,
+            0.0,
+            0.0,
+            0.70710678
+          ],
+          "source_context": "builder.initial_pose",
+          "used_by": [
+            "_040_put_cube_on_scale_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.0,
+          0.0,
+          0.70710678
+        ]
+      }
+    }
+  ],
+  "sketchfab": [
+    {
+      "object_key": "balance_scale",
+      "asset_path": "sketchfab/objects/balance_scale",
+      "scale_usages": [
+        {
+          "scales": null,
+          "source_context": "create_sketchfab_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale_l3.py",
+            "_023_place_food_scale_l3.py",
+            "_040_put_cube_on_scale_l3.py"
+          ]
+        }
+      ],
+      "gallery_scales": null,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.05,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "create_sketchfab_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale_l3.py",
+            "_023_place_food_scale_l3.py"
+          ]
+        },
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "create_sketchfab_actor",
+          "used_by": [
+            "_040_put_cube_on_scale_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          0.5,
+          -0.5,
+          -0.5
+        ]
+      }
+    },
+    {
+      "object_key": "weight_on_scale",
+      "asset_path": "sketchfab/objects/weight_on_scale",
+      "scale_usages": [
+        {
+          "scales": null,
+          "source_context": "create_sketchfab_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale_l3.py",
+            "_023_place_food_scale_l3.py"
+          ]
+        }
+      ],
+      "gallery_scales": null,
+      "pose_usages": [
+        {
+          "p": [
+            -0.2,
+            0.5,
+            0.0
+          ],
+          "q": [
+            0.61237244,
+            0.61237244,
+            0.35355339,
+            0.35355339
+          ],
+          "source_context": "create_sketchfab_actor",
+          "used_by": [
+            "_009_pick_apple_to_scale_l3.py"
+          ]
+        },
+        {
+          "p": [
+            -0.2,
+            0.4,
+            0.0
+          ],
+          "q": [
+            0.61237244,
+            0.61237244,
+            0.35355339,
+            0.35355339
+          ],
+          "source_context": "create_sketchfab_actor",
+          "used_by": [
+            "_023_place_food_scale_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.61237244,
+          0.61237244,
+          0.35355339,
+          0.35355339
+        ]
+      }
+    }
+  ],
+  "partnet": [
+    {
+      "model_id": "10040",
+      "category": "Laptop",
+      "mode": "laptop",
+      "asset_path": "partnet_mobility/dataset/Laptop/10040",
+      "scale_usages": [
+        {
+          "scale": 0.15,
+          "mode": "laptop",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_049_fold_towel_l3.py"
+          ]
+        },
+        {
+          "scale": 0.17,
+          "mode": "laptop",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_049_fold_towel.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.15,
+      "pose_usages": [
+        {
+          "p": [
+            -0.05,
+            -0.12,
+            -0.12
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_049_fold_towel_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "10243",
+      "category": "Laptop",
+      "mode": "laptop",
+      "asset_path": "partnet_mobility/dataset/Laptop/10243",
+      "scale_usages": [
+        {
+          "scale": 0.17,
+          "mode": "laptop",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_049_fold_towel.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.17,
+      "pose_usages": [
+        {
+          "p": [
+            -0.05,
+            -0.12,
+            -0.12
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_049_fold_towel.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "10495",
+      "category": "Scissors",
+      "mode": "scissors",
+      "asset_path": "partnet_mobility/dataset/Scissors/10495",
+      "scale_usages": [
+        {
+          "scale": 0.2,
+          "mode": "scissors",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_015_cut_fruit_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.2,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.25,
+            -0.12
+          ],
+          "q": [
+            0.0,
+            0.0,
+            -0.70710678,
+            0.70710678
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_015_cut_fruit_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.0,
+          0.0,
+          -0.70710678,
+          0.70710678
+        ]
+      }
+    },
+    {
+      "model_id": "11242",
+      "category": "Laptop",
+      "mode": "laptop",
+      "asset_path": "partnet_mobility/dataset/Laptop/11242",
+      "scale_usages": [
+        {
+          "scale": 0.18,
+          "mode": "laptop",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_003_place_cloth_basket.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.18,
+      "pose_usages": [
+        {
+          "p": [
+            -0.1,
+            -0.1,
+            -0.12
+          ],
+          "q": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_003_place_cloth_basket.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "11248",
+      "category": "Laptop",
+      "mode": "laptop",
+      "asset_path": "partnet_mobility/dataset/Laptop/11248",
+      "scale_usages": [
+        {
+          "scale": 0.15,
+          "mode": "laptop",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_003_place_cloth_basket_l3.py"
+          ]
+        },
+        {
+          "scale": 0.18,
+          "mode": "laptop",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_003_place_cloth_basket.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.15,
+      "pose_usages": [
+        {
+          "p": [
+            -0.1,
+            -0.1,
+            -0.12
+          ],
+          "q": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_003_place_cloth_basket.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "100040",
+      "category": "KitchenPot",
+      "mode": "kitchenpot",
+      "asset_path": "partnet_mobility/dataset/KitchenPot/100040",
+      "scale_usages": [
+        {
+          "scale": 0.1,
+          "mode": null,
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_018_wipe_pot.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.1,
+      "pose_usages": [],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "100051",
+      "category": "KitchenPot",
+      "mode": "kitchenpot",
+      "asset_path": "partnet_mobility/dataset/KitchenPot/100051",
+      "scale_usages": [
+        {
+          "scale": 0.1,
+          "mode": null,
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_018_wipe_pot.py",
+            "_018_wipe_pot_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.1,
+      "pose_usages": [],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "100141",
+      "category": "Box",
+      "mode": "box",
+      "asset_path": "partnet_mobility/dataset/Box/100141",
+      "scale_usages": [
+        {
+          "scale": 0.25,
+          "mode": "box",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_029_open_box_l3.py"
+          ]
+        },
+        {
+          "scale": 0.26,
+          "mode": "box",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_030_fold_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.25,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.1,
+            0.0
+          ],
+          "q": [
+            0.38268343,
+            0.0,
+            0.0,
+            0.92387953
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_029_open_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.38268343,
+          0.0,
+          0.0,
+          0.92387953
+        ]
+      }
+    },
+    {
+      "model_id": "100154",
+      "category": "Box",
+      "mode": "box",
+      "asset_path": "partnet_mobility/dataset/Box/100154",
+      "scale_usages": [
+        {
+          "scale": 0.26,
+          "mode": "box",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_030_fold_box.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.26,
+      "pose_usages": [
+        {
+          "p": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.38268343,
+            0.0,
+            0.0,
+            0.92387953
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_030_fold_box.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.38268343,
+          0.0,
+          0.0,
+          0.92387953
+        ]
+      }
+    },
+    {
+      "model_id": "100189",
+      "category": "Box",
+      "mode": "box",
+      "asset_path": "partnet_mobility/dataset/Box/100189",
+      "scale_usages": [
+        {
+          "scale": 0.25,
+          "mode": "box",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_029_open_box.py",
+            "_029_open_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.25,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.1,
+            0.0
+          ],
+          "q": [
+            0.38268343,
+            0.0,
+            0.0,
+            0.92387953
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_029_open_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.38268343,
+          0.0,
+          0.0,
+          0.92387953
+        ]
+      }
+    },
+    {
+      "model_id": "100191",
+      "category": "Box",
+      "mode": "box",
+      "asset_path": "partnet_mobility/dataset/Box/100191",
+      "scale_usages": [
+        {
+          "scale": 0.25,
+          "mode": "box",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_029_open_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.25,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.1,
+            0.0
+          ],
+          "q": [
+            0.38268343,
+            0.0,
+            0.0,
+            0.92387953
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_029_open_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.38268343,
+          0.0,
+          0.0,
+          0.92387953
+        ]
+      }
+    },
+    {
+      "model_id": "100224",
+      "category": "Box",
+      "mode": "box",
+      "asset_path": "partnet_mobility/dataset/Box/100224",
+      "scale_usages": [
+        {
+          "scale": 0.26,
+          "mode": "box",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_030_fold_box.py",
+            "_030_fold_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.26,
+      "pose_usages": [
+        {
+          "p": [
+            -0.05,
+            0.0,
+            0.0
+          ],
+          "q": [
+            0.38268343,
+            0.0,
+            0.0,
+            0.92387953
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_030_fold_box_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.38268343,
+          0.0,
+          0.0,
+          0.92387953
+        ]
+      }
+    },
+    {
+      "model_id": "100671",
+      "category": "Box",
+      "mode": "box",
+      "asset_path": "partnet_mobility/dataset/Box/100671",
+      "scale_usages": [
+        {
+          "scale": 0.15,
+          "mode": "box",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_026_pick_tennisball_golfball.py",
+            "_046_put_box.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.15,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:box1_builder.initial_pose",
+          "used_by": [
+            "_046_put_box.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "101490",
+      "category": "Dispenser",
+      "mode": "dispenser",
+      "asset_path": "partnet_mobility/dataset/Dispenser/101490",
+      "scale_usages": [
+        {
+          "scale": 0.14,
+          "mode": "dispenser",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_017_pour_ketchup_fries_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.14,
+      "pose_usages": [
+        {
+          "p": [
+            0.1,
+            -0.1,
+            0.0
+          ],
+          "q": [
+            0.70710678,
+            0.0,
+            0.0,
+            -0.70710678
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_017_pour_ketchup_fries_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.70710678,
+          0.0,
+          0.0,
+          -0.70710678
+        ]
+      }
+    },
+    {
+      "model_id": "102377",
+      "category": "Box",
+      "mode": "box",
+      "asset_path": "partnet_mobility/dataset/Box/102377",
+      "scale_usages": [
+        {
+          "scale": 0.3,
+          "mode": "box",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_048_lift_lid_from_skillet_l3.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.3,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            -0.1,
+            0.0
+          ],
+          "q": [
+            0.38268343,
+            0.0,
+            0.0,
+            0.92387953
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_048_lift_lid_from_skillet_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.38268343,
+          0.0,
+          0.0,
+          0.92387953
+        ]
+      }
+    },
+    {
+      "model_id": "102456",
+      "category": "Box",
+      "mode": "box",
+      "asset_path": "partnet_mobility/dataset/Box/102456",
+      "scale_usages": [
+        {
+          "scale": 0.15,
+          "mode": "box",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_026_pick_tennisball_golfball.py",
+            "_046_put_box.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.15,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:box1_builder.initial_pose",
+          "used_by": [
+            "_046_put_box.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "103064",
+      "category": "CoffeeMachine",
+      "mode": "coffeemachine",
+      "asset_path": "partnet_mobility/dataset/CoffeeMachine/103064",
+      "scale_usages": [
+        {
+          "scale": null,
+          "mode": "coffeemachine",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_050_press_juicer.py"
+          ]
+        }
+      ],
+      "gallery_scale": null,
+      "pose_usages": [
+        {
+          "p": [
+            0.2,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_050_press_juicer.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "103105",
+      "category": "CoffeeMachine",
+      "mode": "coffeemachine",
+      "asset_path": "partnet_mobility/dataset/CoffeeMachine/103105",
+      "scale_usages": [
+        {
+          "scale": null,
+          "mode": "coffeemachine",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_050_press_juicer.py"
+          ]
+        }
+      ],
+      "gallery_scale": null,
+      "pose_usages": [
+        {
+          "p": [
+            0.2,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_050_press_juicer.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "103134",
+      "category": "CoffeeMachine",
+      "mode": "coffeemachine",
+      "asset_path": "partnet_mobility/dataset/CoffeeMachine/103134",
+      "scale_usages": [
+        {
+          "scale": null,
+          "mode": "coffeemachine",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_050_press_juicer.py"
+          ]
+        }
+      ],
+      "gallery_scale": null,
+      "pose_usages": [
+        {
+          "p": [
+            0.2,
+            0.0,
+            0.0
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_050_press_juicer.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "model_id": "103761",
+      "category": "Suitcase",
+      "mode": "suitcase",
+      "asset_path": "partnet_mobility/dataset/Suitcase/103761",
+      "scale_usages": [
+        {
+          "scale": 0.2,
+          "mode": "suitcase",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_005_place_magazine_folder.py",
+            "_024_press_stapler_l3.py",
+            "_032_place_file_folder.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.2,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.25,
+            -0.01
+          ],
+          "q": [
+            0.5,
+            -0.5,
+            0.5,
+            0.5
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_024_press_stapler_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          -0.5,
+          0.5,
+          0.5
+        ]
+      }
+    },
+    {
+      "model_id": "103762",
+      "category": "Suitcase",
+      "mode": "suitcase",
+      "asset_path": "partnet_mobility/dataset/Suitcase/103762",
+      "scale_usages": [
+        {
+          "scale": 0.2,
+          "mode": "suitcase",
+          "source_context": "get_articulation_builder",
+          "used_by": [
+            "_005_place_magazine_folder.py",
+            "_005_place_magazine_folder_l3.py",
+            "_024_press_stapler_l3.py",
+            "_032_place_file_folder.py"
+          ]
+        }
+      ],
+      "gallery_scale": 0.2,
+      "pose_usages": [
+        {
+          "p": [
+            0.0,
+            0.25,
+            -0.01
+          ],
+          "q": [
+            0.5,
+            -0.5,
+            0.5,
+            0.5
+          ],
+          "source_context": "inferred:self.origin_base",
+          "used_by": [
+            "_024_press_stapler_l3.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          -0.5,
+          0.5,
+          0.5
+        ]
+      }
+    }
+  ],
+  "primitive": [
+    {
+      "kind": "box",
+      "size_usages": [
+        {
+          "half_size": null,
+          "source_context": "actors.build_box",
+          "used_by": [
+            "_031_pick_pillbottle_to_regions.py"
+          ]
+        }
+      ],
+      "gallery_half_size": null,
+      "pose_usages": [
+        {
+          "p": [
+            0.1,
+            -0.2,
+            0.005
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "actors.build_box",
+          "used_by": [
+            "_031_pick_pillbottle_to_regions.py"
+          ]
+        },
+        {
+          "p": [
+            0.1,
+            0.2,
+            0.005
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "actors.build_box",
+          "used_by": [
+            "_031_pick_pillbottle_to_regions.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "kind": "cube",
+      "size_usages": [
+        {
+          "half_size": 0.02,
+          "source_context": "actors.build_cube",
+          "used_by": [
+            "_037_place_screwdriver.py",
+            "_037_place_screwdriver_l3.py",
+            "dual_pick_cube_ycb.py"
+          ]
+        }
+      ],
+      "gallery_half_size": 0.02,
+      "pose_usages": [
+        {
+          "p": [
+            -0.23,
+            0.0,
+            0.16
+          ],
+          "q": [
+            0.5,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "source_context": "actors.build_cube",
+          "used_by": [
+            "_037_place_screwdriver.py",
+            "_037_place_screwdriver_l3.py"
+          ]
+        },
+        {
+          "p": [
+            -0.2,
+            -0.2,
+            0.02
+          ],
+          "q": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "source_context": "actors.build_cube",
+          "used_by": [
+            "dual_pick_cube_ycb.py"
+          ]
+        }
+      ],
+      "gallery_pose": {
+        "p": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "q": [
+          0.5,
+          0.5,
+          -0.5,
+          -0.5
+        ]
+      }
+    }
+  ]
+}

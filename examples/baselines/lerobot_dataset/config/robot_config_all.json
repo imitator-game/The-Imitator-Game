@@ -1,0 +1,1262 @@
+[
+  {
+    "repo_id": "robot_H1_L0",
+    "root": "robot_H1_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H1_L1",
+    "root": "robot_H1_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H1_L2",
+    "root": "robot_H1_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H1_L3",
+    "root": "robot_H1_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H2_L0",
+    "root": "robot_H2_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H2_L1",
+    "root": "robot_H2_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H2_L2",
+    "root": "robot_H2_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H2_L3",
+    "root": "robot_H2_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H3_L0",
+    "root": "robot_H3_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H3_L1",
+    "root": "robot_H3_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H3_L2",
+    "root": "robot_H3_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H3_L3",
+    "root": "robot_H3_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H5_L0",
+    "root": "robot_H5_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H5_L1",
+    "root": "robot_H5_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H5_L2",
+    "root": "robot_H5_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H5_L3",
+    "root": "robot_H5_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H6_L0",
+    "root": "robot_H6_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H6_L1",
+    "root": "robot_H6_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H6_L2",
+    "root": "robot_H6_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H6_L3",
+    "root": "robot_H6_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H6_L3_1",
+    "root": "robot_H6_L3_1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H7_L0",
+    "root": "robot_H7_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H7_L1",
+    "root": "robot_H7_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H7_L2",
+    "root": "robot_H7_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H7_L3",
+    "root": "robot_H7_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H7_L3_1",
+    "root": "robot_H7_L3_1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H8_L0",
+    "root": "robot_H8_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H8_L1",
+    "root": "robot_H8_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H8_L2",
+    "root": "robot_H8_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H8_L3",
+    "root": "robot_H8_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H9_L0",
+    "root": "robot_H9_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H9_L1",
+    "root": "robot_H9_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H9_L2",
+    "root": "robot_H9_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H9_L3",
+    "root": "robot_H9_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H10_L0",
+    "root": "robot_H10_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H10_L1",
+    "root": "robot_H10_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H10_L2",
+    "root": "robot_H10_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H10_L3",
+    "root": "robot_H10_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H11_L0",
+    "root": "robot_H11_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H11_L1",
+    "root": "robot_H11_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H11_L2",
+    "root": "robot_H11_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H11_L3",
+    "root": "robot_H11_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H12_L0",
+    "root": "robot_H12_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H12_L1",
+    "root": "robot_H12_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H12_L2",
+    "root": "robot_H12_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H12_L3",
+    "root": "robot_H12_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H14_L0",
+    "root": "robot_H14_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H14_L1",
+    "root": "robot_H14_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H14_L2",
+    "root": "robot_H14_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H14_L3",
+    "root": "robot_H14_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H15_L0",
+    "root": "robot_H15_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H15_L1",
+    "root": "robot_H15_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H15_L2",
+    "root": "robot_H15_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H15_L3",
+    "root": "robot_H15_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H15_L3_1",
+    "root": "robot_H15_L3_1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H16_L0",
+    "root": "robot_H16_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H16_L1",
+    "root": "robot_H16_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H16_L2",
+    "root": "robot_H16_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H16_L3",
+    "root": "robot_H16_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H17_L0",
+    "root": "robot_H17_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H17_L1",
+    "root": "robot_H17_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H17_L2",
+    "root": "robot_H17_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H17_L3",
+    "root": "robot_H17_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H18_L0",
+    "root": "robot_H18_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H18_L1",
+    "root": "robot_H18_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H18_L2",
+    "root": "robot_H18_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H18_L3",
+    "root": "robot_H18_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H19_L0",
+    "root": "robot_H19_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H19_L1",
+    "root": "robot_H19_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H19_L2",
+    "root": "robot_H19_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H19_L3",
+    "root": "robot_H19_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H22_L0",
+    "root": "robot_H22_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H22_L1",
+    "root": "robot_H22_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H22_L2",
+    "root": "robot_H22_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H22_L3",
+    "root": "robot_H22_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H23_L0",
+    "root": "robot_H23_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H23_L1",
+    "root": "robot_H23_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H23_L2",
+    "root": "robot_H23_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H23_L3",
+    "root": "robot_H23_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H24_L0",
+    "root": "robot_H24_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H24_L1",
+    "root": "robot_H24_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H24_L2",
+    "root": "robot_H24_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H24_L3",
+    "root": "robot_H24_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H25_L0",
+    "root": "robot_H25_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H25_L1",
+    "root": "robot_H25_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H25_L2",
+    "root": "robot_H25_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H25_L3",
+    "root": "robot_H25_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H26_L0",
+    "root": "robot_H26_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H26_L1",
+    "root": "robot_H26_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H26_L2",
+    "root": "robot_H26_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H26_L3",
+    "root": "robot_H26_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H27_L0",
+    "root": "robot_H27_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H27_L1",
+    "root": "robot_H27_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H27_L2",
+    "root": "robot_H27_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H27_L3",
+    "root": "robot_H27_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H28_L0",
+    "root": "robot_H28_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H28_L1",
+    "root": "robot_H28_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H28_L2",
+    "root": "robot_H28_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H28_L3",
+    "root": "robot_H28_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H29_L0",
+    "root": "robot_H29_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H29_L1",
+    "root": "robot_H29_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H29_L2",
+    "root": "robot_H29_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H31_L0",
+    "root": "robot_H31_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H31_L1",
+    "root": "robot_H31_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H31_L2",
+    "root": "robot_H31_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H31_L3",
+    "root": "robot_H31_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H32_L0",
+    "root": "robot_H32_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H32_L1",
+    "root": "robot_H32_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H32_L2",
+    "root": "robot_H32_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H32_L3",
+    "root": "robot_H32_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H33_L0",
+    "root": "robot_H33_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H33_L1",
+    "root": "robot_H33_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H33_L2",
+    "root": "robot_H33_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H34_L0",
+    "root": "robot_H34_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H34_L1",
+    "root": "robot_H34_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H34_L2",
+    "root": "robot_H34_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H34_L3",
+    "root": "robot_H34_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H35_L0",
+    "root": "robot_H35_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H35_L1",
+    "root": "robot_H35_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H35_L2",
+    "root": "robot_H35_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H35_L3",
+    "root": "robot_H35_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H36_L0",
+    "root": "robot_H36_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H36_L1",
+    "root": "robot_H36_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H36_L2",
+    "root": "robot_H36_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H37_L0",
+    "root": "robot_H37_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H37_L1",
+    "root": "robot_H37_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H37_L2",
+    "root": "robot_H37_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H37_L3",
+    "root": "robot_H37_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H38_L0",
+    "root": "robot_H38_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H38_L1",
+    "root": "robot_H38_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H38_L2",
+    "root": "robot_H38_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H39_L0",
+    "root": "robot_H39_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H39_L1",
+    "root": "robot_H39_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H39_L2",
+    "root": "robot_H39_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H40_L0",
+    "root": "robot_H40_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H40_L1",
+    "root": "robot_H40_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H40_L2",
+    "root": "robot_H40_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H40_L3",
+    "root": "robot_H40_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H41_L0",
+    "root": "robot_H41_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H41_L1",
+    "root": "robot_H41_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H41_L2",
+    "root": "robot_H41_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H41_L3",
+    "root": "robot_H41_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H42_L0",
+    "root": "robot_H42_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H42_L1",
+    "root": "robot_H42_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H42_L2",
+    "root": "robot_H42_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H42_L3",
+    "root": "robot_H42_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H43_L0",
+    "root": "robot_H43_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H43_L1",
+    "root": "robot_H43_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H43_L2",
+    "root": "robot_H43_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H44_L0",
+    "root": "robot_H44_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H44_L1",
+    "root": "robot_H44_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H44_L2",
+    "root": "robot_H44_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H44_L3",
+    "root": "robot_H44_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H45_L0",
+    "root": "robot_H45_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H45_L1",
+    "root": "robot_H45_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H45_L2",
+    "root": "robot_H45_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H45_L3",
+    "root": "robot_H45_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H46_L0",
+    "root": "robot_H46_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H46_L1",
+    "root": "robot_H46_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H46_L2",
+    "root": "robot_H46_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H46_L3",
+    "root": "robot_H46_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H47_L0",
+    "root": "robot_H47_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H47_L1",
+    "root": "robot_H47_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H47_L2",
+    "root": "robot_H47_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H47_L3",
+    "root": "robot_H47_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H48_L0",
+    "root": "robot_H48_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H48_L1",
+    "root": "robot_H48_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H48_L2",
+    "root": "robot_H48_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H48_L3",
+    "root": "robot_H48_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H49_L0",
+    "root": "robot_H49_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H49_L1",
+    "root": "robot_H49_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H49_L2",
+    "root": "robot_H49_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H49_L3",
+    "root": "robot_H49_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H50_L0",
+    "root": "robot_H50_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H50_L1",
+    "root": "robot_H50_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H50_L2",
+    "root": "robot_H50_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H50_L3",
+    "root": "robot_H50_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H56_L0",
+    "root": "robot_H56_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H56_L1",
+    "root": "robot_H56_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H56_L2",
+    "root": "robot_H56_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H56_L3",
+    "root": "robot_H56_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H57_L0",
+    "root": "robot_H57_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H57_L1",
+    "root": "robot_H57_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H57_L2",
+    "root": "robot_H57_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H57_L3",
+    "root": "robot_H57_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H58_L0",
+    "root": "robot_H58_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H58_L1",
+    "root": "robot_H58_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H58_L2",
+    "root": "robot_H58_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H58_L3",
+    "root": "robot_H58_L3",
+    "train": "0:50",
+    "test": ""
+  },
+ {
+    "repo_id": "robot_H4_L0",
+    "root": "robot_H4_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H4_L1",
+    "root": "robot_H4_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H4_L2",
+    "root": "robot_H4_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H4_L3",
+    "root": "robot_H4_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H13_L0",
+    "root": "robot_H13_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H13_L1",
+    "root": "robot_H13_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H13_L2",
+    "root": "robot_H13_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H13_L3",
+    "root": "robot_H13_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H20_L0",
+    "root": "robot_H20_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H20_L1",
+    "root": "robot_H20_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H20_L2",
+    "root": "robot_H20_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H20_L3",
+    "root": "robot_H20_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H20_L3_1",
+    "root": "robot_H20_L3_1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H21_L0",
+    "root": "robot_H21_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H21_L1",
+    "root": "robot_H21_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H21_L2",
+    "root": "robot_H21_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H21_L3",
+    "root": "robot_H21_L3",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H30_L0",
+    "root": "robot_H30_L0",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H30_L1",
+    "root": "robot_H30_L1",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H30_L2",
+    "root": "robot_H30_L2",
+    "train": "0:50",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H30_L3",
+    "root": "robot_H30_L3",
+    "train": "0:50",
+    "test": ""
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "repo_id": "human_H41",
+    "root": "human_H41",
+    "train": "0:50",
+    "test": "",
+    "_comment": "train (PourCup)"
+  },
+  {
+    "repo_id": "human_H7",
+    "root": "human_H7",
+    "train": "0:50",
+    "test": "",
+    "_comment": "train (PickAppleBasket)"
+  },
+  {
+    "repo_id": "human_H24",
+    "root": "human_H24",
+    "train": "0:50",
+    "test": "",
+    "_comment": "train + cross-level (PressStapler)"
+  },
+  {
+    "repo_id": "human_H4",
+    "root": "human_H4",
+    "train": "0:50",
+    "test": "",
+    "_comment": "new skill (PickRemoteControl)"
+  }
+]

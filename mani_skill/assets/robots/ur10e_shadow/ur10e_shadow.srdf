@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<robot name="ur10e_shadowhand">
+  
+  <!-- UR10e arm group - uses the correct group name -->
+  <group name="ur10e_arm">
+    <joint name="shoulder_pan_joint"/>
+    <joint name="shoulder_lift_joint"/>
+    <joint name="elbow_joint"/>
+    <joint name="wrist_1_joint"/>
+    <joint name="wrist_2_joint"/>
+    <joint name="wrist_3_joint"/>
+  </group>
+  
+  <!-- Define the arm chain -->
+  <group name="ur10e_hand_tcp">
+    <chain base_link="base_link" tip_link="tool0"/>
+  </group>
+  
+  <!-- Shadow Hand group -->
+  <group name="shadowhand">
+    <joint name="rh_WRJ2"/>
+    <joint name="rh_WRJ1"/>
+    <joint name="rh_FFJ4"/>
+    <joint name="rh_FFJ3"/>
+    <joint name="rh_FFJ2"/>
+    <joint name="rh_FFJ1"/>
+    <joint name="rh_MFJ4"/>
+    <joint name="rh_MFJ3"/>
+    <joint name="rh_MFJ2"/>
+    <joint name="rh_MFJ1"/>
+    <joint name="rh_RFJ4"/>
+    <joint name="rh_RFJ3"/>
+    <joint name="rh_RFJ2"/>
+    <joint name="rh_RFJ1"/>
+    <joint name="rh_LFJ5"/>
+    <joint name="rh_LFJ4"/>
+    <joint name="rh_LFJ3"/>
+    <joint name="rh_LFJ2"/>
+    <joint name="rh_LFJ1"/>
+    <joint name="rh_THJ5"/>
+    <joint name="rh_THJ4"/>
+    <joint name="rh_THJ3"/>
+    <joint name="rh_THJ2"/>
+    <joint name="rh_THJ1"/>
+  </group>
+  
+  <!-- Virtual joint -->
+  <virtual_joint name="virtual_joint" type="fixed" parent_frame="world" child_link="base_link"/>
+  
+  <!-- Disable collision pairs -->
+  <disable_collisions link1="base_link" link2="base_link_inertia" reason="Adjacent"/>
+  <disable_collisions link1="base_link_inertia" link2="shoulder_link" reason="Adjacent"/>
+  <disable_collisions link1="shoulder_link" link2="upper_arm_link" reason="Adjacent"/>
+  <disable_collisions link1="upper_arm_link" link2="forearm_link" reason="Adjacent"/>
+  <disable_collisions link1="forearm_link" link2="wrist_1_link" reason="Adjacent"/>
+  <disable_collisions link1="wrist_1_link" link2="wrist_2_link" reason="Adjacent"/>
+  <disable_collisions link1="wrist_2_link" link2="wrist_3_link" reason="Adjacent"/>
+  <disable_collisions link1="wrist_3_link" link2="tool0" reason="Adjacent"/>
+  <disable_collisions link1="tool0" link2="rh_forearm" reason="Adjacent"/>
+  
+  <!-- Shadow Hand internal collision disablements -->
+  <disable_collisions link1="rh_forearm" link2="rh_wrist" reason="Adjacent"/>
+  <disable_collisions link1="rh_wrist" link2="rh_palm" reason="Adjacent"/>
+  <disable_collisions link1="rh_palm" link2="rh_ffknuckle" reason="Adjacent"/>
+  <disable_collisions link1="rh_palm" link2="rh_mfknuckle" reason="Adjacent"/>
+  <disable_collisions link1="rh_palm" link2="rh_rfknuckle" reason="Adjacent"/>
+  <disable_collisions link1="rh_palm" link2="rh_lfmetacarpal" reason="Adjacent"/>
+  <disable_collisions link1="rh_palm" link2="rh_thbase" reason="Adjacent"/>
+  
+</robot>

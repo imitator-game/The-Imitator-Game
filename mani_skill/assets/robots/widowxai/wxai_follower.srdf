@@ -1,0 +1,48 @@
+<robot name="wxai">
+  <disable_collisions link1="base_link" link2="link_1" reason="Adjacent"/>
+  <disable_collisions link1="link_6" link2="carriage_right" reason="Adjacent"/>
+  <disable_collisions link1="link_6" link2="carriage_left" reason="Adjacent"/>
+  <disable_collisions link1="link_6" link2="camera_mount_d405" reason="Adjacent"/>
+  <disable_collisions link1="link_6" link2="camera_link" reason="Adjacent"/>
+  <disable_collisions link1="link_6" link2="gripper_right" reason="Adjacent"/>
+  <disable_collisions link1="link_6" link2="gripper_left" reason="Adjacent"/>
+  <disable_collisions link1="carriage_right" link2="gripper_right" reason="Fixed"/>
+  <disable_collisions link1="carriage_left" link2="gripper_left" reason="Fixed"/>
+  <disable_collisions link1="gripper_right" link2="gripper_left" reason="ParallelMotion"/>
+
+  <!-- additional collisions for simulation to disable since they can never actually collide / rarely ever collide -->
+
+  <disable_collisions link1="base_link" link2="link_2" reason="Default"/>
+  <disable_collisions link1="link_4" link2="link_6" reason="Default"/>
+  <disable_collisions link1="link_3" link2="link_5" reason="Default"/>
+  <disable_collisions link1="link_2" link2="link_4" reason="Default"/>
+  <disable_collisions link1="link_1" link2="link_4" reason="Default"/>
+  <disable_collisions link1="link_1" link2="link_3" reason="Default"/>
+  <disable_collisions link1="link_1" link2="link_5" reason="Default"/>
+
+  <disable_collisions link1="link_6" link2="gripper_left" reason="Default"/>
+  <disable_collisions link1="link_6" link2="gripper_right" reason="Default"/>
+  <disable_collisions link1="carriage_right" link2="carriage_left" reason="Default"/>
+  <disable_collisions link1="gripper_right" link2="gripper_left" reason="Default"/>
+
+  <!-- gripper_right and carriage_right should be merged as one link in the future for optimization. For now we just disable collisions here -->
+  <disable_collisions link1="carriage_left" link2="gripper_right" reason="Default"/>
+  <disable_collisions link1="carriage_right" link2="gripper_left" reason="Default"/>
+
+  <disable_collisions link1="gripper_left" link2="camera_mount_d405" reason="Default"/>
+  <disable_collisions link1="gripper_right" link2="camera_mount_d405" reason="Default"/>
+  <disable_collisions link1="carriage_left" link2="camera_mount_d405" reason="Default"/>
+  <disable_collisions link1="carriage_right" link2="camera_mount_d405" reason="Default"/>
+  <disable_collisions link1="camera_link" link2="camera_mount_d405" reason="Default"/>
+  <disable_collisions link1="link_4" link2="camera_mount_d405" reason="Default"/>
+  <disable_collisions link1="link_5" link2="camera_mount_d405" reason="Default"/>
+
+  <!-- camera_link and camera_mount_d405 should be merged as well -->
+  <!-- <disable_collisions link1="camera_link" link2="link_6" reason="Default"/>
+  <disable_collisions link1="camera_link" link2="link_5" reason="Default"/>
+  <disable_collisions link1="camera_link" link2="carriage_left" reason="Default"/>
+  <disable_collisions link1="camera_link" link2="carriage_right" reason="Default"/>
+  <disable_collisions link1="camera_link" link2="gripper_left" reason="Default"/>
+  <disable_collisions link1="camera_link" link2="gripper_right" reason="Default"/> -->
+
+</robot>

@@ -1,0 +1,32 @@
+[
+  {
+    "repo_id": "human_H4",
+    "root": "human_H4",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H13",
+    "root": "human_H13",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H20",
+    "root": "human_H20",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H21",
+    "root": "human_H21",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "human_H30",
+    "root": "human_H30",
+    "train": "0:10",
+    "test": ""
+  }
+]

@@ -1,0 +1,226 @@
+[build-system]
+requires = ["setuptools>=62.3.0", "wheel", "hatchling"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mani_skill"
+version = "3.0.0b20"
+description = "ManiSkill3: A Unified Benchmark for Generalizable Manipulation Skills"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { file = "LICENSE" }
+dependencies = [
+    "accelerate>=1.10.1",
+    "augmax>=0.3.4",
+    "av>=10.0.0,<16.0.0",
+    "r3m",
+    "beartype==0.19.0",
+    "bitsandbytes>=0.48.1",
+    "blobfile>=3.1.0",
+    "dacite",
+    "deepspeed>=0.18.0",
+    "diffusers>=0.36.0",
+    "dm-control>=1.0.9",
+    "dm-tree>=0.1.8",
+    "draccus>=0.11.5",
+    "einops>=0.8.1",
+    "equinox>=0.11.8",
+    "fast_kinematics==0.2.2; platform_system=='Linux'",
+    "filelock>=3.16.1",
+    "flatbuffers>=24.3.25",
+    "flax==0.10.2",
+    "fsspec[gcs]>=2024.6.0",
+    "GitPython",
+    "gym>=0.26.2",
+    "gym-aloha>=0.1.1",
+    "gymnasium==0.29.1",
+    "h5py",
+    "huggingface_hub",
+    "hydra-core",
+    "imageio>=2.36.1",
+    "imageio[ffmpeg]",
+    "IPython",
+    "jax[cuda12]==0.5.3",
+    "jaxtyping==0.2.36",
+    "joblib>=1.5.3",
+    "json-numpy>=2.1.1",
+    "jsonlines>=4.0.0",
+    "lightning",
+    "lerobot==0.5.0",
+    "matplotlib>=3.6.1",
+    "ml_collections==1.0.0",
+    "mplib==0.1.1; platform_system=='Linux'",
+    "numba>=0.56.4",
+    "numcodecs>=0.10.2",
+    "numpy>=1.22.4,<2.0.0",
+    "numpydantic>=1.6.6",
+    "opencv-python>=4.10.0.84",
+    "openai-clip>=1.0.1",
+    "openpi-client",
+    "orbax-checkpoint==0.11.13",
+    "peft>=0.17.1",
+    "pillow>=11.0.0",
+    "plotly>=6.5.1",
+    "polars>=1.30.0",
+    "psutil>=5.9.2",
+    "pynvml",
+    "pytorch_kinematics==0.7.5",
+    "qwen-vl-utils<0.0.14",
+    "rich>=14.0.0",
+    "sapien>=3.0.0.b1; platform_system=='Linux'",
+    "sapien>=3.0.0.b1; platform_system=='Windows'",
+    "scikit-image>=0.19.3",
+    "scikit-learn>=1.8.0",
+    "scikit-video>=1.1.11",
+    "scipy>=1.9.1",
+    "selenium>=4.39.0",
+    "sentencepiece>=0.2.1",
+    "tabulate",
+    "tensorboard>=2.15.0",
+    "termcolor>=2.0.1",
+    "tiktoken>=0.11.0",
+    "timm==0.9.10",
+    "torch==2.7.1",
+    "torchvision>=0.22.1",
+    "tqdm>=4.64.1",
+    "tqdm-loggable>=0.2",
+    "transforms3d",
+    "transformers>=4.52.0",
+    "treescope>=0.1.7",
+    "trimesh",
+    "tyro>=0.9.5",
+    "typing-extensions>=4.12.2",
+    "wandb>=0.19.1",
+    "pyyaml",
+    "zarr>=2.12.0",
+    "albumentations>=2.0.8",
+    "dlimp",
+    "tensorflow-cpu>=2.16.1",
+    "tensorflow-datasets==4.9.9",
+    "gradio>=6.3.0",
+]
+
+
+[project.urls]
+Repository = "https://github.com/Physical-Intelligence/openpi"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+    "ruff>=0.8.6",
+    "pre-commit>=4.0.1",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.5",
+    "matplotlib>=3.10.0",
+    "pynvml>=12.0.0",
+]
+
+[tool.uv]
+override-dependencies = [
+    "ml-dtypes>=0.5.0",
+    "tensorstore==0.1.74",
+    "gymnasium==0.29.1",
+    "draccus>=0.11.5",
+    "diffusers>=0.36.0",
+    "numpy>=1.22.4,<2.0.0",
+    "huggingface-hub==0.33.1",
+    "tensorflow>=2.16.1",
+    "tensorflow-cpu>=2.16.1",
+]
+prerelease = "allow"
+
+[tool.uv.sources]
+openpi-client = { workspace = true }
+# lerobot = { git = "https://github.com/huggingface/lerobot", rev = "0cf864870cf29f4738d3ade893e6fd13fbd7cdb5" }
+dlimp = { git = "https://github.com/kvablack/dlimp", rev = "ad72ce3a9b414db2185bc0b38461d4101a65477a" }
+diffusion-policy = { path = "examples/baselines/diffusion_policy", editable = true }
+r3m = { git = "https://github.com/facebookresearch/r3m" }
+torch = [
+    { index = "pytorch-cu128" },
+]
+torchvision = [
+    { index = "pytorch-cu128" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.workspace]
+members = ["examples/baselines/pi/packages/*"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["examples/baselines/pi/docker", "examples/baselines/pi/third_party", "examples/baselines/pi/src/openpi/models_pytorch/transformers_replace/*"]
+
+[tool.ruff.lint]
+# https://docs.astral.sh/ruff/rules/
+select = [
+    "B",
+    "C4",
+    "DTZ",
+    "E4",
+    "E7",
+    "E9",
+    "F",
+    "FBT",
+    "FURB",
+    "I",
+    "ICN",
+    "ISC",
+    "LOG",
+    "N",
+    "PD",
+    "PERF",
+    "PIE",
+    "PLC",
+    "PLE",
+    "PLR1",
+    "PLR5",
+    "PLW",
+    "PT",
+    "Q",
+    "RET",
+    "RUF",
+    "SIM",
+    "SLF",
+    "T10",
+    "T20",
+    "UP",
+    "W",
+]
+ignore = [
+    "F722",
+    "T201",
+    "PD008",
+    "ISC001",
+    "LOG015",
+]
+unfixable = [
+    "B905",
+]
+
+[tool.ruff.lint.isort]
+force-single-line = true
+force-sort-within-sections = true
+single-line-exclusions = ["collections.abc", "typing", "typing_extensions"]
+known-third-party = ["wandb"]
+
+[tool.pytest.ini_options]
+markers = ["manual: should be run manually."]
+testpaths = ["src", "scripts", "packages"]
+
+[project.optional-dependencies]
+dev = [
+    "nvitop",
+    "black",
+]
+
+[tool.setuptools.packages.find]
+include = ["mani_skill*"]
+
+[tool.setuptools.package-data]
+mani_skill = ["assets/**", "envs/**/*", "utils/**/*"]
+"warp_maniskill.warp" = ["native/*", "native/nanovdb/*"]

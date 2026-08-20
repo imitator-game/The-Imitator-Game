@@ -1,0 +1,11 @@
+wilor_out_test/
+wilor_out_video_test/
+demo_out/
+pretrained_models/detector.pt 
+pretrained_models/wilor_final.ckpt
+mano_data/MANO_RIGHT.pkl
+dataset_remano/
+logs/
+human_H12/
+dataset_remano_cross/
+dataset_remano_cross_debug/

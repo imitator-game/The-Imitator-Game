@@ -1,0 +1,122 @@
+[
+  {
+    "repo_id": "robot_H1_L0",
+    "root": "robot_H1_L0",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H1_L1",
+    "root": "robot_H1_L1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H1_L2",
+    "root": "robot_H1_L2",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H1_L3",
+    "root": "robot_H1_L3",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H14_L0",
+    "root": "robot_H14_L0",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H14_L1",
+    "root": "robot_H14_L1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H14_L2",
+    "root": "robot_H14_L2",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H14_L3",
+    "root": "robot_H14_L3",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H32_L0",
+    "root": "robot_H32_L0",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H32_L1",
+    "root": "robot_H32_L1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H32_L2",
+    "root": "robot_H32_L2",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H32_L3",
+    "root": "robot_H32_L3",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H49_L0",
+    "root": "robot_H49_L0",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H49_L1",
+    "root": "robot_H49_L1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H49_L2",
+    "root": "robot_H49_L2",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H49_L3",
+    "root": "robot_H49_L3",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H57_L0",
+    "root": "robot_H57_L0",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H57_L1",
+    "root": "robot_H57_L1",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H57_L2",
+    "root": "robot_H57_L2",
+    "train": "0:10",
+    "test": ""
+  },
+  {
+    "repo_id": "robot_H57_L3",
+    "root": "robot_H57_L3",
+    "train": "0:10",
+    "test": ""
+  }
+]

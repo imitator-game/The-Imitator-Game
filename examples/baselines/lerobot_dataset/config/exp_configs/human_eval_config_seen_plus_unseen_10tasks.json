@@ -1,0 +1,63 @@
+[
+    {
+      "repo_id": "human_H1",
+      "root": "human_H1",
+      "train": "0:50",
+      "test": ""
+    },
+    {
+      "repo_id": "human_H14",
+      "root": "human_H14",
+      "train": "0:50",
+      "test": ""
+    },
+    {
+      "repo_id": "human_H32",
+      "root": "human_H32",
+      "train": "0:50",
+      "test": ""
+    },
+    {
+      "repo_id": "human_H49",
+      "root": "human_H49",
+      "train": "0:50",
+      "test": ""
+    },
+    {
+      "repo_id": "human_H57",
+      "root": "human_H57",
+      "train": "0:50",
+      "test": ""
+    },
+    {
+      "repo_id": "human_H4",
+      "root": "human_H4",
+      "train": "0:50",
+      "test": ""
+    },
+    {
+      "repo_id": "human_H13",
+      "root": "human_H13",
+      "train": "0:50",
+      "test": ""
+    },
+    {
+      "repo_id": "human_H20",
+      "root": "human_H20",
+      "train": "0:50",
+      "test": ""
+    },
+    {
+      "repo_id": "human_H21",
+      "root": "human_H21",
+      "train": "0:50",
+      "test": ""
+    },
+    {
+      "repo_id": "human_H30",
+      "root": "human_H30",
+      "train": "0:50",
+      "test": ""
+    }
+  ]
+  

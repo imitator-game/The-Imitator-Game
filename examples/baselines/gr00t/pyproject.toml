@@ -1,0 +1,98 @@
+[build-system]
+requires = ["setuptools>=62.3.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "demo_data-gr00t"
+version = "0.1.0"
+description = "Dedicated GR00T environment for Imitator Game integration"
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "albumentations==1.4.18",
+    "av>=10.0.0,<16.0.0",
+    "click==8.1.8",
+    "cryptography>=44.0.0",
+    "dacite",
+    "datasets==3.6.0",
+    "dm-tree==0.1.8",
+    "deepspeed==0.17.6",
+    "diffusers==0.35.1",
+    "einops==0.8.1",
+    "flash-attn==2.7.4.post1",
+    "fast_kinematics==0.2.2; platform_system=='Linux'",
+    "gitpython==3.1.46",
+    "gym>=0.26.2",
+    "gymnasium==0.29.1",
+    "h5py",
+    "huggingface_hub<1.0",
+    "imageio[ffmpeg]>=2.36.1",
+    "IPython",
+    "lmdb==1.7.5",
+    "matplotlib==3.10.1",
+    "mplib==0.1.1; platform_system=='Linux'",
+    "msgpack==1.1.0",
+    "msgpack-numpy==0.4.8",
+    "numpy==1.26.4",
+    "numpydantic>=1.6.6",
+    "omegaconf==2.3.0",
+    "opencv-python",
+    "onnx>=1.20.0",
+    "pandas==2.2.3",
+    "peft==0.17.1",
+    "Pillow",
+    "plotly>=6.5.1",
+    "pydantic",
+    "pyarrow==23.0.1",
+    "pytorch_kinematics==0.7.5",
+    "pyyaml>=5.1",
+    "pyzmq==27.0.1",
+    "safetensors>=0.4.3",
+    "sapien>=3.0.0b1; platform_system=='Linux'",
+    "sapien>=3.0.0b1; platform_system=='Windows'",
+    "scipy==1.15.3",
+    "sentencepiece",
+    "termcolor==3.2.0",
+    "tensorrt>=10.14.1.48.post1",
+    "timm",
+    "torch==2.7.1",
+    "torchaudio==2.7.1",
+    "torchcodec==0.4.0",
+    "torchvision==0.22.1",
+    "transforms3d",
+    "transformers==4.51.3",
+    "trimesh",
+    "tqdm>=4.64.1",
+    "tabulate",
+    "tyro==0.9.17",
+    "wandb==0.23.0",
+]
+
+[project.optional-dependencies]
+inference = [
+]
+
+[tool.uv]
+prerelease = "allow"
+environments = ["sys_platform == 'linux' and platform_machine == 'x86_64' and python_version == '3.10'"]
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu128" }]
+torchvision = [{ index = "pytorch-cu128" }]
+torchaudio = [{ index = "pytorch-cu128" }]
+flash-attn = [
+    { url = "https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.7cxx11abiFALSE-cp310-cp310-linux_x86_64.whl", marker = "sys_platform == 'linux' and platform_machine == 'x86_64' and python_version == '3.10'" },
+]
+
+[[tool.uv.index]]
+name = "nvidia-pypi"
+url = "https://pypi.nvidia.com"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.setuptools.packages.find]
+include = ["gr00t*"]

@@ -1,0 +1,43 @@
+<robot name="wxai">
+  <!--GROUPS: Representation of a set of joints and links for motion planning-->
+  <group name="widowxai_arm">
+    <joint name="joint_0"/>
+    <joint name="joint_1"/>
+    <joint name="joint_2"/>
+    <joint name="joint_3"/>
+    <joint name="joint_4"/>
+    <joint name="joint_5"/>
+  </group>
+  <group name="gripper">
+    <joint name="left_carriage_joint"/>
+    <joint name="right_carriage_joint"/>
+  </group>
+  
+  <disable_collisions link1="base_link" link2="link_1" reason="Adjacent"/>
+  <disable_collisions link1="link_6" link2="carriage_right" reason="Adjacent"/>
+  <disable_collisions link1="link_6" link2="carriage_left" reason="Adjacent"/>
+  <disable_collisions link1="link_6" link2="gripper_right" reason="Adjacent"/>
+  <disable_collisions link1="link_6" link2="gripper_left" reason="Adjacent"/>
+  <disable_collisions link1="carriage_right" link2="gripper_right" reason="Fixed"/>
+  <disable_collisions link1="carriage_left" link2="gripper_left" reason="Fixed"/>
+  <disable_collisions link1="gripper_right" link2="gripper_left" reason="ParallelMotion"/>
+
+  <!-- additional collisions for simulation to disable since they can never actually collide / rarely ever collide -->
+
+  <disable_collisions link1="base_link" link2="link_2" reason="Default"/>
+  <disable_collisions link1="link_4" link2="link_6" reason="Default"/>
+  <disable_collisions link1="link_3" link2="link_5" reason="Default"/>
+  <disable_collisions link1="link_2" link2="link_4" reason="Default"/>
+  <disable_collisions link1="link_1" link2="link_4" reason="Default"/>
+  <disable_collisions link1="link_1" link2="link_3" reason="Default"/>
+  <disable_collisions link1="link_1" link2="link_5" reason="Default"/>
+
+  <disable_collisions link1="link_6" link2="gripper_left" reason="Default"/>
+  <disable_collisions link1="link_6" link2="gripper_right" reason="Default"/>
+  <disable_collisions link1="carriage_right" link2="carriage_left" reason="Default"/>
+  <disable_collisions link1="gripper_right" link2="gripper_left" reason="Default"/>
+
+  <!-- gripper_right and carriage_right should be merged as one link in the future for optimization. For now we just disable collisions here -->
+  <disable_collisions link1="carriage_left" link2="gripper_right" reason="Default"/>
+  <disable_collisions link1="carriage_right" link2="gripper_left" reason="Default"/>
+</robot>

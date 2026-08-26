@@ -1,16 +1,12 @@
 # The Imitator Game
 
----
-
-## [[Website](https://imitator-game.github.io/index.html)]  |  [[Document](https://imitator-game.github.io/docs/index.html)]  |  [[Paper]()]  |  [[Imitator Arena]()]  |  [[IG-10K Dataset](https://huggingface.co/datasets/imitator-game/IG-10K-Dataset)]  |  [[Community]()]
+## [[Website](https://imitator-game.github.io/index.html)]  |  [[Document](https://imitator-game.github.io/docs/index.html)]  |  [[Paper](https://arxiv.org/abs/2608.22301)]  |  [[IG-10K Dataset](https://imitator-game.github.io/data.html)]  |  [[Community](https://imitator-game.github.io/docs/contribute.html#community)]
 
 ![teaser](docs/media/cover.png)
 
 The Imitator Game is a hierarchical benchmark for robot imitation from human manipulation videos. A human first demonstrates the manipulation skills in front of a camera (the Demonstrator scene); robots then attempt to imitate those skills from video observation alone in the Imitator scene (the Imitator scenes). Evaluation is conducted with blind A/B comparisons in the Imitator Arena or simulation automated metrics to judge which model imitates the human better.
 
 This repo contains the simulation framework (powered by [ManiSkill](https://www.maniskill.ai/) and [SAPIEN](https://sapien.ucsd.edu/)), the IG-10K data collection and preprocessing tooling, and the policy baselines ([ACT](https://arxiv.org/abs/2304.13705), [Diffusion Policy](https://arxiv.org/abs/2303.04137v5), [VQ-BeT](https://arxiv.org/abs/2403.03181), [UniSkill](https://arxiv.org/abs/2505.08787), [XSkill](https://arxiv.org/abs/2307.09955), [GR00T](https://arxiv.org/abs/2503.14734), [RDT](https://arxiv.org/abs/2410.07864), [π0.5](https://arxiv.org/abs/2504.16054), [OpenVLA](https://arxiv.org/abs/2406.09246)) including their training and evaluation recipes.
-
----
 
 ## Community & contributions
 
@@ -43,7 +39,7 @@ platform. We will run the submitted policy under the agreed evaluation protocols
 can make blind A/B comparisons between anonymous model rollouts against the
 same human reference. Supported human, real-robot, and simulation tasks can be found in the [Task Gallery](https://imitator-game.github.io/gallery.html).
 
-For a real-world evaluation request, please contact us in the community by [WeChat](https://imitator-game.github.io/docs/index.html) or [Discord](https://discord.gg/p8QVXWwWyZ). You may provide:
+For a real-world evaluation request, please contact us in the community by [WeChat](https://imitator-game.github.io/docs/contribute.html#community) or [Discord](https://discord.gg/p8QVXWwWyZ). You may provide:
 
 - the model checkpoint or source, inference API, environment dependencies and
   license;
@@ -57,8 +53,6 @@ the repo does not provide an policy upload interface at this point, but will sup
 
 We will keep the simulation framework actively updated with the upstream [ManiSkill](https://www.maniskill.ai/) repo to support the latest simulation features. To keep the ecosystem coherent, **all contributions must follow the shared ManiSkill / Imitator-Game design templates** — the robot agent template, the environment interface, and the motion-planning interface, etc. If you build on a new ManiSkill feature, please
 keep the common interfaces intact. We will also actively update both the simulation and real-world framework with more official-support tasks, assets, embodiments, and data.
-
----
 
 ## Installation
 
@@ -74,11 +68,9 @@ curl -sSL https://raw.githubusercontent.com/huggingface/lerobot/0e81a275fcdbf03d
 
 Set up Vulkan for rendering following the [ManiSkill installation instructions](https://maniskill.readthedocs.io/en/latest/user_guide/getting_started/installation.html#vulkan).
 
----
-
 ## Downloading assets
 
-We provide the [assets set](https://huggingface.co/datasets/imitator-game/IG-10K-Assets) that we used in The Imitator Game ([ycb](https://huggingface.co/datasets/haosulab/ManiSkill2/resolve/main/data/mani_skill2_ycb.zip) / [RoboTwin](https://robotwin-platform.github.io/doc/objects/index.html) / [PartNet-Mobility](https://sapien.ucsd.edu/browse) / [sketchfeb](https://sketchfab.com/)), but we encourage the community to add more diverse assets. The assets should be placed in `~/.maniskill/data`.
+We provide the [assets set](https://huggingface.co/datasets/imitator-game/IG-10K-Assets) that we used in The Imitator Game ([ycb](https://huggingface.co/datasets/haosulab/ManiSkill2/resolve/main/data/mani_skill2_ycb.zip) / [RoboTwin](https://robotwin-platform.github.io/doc/objects/index.html) / [PartNet-Mobility](https://sapien.ucsd.edu/browse) / [sketchfeb](https://sketchfab.com/)), but we encourage the community to add more diverse assets. The assets should be placed in `~/.maniskill/data`.
 
 ```bash
 # Hugging Face
@@ -93,8 +85,6 @@ rm ~/.maniskill/data/*.tar.zst
 ```
 
 External GLB assets (Sketchfab, Hunyuan-generated meshes, [Objaverse](https://objaverse.allenai.org/), etc.) use the pipeline documented in [`mani_skill/assets/sketchfab_README.md`](mani_skill/assets/sketchfab_README.md): download the shared assets to `~/.maniskill/data/sketchfab/objects/{object_key}/model.glb`, register them in `mani_skill/assets/sketchfab_registry.json`, and load them in tasks with `create_sketchfab_actor(...)`.
-
----
 
 ## IG-10K Dataset
 
@@ -124,8 +114,6 @@ See [`scripts/collect_data.py`](scripts/collect_data.py) for collecting simulati
 python -m mani_skill.examples.motionplanning.dual.two_robot_run --shader "rt-fast" -n 50 -e "Task name" --save-video
 ```
 
----
-
 ## Benchmark
 
 Each baseline has its own README.md with training and evaluation commands under [examples/baselines/](examples/baselines/). An example script for model training and evaluation: 
@@ -150,26 +138,25 @@ python -m examples.baselines.model.eval_model_imitator \
   --task-mapping examples/baselines/lerobot_dataset/task_mapping.json
 ```
 
----
-
 ## Technical Support
 
- See the [docs](https://imitator-game.github.io/docs/index.html) for more details. Contact [Xunzhe Zhou](https://zhouxunzhe.github.io/) or join the [Community]() if you need any support.
-
----
+ See the [docs](https://imitator-game.github.io/docs/index.html) for more details. Contact [Xunzhe Zhou](https://zhouxunzhe.github.io/) or join the [Community](https://imitator-game.github.io/docs/contribute.html#community) if you need any support.
 
 ## Citation
 
 ```bibtex
-@misc{
-  the_imitator_game,
-  title={The Imitator Game: Evaluating Robot Imitation from Human Demonstration Videos},
-  url={https://imitator-game.github.io/},
-  year={2026}
+@misc{zhou2026imitatorgamebenchmarkingrobot,
+  title  = {The Imitator Game: Benchmarking Robot Imitative Ability Beyond Action Prediction},
+  author = {Xunzhe Zhou and Yiyang Cai and Fengyi Wang and Ran Ju and Hanxiang Ren and
+            Ruizhe Liu and Yu Zhang and Qian Luo and Feng Chen and Pei Zhou and
+            Yi Ma and Yanchao Yang},
+  year   = {2026},
+  eprint = {2608.22301},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.RO},
+  url    = {https://arxiv.org/abs/2608.22301}
 }
 ```
-
----
 
 ## License
 

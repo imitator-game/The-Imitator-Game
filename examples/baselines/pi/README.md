@@ -98,17 +98,10 @@ Default eval targets are `EVAL_TAGS="15 30 45"`, `EVAL_SPLITS="seen unseen"`. Re
 ## Citation
 
 ```bibtex
-@misc{
-  pi0,
-  title={π0: A Vision-Language-Action Flow Model for General Robot Control},
-  author={Physical Intelligence and Kevin Black and Noah Brown and Danny Driess and Adnan Esmail and Michael Equi and Chelsea Finn and Niccolo Fusai and Lachy Groom and Karol Hausman and Brian Ichter and Szymon Jakubczak and Tim Jones and Liyiming Ke and Sergey Levine and Adrian Li-Bell and Mohith Mothukuri and Suraj Nair and Karl Pertsch and Lucy Xiaoyang Shi and James Tanner and Quan Vuong and Rowan Wallwork and Huanzhi Wang and Ury Zhilinsky},
-  year={2024},
-  url={https://www.physicalintelligence.company/blog/pi0}
-}
-@misc{
-  pi05,
-  title={π0.5}: A Vision-Language-Action Model with Open-World Generalization},
-  author={Physical Intelligence},
-  year={2025}
+@article{black2024pi_0,
+  title={$$\backslash$pi\_0 $: A Vision-Language-Action Flow Model for General Robot Control},
+  author={Black, Kevin and Brown, Noah and Driess, Danny and Esmail, Adnan and Equi, Michael and Finn, Chelsea and Fusai, Niccolo and Groom, Lachy and Hausman, Karol and Ichter, Brian and others},
+  journal={arXiv preprint arXiv:2410.24164},
+  year={2024}
 }
 ```

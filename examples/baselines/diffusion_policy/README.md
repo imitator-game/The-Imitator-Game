@@ -107,12 +107,14 @@ The reported Diffusion Policy experiments are reproduced by the launchers under 
 ## Citation
 
 ```bibtex
-@inproceedings{
-  chi2023diffusion,
-  title={Diffusion Policy: Visuomotor Policy Learning via Action Diffusion},
-  author={Cheng Chi and Siyuan Feng and Yilun Du and Zhenjia Xu and Eric Cousineau and Benjamin Burchfiel and Shuran Song},
-  booktitle={Robotics: Science and Systems (RSS)},
-  year={2023},
-  url={https://diffusion-policy.cs.columbia.edu/}
+@article{chi2025diffusion,
+  title={Diffusion policy: Visuomotor policy learning via action diffusion},
+  author={Chi, Cheng and Xu, Zhenjia and Feng, Siyuan and Cousineau, Eric and Du, Yilun and Burchfiel, Benjamin and Tedrake, Russ and Song, Shuran},
+  journal={The International Journal of Robotics Research},
+  volume={44},
+  number={10-11},
+  pages={1684--1704},
+  year={2025},
+  publisher={Sage Publications Sage UK: London, England}
 }
 ```

@@ -38,9 +38,11 @@ Parts of the code are taken or adapted from [4DHumans](https://github.com/shubha
 
 ```bibtex
 @inproceedings{pavlakos2024reconstructing,
-    title={Reconstructing Hands in 3{D} with Transformers},
-    author={Pavlakos, Georgios and Shan, Dandan and Radosavovic, Ilija and Kanazawa, Angjoo and Fouhey, David and Malik, Jitendra},
-    booktitle={CVPR},
-    year={2024}
+  title={Reconstructing hands in 3d with transformers},
+  author={Pavlakos, Georgios and Shan, Dandan and Radosavovic, Ilija and Kanazawa, Angjoo and Fouhey, David and Malik, Jitendra},
+  booktitle={2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={9826--9836},
+  year={2024},
+  organization={IEEE}
 }
 ```

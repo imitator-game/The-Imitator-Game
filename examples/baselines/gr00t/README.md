@@ -105,11 +105,10 @@ python -m gr00t.eval.parallel_eval_imitator \
 ## Citation
 
 ```bibtex
-@article{
-  gr00t2025,
-  title={GR00T N1.6: A Scalable Generalist Humanoid Robot Foundation Model},
-  author={{NVIDIA GR00T Team}},
-  journal={arXiv preprint arXiv:2508.13183},
+@article{bjorck2025gr00t,
+  title={Gr00t n1: An open foundation model for generalist humanoid robots},
+  author={Bjorck, Johan and Casta{\~n}eda, Fernando and Cherniadev, Nikita and Da, Xingye and Ding, Runyu and Fan, Linxi and Fang, Yu and Fox, Dieter and Hu, Fengyuan and Huang, Spencer and others},
+  journal={arXiv preprint arXiv:2503.14734},
   year={2025}
 }
 ```

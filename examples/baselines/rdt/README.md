@@ -187,13 +187,13 @@ Results accumulate under `runs/<exp_name>/<checkpoint_tag>_parallel_eval/`: `par
 ## Citation
 
 ```bibtex
-@article{
-  liu2024rdt,
-  title={RDT-1B: A Diffusion Foundation Model for Bimanual Manipulation},
-  author={Songming Liu and Lingxuan Wu and Bangguo Li and Hengkai Tan and Huayu Chen and Zhengyi Wang and Kai Xu and Hang Su and Jun Zhu},
-  journal={arXiv preprint arXiv:2410.07864},
-  year={2024},
-  url={https://rdt-robotics.github.io/rdt-robotics/}
+@inproceedings{liu2025rdt,
+  title={Rdt-1b: a diffusion foundation model for bimanual manipulation},
+  author={Liu, Songming and Wu, Lingxuan and Li, Bangguo and Tan, Hengkai and Chen, Huayu and Wang, Zhengyi and Xu, Ke and Su, Hang and Zhu, Jun},
+  booktitle={International Conference on Learning Representations},
+  volume={2025},
+  pages={29982--30009},
+  year={2025}
 }
 ```
 

@@ -176,19 +176,10 @@ Run from the repository root after `export PYTHONPATH=$PWD:$PYTHONPATH`. Task co
 ## Citation
 
 ```bibtex
-@inproceedings{
-  lee2025vqbet,
-  title={VQ-BeT: Behavior Generation with Latent Actions},
-  author={Seungjae Lee and Yibin Wang and Haritheja Etukuru and H. Jin Kim and Nur Muhammad Mahi Shafiullah and Lerrel Pinto},
-  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
-  year={2025},
-  url={https://github.com/seunggabi/vq-beat}
-}
-@inproceedings{
-  shafiullah2022behavior,
-  title={Behavior Transformers: Cloning Transformer Modes and Learned Behaviors},
-  author={Nur Muhammad Mahi Shafiullah and Zichen Jeff Cui and Ariuntuya Arty Altanzaya and Lerrel Pinto},
-  booktitle={International Conference on Machine Learning (ICML)},
-  year={2022}
+@article{lee2024behavior,
+  title={Behavior generation with latent actions},
+  author={Lee, Seungjae and Wang, Yibin and Etukuru, Haritheja and Kim, H Jin and Shafiullah, Nur Muhammad Mahi and Pinto, Lerrel},
+  journal={arXiv preprint arXiv:2403.03181},
+  year={2024}
 }
 ```

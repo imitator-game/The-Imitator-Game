@@ -83,12 +83,12 @@ WiLoR models fall under the [CC-BY-NC--ND License](./license.txt). This reposito
 If you find WiLoR useful for your research, please consider citing our paper:
 
 ```bibtex
-@misc{potamias2024wilor,
-    title={WiLoR: End-to-end 3D Hand Localization and Reconstruction in-the-wild},
-    author={Rolandos Alexandros Potamias and Jinglei Zhang and Jiankang Deng and Stefanos Zafeiriou},
-    year={2024},
-    eprint={2409.12259},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@inproceedings{potamias2025wilor,
+  title={Wilor: End-to-end 3d hand localization and reconstruction in-the-wild},
+  author={Potamias, Rolandos Alexandros and Zhang, Jinglei and Deng, Jiankang and Zafeiriou, Stefanos},
+  booktitle={2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={12242--12254},
+  year={2025},
+  organization={IEEE}
 }
 ```

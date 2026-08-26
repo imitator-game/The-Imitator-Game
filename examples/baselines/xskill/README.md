@@ -140,12 +140,12 @@ The launchers select these defaults through their corresponding training modules
 ## Citation
 
 ```bibtex
-@inproceedings{
-  xu2023xskill,
-  title={{XS}kill: Cross Embodiment Skill Discovery},
-  author={Mengda Xu and Zhenjia Xu and Cheng Chi and Manuela Veloso and Shuran Song},
-  booktitle={7th Annual Conference on Robot Learning},
+@inproceedings{xu2023xskill,
+  title={Xskill: Cross embodiment skill discovery},
+  author={Xu, Mengda and Xu, Zhenjia and Chi, Cheng and Veloso, Manuela and Song, Shuran},
+  booktitle={Conference on robot learning},
+  pages={3536--3555},
   year={2023},
-  url={https://openreview.net/forum?id=8L6pHd9aS6w}
+  organization={PMLR}
 }
 ```

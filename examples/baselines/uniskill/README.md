@@ -128,11 +128,10 @@ Keep the following together for every reported result:
 ## Citation
 
 ```bibtex
-@inproceedings{
-  kim2025uniskill,
-  title={UniSkill: Imitating Human Videos via Cross-Embodiment Skill Representations},
-  author={Hanjung Kim and Jaehyun Kang and Hyolim Kang and Meedeum Cho and Seon Joo Kim and Youngwoon Lee},
-  booktitle={9th Annual Conference on Robot Learning},
+@article{kim2025uniskill,
+  title={Uniskill: Imitating human videos via cross-embodiment skill representations},
+  author={Kim, Hanjung and Kang, Jaehyun and Kang, Hyolim and Cho, Meedeum and Kim, Seon Joo and Lee, Youngwoon},
+  journal={arXiv preprint arXiv:2505.08787},
   year={2025}
 }
 ```

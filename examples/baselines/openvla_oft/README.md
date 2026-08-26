@@ -141,11 +141,13 @@ Related exp_scripts: [`run_exp_openvla_cache_45.sh`](../../../exp_scripts/openvl
 ## Citation
 
 ```bibtex
-@inproceedings{
-  kim2024openvla,
-  title={OpenVLA: An Open-Source Vision-Language-Action Model},
-  author={Moo Jin Kim and Karl Pertsch and Siddharth Karamcheti and Ted Xiao and Ashwin Balakrishna and Suraj Nair and Rafael Rafailov and Ethan Foster and Grace Lam and Pannag Sanketi and Quan Vuong and Thomas Kollar and Benjamin Burchfiel and Russ Tedrake and Dorsa Sadigh and Sergey Levine and Percy Liang and Chelsea Finn},
-  booktitle={Proceedings of the 8th Conference on Robot Learning (CoRL)},
+@article{kim2024openvla,
+  title={Openvla: An open-source vision-language-action model, 2024},
+  author={Kim, Moo Jin and Pertsch, Karl and Karamcheti, Siddharth and Xiao, Ted and Balakrishna, Ashwin and Nair, Suraj and Rafailov, Rafael and Foster, Ethan and Lam, Grace and Sanketi, Pannag and others},
+  journal={URL https://arxiv. org/abs/2406.09246},
+  volume={1},
+  number={2},
+  pages={4},
   year={2024}
 }
 ```

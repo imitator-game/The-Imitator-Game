@@ -106,12 +106,10 @@ The reported ACT experiments are reproduced by the launchers under [`../exp_scri
 ## Citation
 
 ```bibtex
-@inproceedings{
-  zhao2023learning,
-  title={Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware},
-  author={Tony Z. Zhao and Vikash Kumar and Sergey Levine and Chelsea Finn},
-  booktitle={Robotics: Science and Systems (RSS)},
-  year={2023},
-  url={https://tonyzhaozh.github.io/aloha/}
+@article{zhao2023learning,
+  title={Learning fine-grained bimanual manipulation with low-cost hardware},
+  author={Zhao, Tony Z and Kumar, Vikash and Levine, Sergey and Finn, Chelsea},
+  journal={arXiv preprint arXiv:2304.13705},
+  year={2023}
 }
 ```

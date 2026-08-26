@@ -1,6 +1,6 @@
 # The Imitator Game
 
-## [[Website](https://imitator-game.github.io/index.html)]  |  [[Document](https://imitator-game.github.io/docs/index.html)]  |  [[Paper](https://arxiv.org/abs/2608.22301)]  |  [[IG-10K Dataset](https://imitator-game.github.io/data.html)]  |  [[Community](https://imitator-game.github.io/docs/contribute.html#community)]
+## [[Website](https://imitator-game.github.io/index.html)]  |  [[Document](https://imitator-game.github.io/docs/guide.html)]  |  [[Paper](https://arxiv.org/abs/2608.22301)]  |  [[IG-10K Dataset](https://imitator-game.github.io/data.html)]  |  [[Community](https://imitator-game.github.io/community.html)]
 
 ![teaser](docs/media/cover.png)
 
@@ -39,7 +39,7 @@ platform. We will run the submitted policy under the agreed evaluation protocols
 can make blind A/B comparisons between anonymous model rollouts against the
 same human reference. Supported human, real-robot, and simulation tasks can be found in the [Task Gallery](https://imitator-game.github.io/gallery.html).
 
-For a real-world evaluation request, please contact us in the community by [WeChat](https://imitator-game.github.io/docs/contribute.html#community) or [Discord](https://discord.gg/p8QVXWwWyZ). You may provide:
+For a real-world evaluation request, please contact us in the community by [WeChat](https://imitator-game.github.io/community.html) or [Discord](https://discord.gg/p8QVXWwWyZ). You may provide:
 
 - the model checkpoint or source, inference API, environment dependencies and
   license;
@@ -140,7 +140,7 @@ python -m examples.baselines.model.eval_model_imitator \
 
 ## Technical Support
 
- See the [docs](https://imitator-game.github.io/docs/index.html) for more details. Contact [Xunzhe Zhou](https://zhouxunzhe.github.io/) or join the [Community](https://imitator-game.github.io/docs/contribute.html#community) if you need any support.
+ See the [docs](https://imitator-game.github.io/docs/guide.html) for more details. Contact [Xunzhe Zhou](https://zhouxunzhe.github.io/) or join the [Community](https://imitator-game.github.io/community.html) if you need any support.
 
 ## Citation
 

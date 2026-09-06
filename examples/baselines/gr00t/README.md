@@ -2,7 +2,7 @@
 
 This directory vendors the minimal GR00T N1.6 code needed for the project (the upstream package under `gr00t/`, the `scripts/lerobot_conversion/` helper scripts, and a dedicated `pyproject.toml` for its own uv environment). Imports still expect the package name `gr00t`.
 
-GR00T N1.6 fuses multi-modal observations (RGB video, joint/qpos state) with a language task embedding and generates actions with a flow-matching / diffusion action head. Here it is used as a vision-language-action baseline conditioned on human task descriptions; the reported experiments fine-tune the model with LoRA on the shared LeRobot-style bimanual dataset (see `examples/baselines/lerobot_dataset`).
+GR00T N1.6 fuses multi-modal observations (RGB video, joint/qpos state) with a language task embedding and generates actions with a flow-matching / diffusion action head. Here it is used as a vision-language-action baseline conditioned on human task descriptions; the reported experiments freeze the Eagle vision-language backbone and fully train the flow-matching DiT action expert and its embodiment-specific state/action encoders, decoder, action position embedding, and action-side normalization layers on the shared LeRobot-style bimanual dataset (see `examples/baselines/lerobot_dataset`).
 
 ## Dedicated environment
 
@@ -26,6 +26,7 @@ CUDA_VISIBLE_DEVICES=<gpu> python -m gr00t.experiment.launch_finetune \
   --lerobot-version v3 \
   --language-source human_desc \
   --batch-size 256 \
+  --gradient-accumulation-steps 1 \
   --dataloader-num-workers 32 \
   --num-gpus 1 \
   --epoch-based-training \
@@ -34,8 +35,9 @@ CUDA_VISIBLE_DEVICES=<gpu> python -m gr00t.experiment.launch_finetune \
   --save-total-limit 30 \
   --logging-steps 100 \
   --output-dir "runs/gr00t_${TAG}_h200_$(date +%Y%m%d_%H%M%S)" \
-  --use-backbone-lora --backbone-lora-rank 64 \
-  --use-llm-lora --llm-lora-rank 64 \
+  --no-tune-visual \
+  --no-tune-llm \
+  --tune-top-llm-layers 0 \
   --tune-projector \
   --use-wandb \
   --base-model-path <GR00T-N1.6-3B cache path> \
@@ -44,32 +46,7 @@ CUDA_VISIBLE_DEVICES=<gpu> python -m gr00t.experiment.launch_finetune \
 
 The intended training setup for the current bimanual datasets is: LeRobot v3 data with `--lerobot-version v3`, `--language-source human_desc` (cols `task_mapping.json -> human_desc.json`), and `--embodiment-tag NEW_EMBODIMENT`. Defaults for `--task-mapping-path`, `--human-desc-path`, and `--sim-desc-path` already point at the shared files under `examples/baselines/lerobot_dataset/`. `--human-config-path` combined with `--sim-config-path` (or `--robot-config-path`) enables parent-directory multi-task training on the intersection of the two configs.
 
-Minimal real-training command (single GPU, VRAM-friendly mixed LoRA regime):
-
-```bash
-CUDA_VISIBLE_DEVICES=0 \
-python -m gr00t.experiment.launch_finetune \
-  --base-model-path /path/to/GR00T-N1.6-3B \
-  --dataset-path demos/imitator_data/L0_TwoRobotCleanCup-v1 \
-  --embodiment-tag NEW_EMBODIMENT \
-  --lerobot-version v3 \
-  --language-source human_desc \
-  --batch-size 1 \
-  --gradient-checkpointing \
-  --dataloader-num-workers 0 \
-  --num-gpus 1 \
-  --max-steps 30000 \
-  --save-steps 1000 \
-  --save-total-limit 3 \
-  --output-dir runs/gr00t_test_lora \
-  --use-backbone-lora --backbone-lora-rank 16 \
-  --use-llm-lora --llm-lora-rank 16 \
-  --use-action-head-diffusion-lora --action-head-diffusion-lora-rank 16
-```
-
-This mode leaves the Eagle vision/language base weights and the diffusion base weights frozen, LoRA-tunes the Eagle backbone, the language model, and the action-head diffusion transformer, and fully fine-tunes the projector modules (`state_encoder`, `action_encoder`, `action_decoder`, `position_embedding`, `vlln`). LoRA is currently supported only for the Eagle language model, the Eagle vision backbone, and the action-head diffusion transformer/output head.
-
-Resume by setting `GR00T_RESUME_CHECKPOINT` or `GR00T_RESUME_CHECKPOINT_{45,30,15}` to a `checkpoint-*` directory. A `WANDB_API_KEY` must be exported; set `HF_ENDPOINT=https://hf-mirror.com` and unset proxies when using the mirror. For a larger effective batch size use `--gradient-accumulation-steps`; on GPUs without bf16 use `--no-bf16 --fp16`.
+For a single-GPU smoke run, reduce `--batch-size` and optionally add `--gradient-checkpointing`; keep the same backbone freezing and action-expert tuning flags. Resume through `--resume-from-checkpoint /path/to/checkpoint-N`. Enable W&B authentication before using `--use-wandb`.
 
 Training-time single-task ManiSkill online evaluation is supported with `--enable-online-eval --online-eval-env-id <env> --online-eval-epochs <n> --online-eval-num-episodes <n>`.
 
@@ -100,7 +77,6 @@ python -m gr00t.eval.parallel_eval_imitator \
 - The vendored training data path supports LeRobot v2 and v3 layouts behind `SingleDatasetConfig.lerobot_version` (`v2`, `v3`, or `auto`). The v3 loader reads `meta/episodes/chunk-*/file-*.parquet`, `meta/tasks.parquet`, shared `data/chunk-*/file-*.parquet`, and shared `videos/<video_key>/chunk-*/file-*.mp4`, deriving the state/action dimensionality from `meta/info.json` feature names.
 - `language_source` supports `task` (original task string), `human_desc` (sampled from `human_desc.json`), and `sim_desc`. `human_desc` sampling matches `examples/baselines/lerobot_dataset/lerobot_paired_dataset.py`.
 - Training is step-based by default (`--max-steps`, `--save-steps`); use `--epoch-based-training --num-epochs --save-epochs` for epoch-based runs.
-- This project integration is not LoRA-first by default; the projector modules are full-finetuned even in the LoRA regime above.
 
 ## Citation
 

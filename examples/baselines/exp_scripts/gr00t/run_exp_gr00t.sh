@@ -8,8 +8,6 @@ GPU_45="${GPU_45:-0}"
 GPU_30="${GPU_30:-1}"
 GPU_15="${GPU_15:-2}"
 BATCH_SIZE="${BATCH_SIZE:-256}"
-BACKBONE_LORA_RANK="${BACKBONE_LORA_RANK:-64}"
-LLM_LORA_RANK="${LLM_LORA_RANK:-64}"
 SIM_ROOT="demos/imitator_data"
 
 run_gr00t() {
@@ -39,10 +37,8 @@ run_gr00t() {
     --save-total-limit 30 \
     --logging-steps 100 \
     --output-dir "runs/gr00t_${tag}" \
-    --use-backbone-lora \
-    --backbone-lora-rank "$BACKBONE_LORA_RANK" \
-    --use-llm-lora \
-    --llm-lora-rank "$LLM_LORA_RANK" \
+    --no-tune-visual \
+    --no-tune-llm \
     --tune-top-llm-layers 0 \
     --tune-projector \
     --use-wandb \

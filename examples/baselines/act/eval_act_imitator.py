@@ -477,11 +477,11 @@ def parse_args():
                              "Typical: 4 (pred_horizon=24 → 6× faster than temporal-agg).")
 
     # DETR architecture (read from checkpoint, CLI only for override)
-    parser.add_argument("--enc-layers",      type=int, default=2)
-    parser.add_argument("--dec-layers",      type=int, default=4)
-    parser.add_argument("--dim-feedforward", type=int, default=512)
-    parser.add_argument("--hidden-dim",      type=int, default=256)
-    parser.add_argument("--nheads",          type=int, default=8)
+    parser.add_argument("--enc-layers",      type=int, default=12)
+    parser.add_argument("--dec-layers",      type=int, default=12)
+    parser.add_argument("--dim-feedforward", type=int, default=4096)
+    parser.add_argument("--hidden-dim",      type=int, default=1024)
+    parser.add_argument("--nheads",          type=int, default=16)
     parser.add_argument("--backbone",        type=str, default="resnet18")
 
     # Task encoder type

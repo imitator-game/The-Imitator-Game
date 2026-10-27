@@ -101,3 +101,4 @@ pi_ckpt/*
 feats/*
 eval_recordings/*
 .eggs/*
+.omo/*

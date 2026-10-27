@@ -100,12 +100,12 @@ class TrainingArgs:
     position_embedding: str  = "sine"
     dilation:           bool = False
     masks:              bool = False
-    enc_layers:         int  = 2
-    dec_layers:         int  = 4
-    dim_feedforward:    int  = 512
-    hidden_dim:         int  = 256
+    enc_layers:         int  = 12
+    dec_layers:         int  = 12
+    dim_feedforward:    int  = 4096
+    hidden_dim:         int  = 1024
     dropout:            float = 0.1
-    nheads:             int  = 8
+    nheads:             int  = 16
     pre_norm:           bool = False
 
     # ── Observation settings ──────────────────────────────────────────────────

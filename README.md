@@ -1,58 +1,20 @@
 # The Imitator Game
 
-## [[Website](https://imitator-game.github.io/index.html)]  |  [[Document](https://imitator-game.github.io/docs/guide.html)]  |  [[Paper](https://arxiv.org/abs/2608.22301)]  |  [[IG-10K Dataset](https://imitator-game.github.io/data.html)]  |  [[Community](https://imitator-game.github.io/community.html)]
+## [[Website](https://imitator-game.github.io/index.html)]  |  [[Document](https://imitator-game.github.io/docs/guide.html)]  |  [[Paper](https://arxiv.org/abs/2608.22301)]  |  [[Dataset](https://imitator-game.github.io/data.html)]  |  [[Checkpoints](https://huggingface.co/imitator-game/IG-10K-Checkpoints)]  |  [[Community](https://imitator-game.github.io/community.html)]
 
 ![teaser](docs/media/cover.png)
 
 The Imitator Game is a hierarchical benchmark for robot imitation from human manipulation videos. A human first demonstrates the manipulation skills in front of a camera (the Demonstrator scene); robots then attempt to imitate those skills from video observation alone in the Imitator scene (the Imitator scenes). Evaluation is conducted with blind A/B comparisons in the Imitator Arena or simulation automated metrics to judge which model imitates the human better.
 
-This repo contains the simulation framework (powered by [ManiSkill](https://www.maniskill.ai/) and [SAPIEN](https://sapien.ucsd.edu/)), the IG-10K data collection and preprocessing tooling, and the policy baselines ([ACT](https://arxiv.org/abs/2304.13705), [Diffusion Policy](https://arxiv.org/abs/2303.04137v5), [VQ-BeT](https://arxiv.org/abs/2403.03181), [UniSkill](https://arxiv.org/abs/2505.08787), [XSkill](https://arxiv.org/abs/2307.09955), [GR00T](https://arxiv.org/abs/2503.14734), [RDT](https://arxiv.org/abs/2410.07864), [π0.5](https://arxiv.org/abs/2504.16054), [OpenVLA](https://arxiv.org/abs/2406.09246)) including their training and evaluation recipes.
+This repo contains the simulation framework (powered by [ManiSkill](https://www.maniskill.ai/) and [SAPIEN](https://sapien.ucsd.edu/)), the IG-10K data collection and preprocessing tooling, and the policy baselines ([ACT](https://arxiv.org/abs/2304.13705), [Diffusion Policy](https://arxiv.org/abs/2303.04137v5), [VQ-BeT](https://arxiv.org/abs/2403.03181), [UniSkill](https://arxiv.org/abs/2505.08787), [XSkill](https://arxiv.org/abs/2307.09955), [GR00T](https://arxiv.org/abs/2503.14734), [RDT](https://arxiv.org/abs/2410.07864), [π0.5](https://arxiv.org/abs/2504.16054), [OpenVLA](https://arxiv.org/abs/2406.09246), [Zero-WAM](https://robbyant-research.github.io/Zero-WAM/)) including their training and evaluation recipes.
 
-## Community & contributions
+## News
 
-The Imitator Game is also an **open-source community** for robot imitation from human
-video. Anyone interested in robot imitative ability
-(goal-directed imitation, video-conditioned policies, cross-embodiment skill
-transfer, intent inference, affordance adaptation, ...) is welcome to
-participate and contribute to the community. Contributions will be acknowledged and merged into the project after review.
-
-### **Get involved**
-
-Everyone can contribute to this project by submitting **tasks / models / embodiments** that support the Imitator-Game **data-collection / training / evaluation** framework. Please follow the design templates and contribute via pull request: 
-
-- Contribute new Imitator tasks (L0–L3) designed with the task template under [mani_skill/envs/tasks/_template/](mani_skill/envs/tasks/_template/) (together with the motion-planning solutions);
-- contribute new imitation-learning models built on the baseline template under [examples/baselines/_template/](examples/baselines/_template/) (together with evaluation interface);
-- contribute new robots with robot template under [mani_skill/agents/robots/_template/](mani_skill/agents/robots/_template/).
-
-### Pairing data service
-
-We operate a **data pairing service**: for
-community-contributed tasks, we may collect *human and robot pairing demonstrations*, and merge the paired data into IG-10K-format datasets
-under the shared LeRobot format. Community members can request pairing for
-their accepted tasks.
-
-### Real-world deployment and evaluation
-
-Contributors can submit their policy for deployment on our real-robot
-platform. We will run the submitted policy under the agreed evaluation protocols and record the rollout videos. Approved real-world rollouts can be added to the
-[Imitator Arena](https://imitator-game.github.io/arena.html), where the community
-can make blind A/B comparisons between anonymous model rollouts against the
-same human reference. Supported human, real-robot, and simulation tasks can be found in the [Task Gallery](https://imitator-game.github.io/gallery.html).
-
-For a real-world evaluation request, please contact us in the community by [WeChat](https://imitator-game.github.io/community.html) or [Discord](https://discord.gg/p8QVXWwWyZ). You may provide:
-
-- the model checkpoint or source, inference API, environment dependencies and
-  license;
-- the task protocol, reset conditions, and task-specific evaluation standard; and
-- the commands or configuration needed to reproduce the result.
-
-A hardware run is scheduled only after the package is reproducible;
-the repo does not provide an policy upload interface at this point, but will support soon.
-
-### Update
-
-We will keep the simulation framework actively updated with the upstream [ManiSkill](https://www.maniskill.ai/) repo to support the latest simulation features. To keep the ecosystem coherent, **all contributions must follow the shared ManiSkill / Imitator-Game design templates** — the robot agent template, the environment interface, and the motion-planning interface, etc. If you build on a new ManiSkill feature, please
-keep the common interfaces intact. We will also actively update both the simulation and real-world framework with more official-support tasks, assets, embodiments, and data.
+- **Oct 28, 2026** – Update benchmark baseline with [Zero-WAM](https://robbyant-research.github.io/Zero-WAM/) code and results.
+- **Oct 21, 2026** – Upload baseline [checkpoints](https://huggingface.co/imitator-game/IG-10K-Checkpoints) evaluated in the paper, mirrored on [ModelScope](https://modelscope.cn/models/Zhouxunzhe/IG-10K-Checkpoints).
+- **Oct 10, 2026** – 🎉The Imitator Game is accepted by CoRL 2026 and selected as NeurIPS 2026 ODI Workshop **Oral Presentation**.
+- **Sep 18, 2026** – Update the [leaderboard](https://imitator-game.github.io/leaderboard.html) with by-task results.
+- **Aug 23, 2026** – Release [The Imitator Game paper](https://arxiv.org/abs/2608.22301) and open-source the [code](https://github.com/imitator-game/The-Imitator-Game).
 
 ## Installation
 
@@ -137,6 +99,37 @@ python -m examples.baselines.model.eval_model_imitator \
   --sim-config path/to/sim_eval_config.json \
   --task-mapping examples/baselines/lerobot_dataset/task_mapping.json
 ```
+
+You can also download the evaluated baseline checkpoints from [Hugging Face](https://huggingface.co/imitator-game/IG-10K-Checkpoints) or [ModelScope](https://modelscope.cn/models/Zhouxunzhe/IG-10K-Checkpoints).
+
+## Community & contributions
+
+The Imitator Game is also an **open-source community** for robot imitation from human
+video. Anyone is welcome to
+participate and contribute to the community. Contributions will be acknowledged and merged into the project after review.
+
+### **Get involved**
+
+Everyone can contribute to this project by submitting **tasks / models / embodiments** that support the Imitator-Game **data-collection / training / evaluation** framework. Please follow the design templates and contribute via pull request: 
+
+- Contribute new Imitator tasks (L0–L3) designed with the task template under [mani_skill/envs/tasks/_template/](mani_skill/envs/tasks/_template/) (together with the motion-planning solutions);
+- contribute new imitation-learning models built on the baseline template under [examples/baselines/_template/](examples/baselines/_template/) (together with evaluation interface);
+- contribute new robots with robot template under [mani_skill/agents/robots/_template/](mani_skill/agents/robots/_template/).
+
+### Pairing data service
+
+We operate a **data pairing service**: for
+community-contributed tasks, we may collect *human and robot pairing demonstrations*, and merge the paired data into IG-10K-format datasets
+under the shared LeRobot format. Community members can request pairing for
+their accepted tasks.
+
+### Real-world deployment and evaluation
+
+Contributors can submit their policy for deployment on our real-robot
+platform. We will run the submitted policy under the agreed evaluation protocols and record the rollout videos. Approved real-world rollouts can be added to the
+[Imitator Arena](https://imitator-game.github.io/arena.html), where the community
+can make blind A/B comparisons between anonymous model rollouts against the
+same human reference. Supported human, real-robot, and simulation tasks can be found in the [Task Gallery](https://imitator-game.github.io/gallery.html). For a real-world evaluation request, please contact us in the community by [WeChat](https://imitator-game.github.io/community.html) or [Discord](https://discord.gg/p8QVXWwWyZ).
 
 ## Technical Support
 

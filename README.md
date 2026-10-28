@@ -1,6 +1,6 @@
 # The Imitator Game
 
-## [[Website](https://imitator-game.github.io/index.html)]  |  [[Document](https://imitator-game.github.io/docs/guide.html)]  |  [[Paper](https://arxiv.org/abs/2608.22301)]  |  [[Dataset](https://imitator-game.github.io/data.html)]  |  [[Checkpoints](https://huggingface.co/imitator-game/IG-10K-Checkpoints)]  |  [[Community](https://imitator-game.github.io/community.html)]
+## [[Website](https://imitator-game.github.io/index.html)]  |  [[Document](https://imitator-game.github.io/docs/guide.html)]  |  [[Paper](https://arxiv.org/abs/2608.22301)]  |  [[Dataset](https://imitator-game.github.io/data.html)]  |  [[Checkpoints](https://imitator-game.github.io/data.html#checkpoints)]  |  [[Community](https://imitator-game.github.io/community.html)]
 
 ![teaser](docs/media/cover.png)
 

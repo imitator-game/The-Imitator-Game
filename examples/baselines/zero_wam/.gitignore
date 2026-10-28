@@ -1,0 +1,22 @@
+# Public source only. All model assets and generated data belong outside the repository.
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.npy
+*.npz
+*.mp4
+*.webm
+*.log
+/cache/
+/caches/
+/checkpoints/
+/logs/
+/runs/
+/outputs/
+/videos/
+/wandb/
+/zerowam_checkpoint/

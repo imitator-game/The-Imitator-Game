@@ -17,6 +17,7 @@ This folder contains the code for all baselines in the Imitator Game benchmark. 
 | [`pi/`](pi/) | pi0 / pi0.5 (flow-matching VLA, JAX) | `train_pi_lerobot_jax.py` | `eval_pi_lerobot_jax.py` / `parallel_eval_pi_lerobot_jax.py` |
 | [`openvla_oft/`](openvla_oft/) | OpenVLA (LoRA finetune, discrete/regression/diffusion head) | `train_openvla.py` | `eval_openvla.py` / `eval_openvla_batch.py` |
 | [`zero_wam/`](zero_wam/) | Zero-WAM (joint video/action LoRA + MCP) | `train_zero_wam_imitator.py` | `eval_zero_wam_imitator.py` |
+| [`astra/`](astra/) | Astra (human-video-conditioned tool agent, TCP + IK) | No IG training; frozen runtime verification | `eval_astra_imitator.py` / `export_results.py` |
 
 
 ## Shared infrastructure

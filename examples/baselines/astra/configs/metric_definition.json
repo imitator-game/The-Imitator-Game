@@ -1,0 +1,11 @@
+{
+  "status": "verified_against_reference_records",
+  "field": "final_normalized_reward",
+  "reference_field": "last_reward",
+  "source": "Dechao C15 E60 evaluation/cases/*/episode_*/metrics.json, compared with all 40 C15 seen/unseen rows of the supplied master_records.csv",
+  "matched_groups": 40,
+  "maximum_absolute_error": 0.0,
+  "reference_SR_field": "success_at_end",
+  "astra_primary_SR_field": "native_success_once",
+  "decision": "Keep the explicitly approved 30-minute Astra success_once result as primary. Endpoint retention and incomplete continuation remain supplementary."
+}

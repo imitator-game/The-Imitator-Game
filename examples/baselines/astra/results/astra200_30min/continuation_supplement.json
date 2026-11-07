@@ -1,0 +1,15 @@
+{
+  "kind": "incomplete_30plus30_continuation",
+  "included_in_primary": false,
+  "status": "paused",
+  "as_of_utc": "2026-11-02T00:56:31.004730+00:00",
+  "planned": 88,
+  "completed": 52,
+  "pending": 36,
+  "additional_native_successes": 23,
+  "known_combined_successes": 135,
+  "denominator": 200,
+  "final_60min_rate": null,
+  "maximum_concurrency": 4,
+  "note": "Same-state/history continuation; concurrency and runtime restoration differ. Not a fresh complete 60-minute cohort."
+}

@@ -1,0 +1,10 @@
+{
+  "archive_root": "/external/gpt-baseline-native-xfast",
+  "work_root": "/external/astra_reproduction/runtime_root",
+  "python_executable": "/external/simulator_env/bin/python",
+  "credentials_file": "/external/private/xfast.json",
+  "human_root": "/external/dataset_human_crop",
+  "campaign_id": "astra200_30min_reproduction",
+  "gpu_slots": [1, 2, 3, 1, 2],
+  "spend_pause_usd": 500
+}

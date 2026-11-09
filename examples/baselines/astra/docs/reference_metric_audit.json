@@ -1,0 +1,14 @@
+{
+  "reference_files_sha256": {
+    "master_records(1).csv": "dc20a985122d0ef27ce2c660c1927d66fb41ceef08b58cdb810dd3599b7e352a",
+    "summary(1).json": "0b8168028dc472a86f53a4df84d915610c7ed4675362034f0ecb39a5a2ddf7ca"
+  },
+  "matched_C15_task_level_groups": 40,
+  "matched_C15_episode_records": 400,
+  "SR_reference_field": "success_at_end",
+  "SR_max_abs_error": 0.0,
+  "SubSR_reference_field": "last_reward",
+  "SubSR_max_abs_error": 0.0,
+  "not_equivalent_to_SR_reference": "success_once differs in 7 of 40 groups",
+  "source": "/public/home/xunzhe/dechao/research/temp/zw_c15cos/e60/evaluation/cases"
+}

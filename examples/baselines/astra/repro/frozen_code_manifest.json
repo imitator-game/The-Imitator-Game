@@ -1,0 +1,15 @@
+{
+  "native_v4/harness.py": "d73a45989cb25b38f2907dba7159a9f88d4502c541afeccae7ca9256627c72f8",
+  "native_v4/grading.py": "6e3268df58252e912496f6838a86a3952017251219f7156c0e689cd38e3a3f08",
+  "native_v4/preflight_checks.py": "f1f11b10be908a5b75514c58b2f08ebcb28ce6dcc65bd9582fe60ba8a8dcf777",
+  "native_v4/run_episode.py": "4c20668b76f76874ea4d3840c650b56ba51549ff1e02b7c19b5b391abfbb9e12",
+  "native_v4/planning_budget.py": "1b62c4ace6a407390e665921364c627a5405500b7bc965a09848a6a25093ea09",
+  "native_v4/budget_runner.py": "c0ed93415a525ca3ff1f959a463b2b631c8933676d01544799c5aea50cea3cb3",
+  "native_v4/model_profiles.py": "c13d444809fe1ad32fd12749df2088ce2d4d6e7ceaffd6942eb75c358b006ba5",
+  "native_v4/README.md": "1abf8598660814ba9980b8e9b4b018fc53a394cb110ec80e210bb5f63e7c4a7b",
+  "native_v4/campaign.py": "ac521d8b4eae3429a19d2363864737e83eb7a753ce2f996b5d23ab4da452bf9c",
+  "native_v4/environment.py": "2ee970395288e6654c808b96e1aff17d3e56481d9c97b371352de871b16eb1ff",
+  "native_v4/report.py": "e4ea7466161094da8210374d1546d879c2fbc55521874fbdf262cfac5338d4ec",
+  "repro/coordinator.py": "509f3327ab26c5c33a45983e7f963e4409cf849cf7aa55d765a7e327b119dd84",
+  "repro/run_native.py": "d68f709f78aff766b171528f1f78a18fa8b58f1e540137366e6497a70ed0902f"
+}

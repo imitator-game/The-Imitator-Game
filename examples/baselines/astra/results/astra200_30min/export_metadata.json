@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "cohort": "astra200_native_p30_c5_20261031",
+  "episodes": 200,
+  "task_level_rows": 40,
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "conditioning": "video",
+  "num_tasks_semantics": "0 means no IG source-task parameter training; not the ten evaluation tasks.",
+  "split_semantics": "seen/unseen are the fixed IG source/held-out task groups, not Astra pretraining exposure.",
+  "SR": {
+    "field": "native_success_once",
+    "successes": 112,
+    "denominator": 200,
+    "value": 0.56
+  },
+  "SubSR": {
+    "status": "verified_against_reference_records",
+    "field": "final_normalized_reward",
+    "reference_field": "last_reward",
+    "source": "Dechao C15 E60 evaluation/cases/*/episode_*/metrics.json, compared with all 40 C15 seen/unseen rows of the supplied master_records.csv",
+    "matched_groups": 40,
+    "maximum_absolute_error": 0.0,
+    "reference_SR_field": "success_at_end",
+    "astra_primary_SR_field": "native_success_once",
+    "decision": "Keep the explicitly approved 30-minute Astra success_once result as primary. Endpoint retention and incomplete continuation remain supplementary."
+  },
+  "overall": {
+    "SR": 0.56,
+    "SubSR": 0.6772941149247345
+  },
+  "reference_schema_note": "Column layout matches the supplied Zero-WAM files. Their SR uses success_at_end; this primary Astra SR intentionally retains the approved success_once definition.",
+  "subsr_horizon_note": "Last normalized reward at observed evaluation end. Timeouts retain their recorded prefix endpoint; no missing future simulator steps are invented.",
+  "planning_budget_seconds": 1800,
+  "planning_time_includes_api_waits_and_retries": true,
+  "timeout_cases": 88,
+  "endpoint": {
+    "observed": 112,
+    "successes": 106,
+    "total_cohort_endpoint_rate": null,
+    "reason": "Timeout cases were not advanced to step 500."
+  },
+  "timestamp_timezone": "Asia/Shanghai",
+  "timestamp_semantics": "Latest selected episode completion within the task-level group.",
+  "supplementary_continuations_excluded": true,
+  "historical_80_runs_excluded": true,
+  "source": {
+    "cohort": "astra200_native_p30_c5_20261031",
+    "ledger_sha256": "4821ec678a581712329654ddc607c1032827771be031ab315c6ebec0fab2ffc9"
+  }
+}

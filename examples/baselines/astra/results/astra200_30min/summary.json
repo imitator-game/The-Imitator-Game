@@ -1,0 +1,62 @@
+{
+  "seen": {
+    "0": {
+      "astra": {
+        "policy": "astra",
+        "backbone": "gpt-6-astra",
+        "overall": {
+          "SR": 0.44,
+          "SubSR": 0.6464
+        },
+        "by_level": {
+          "L0": {
+            "SR": 0.4,
+            "SubSR": 0.6925
+          },
+          "L1": {
+            "SR": 0.48,
+            "SubSR": 0.6391
+          },
+          "L2": {
+            "SR": 0.48,
+            "SubSR": 0.6356
+          },
+          "L3": {
+            "SR": 0.4,
+            "SubSR": 0.6182
+          }
+        }
+      }
+    }
+  },
+  "unseen": {
+    "0": {
+      "astra": {
+        "policy": "astra",
+        "backbone": "gpt-6-astra",
+        "overall": {
+          "SR": 0.68,
+          "SubSR": 0.7082
+        },
+        "by_level": {
+          "L0": {
+            "SR": 0.68,
+            "SubSR": 0.6763
+          },
+          "L1": {
+            "SR": 0.76,
+            "SubSR": 0.7607
+          },
+          "L2": {
+            "SR": 0.6,
+            "SubSR": 0.6537
+          },
+          "L3": {
+            "SR": 0.68,
+            "SubSR": 0.7421
+          }
+        }
+      }
+    }
+  }
+}

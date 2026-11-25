@@ -10,6 +10,7 @@ This repo contains the simulation framework (powered by [ManiSkill](https://www.
 
 ## News
 
+- **Nov 2, 2026** – Update **Agentic Zero-shot** baseline with [GPT-Astra](https://openai.com/index/gpt-6-astra/) inference code and results.
 - **Oct 28, 2026** – Update benchmark baseline with [Zero-WAM](https://robbyant-research.github.io/Zero-WAM/) code and results.
 - **Oct 21, 2026** – Upload baseline [checkpoints](https://huggingface.co/imitator-game/IG-10K-Checkpoints) evaluated in the paper, mirrored on [ModelScope](https://modelscope.cn/models/Zhouxunzhe/IG-10K-Checkpoints).
 - **Oct 10, 2026** – 🎉The Imitator Game is accepted by CoRL 2026 and selected as NeurIPS 2026 ODI Workshop **Oral Presentation**.

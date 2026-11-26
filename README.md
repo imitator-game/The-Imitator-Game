@@ -26,7 +26,7 @@ uv sync --active
 source .venv/bin/activate
 
 # patch a known lerobot bug
-curl -sSL https://raw.githubusercontent.com/huggingface/lerobot/0e81a275fcdbf03d74f78aa69eaa28c172a9f256/src/lerobot/datasets/lerobot_dataset.py -o .venv/lib/python3.11/site-packages/lerobot/datasets/lerobot_dataset.py
+curl -fSL https://raw.githubusercontent.com/imitator-game/The-Imitator-Game/main/examples/baselines/lerobot_dataset/lerobot_dataset.py -o .venv/lib/python3.11/site-packages/lerobot/datasets/lerobot_dataset.py
 ```
 
 Set up Vulkan for rendering following the [ManiSkill installation instructions](https://maniskill.readthedocs.io/en/latest/user_guide/getting_started/installation.html#vulkan).
